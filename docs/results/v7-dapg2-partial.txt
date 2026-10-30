@@ -1,0 +1,12 @@
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+NEW=runs/v7-dapg2/checkpoints/ckpt_000009207808_u001124.pt
+gather_wood OLD 81.2%
+gather_wood NEW 25.0%
+gather_sand OLD 6.2%
+gather_sand NEW 50.0%
+tools_crafting_table OLD 93.8%
+tools_crafting_table NEW 37.5%
+tools_wooden_pickaxe OLD 0.0%
+tools_wooden_pickaxe NEW 12.5%
+tools_stone_pickaxe OLD 0.0%
+tools_stone_pickaxe NEW 0.0%

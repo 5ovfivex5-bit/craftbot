@@ -1,0 +1,657 @@
+[
+ {
+  "name": "air",
+  "id": 0,
+  "solid": false,
+  "transparent": true,
+  "liquid": false,
+  "hardness": 0.0,
+  "best_tool": null,
+  "min_tier": 0,
+  "drops": [],
+  "light_emission": 0,
+  "color": [
+   135,
+   190,
+   255
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "grass",
+  "id": 1,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 0.6,
+  "best_tool": null,
+  "min_tier": 0,
+  "drops": [
+   {
+    "item": "dirt",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 0
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   95,
+   159,
+   53
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "dirt",
+  "id": 2,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 0.5,
+  "best_tool": null,
+  "min_tier": 0,
+  "drops": [
+   {
+    "item": "dirt",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 0
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   134,
+   96,
+   67
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "stone",
+  "id": 3,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 1.5,
+  "best_tool": "pickaxe",
+  "min_tier": 1,
+  "drops": [
+   {
+    "item": "cobblestone",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 1
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   125,
+   125,
+   125
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "cobblestone",
+  "id": 4,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 2.0,
+  "best_tool": "pickaxe",
+  "min_tier": 1,
+  "drops": [
+   {
+    "item": "cobblestone",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 1
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   105,
+   105,
+   105
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "oak_log",
+  "id": 5,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 2.0,
+  "best_tool": null,
+  "min_tier": 0,
+  "drops": [
+   {
+    "item": "oak_log",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 0
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   102,
+   81,
+   51
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "oak_leaves",
+  "id": 6,
+  "solid": true,
+  "transparent": true,
+  "liquid": false,
+  "hardness": 0.2,
+  "best_tool": null,
+  "min_tier": 0,
+  "drops": [],
+  "light_emission": 0,
+  "color": [
+   58,
+   120,
+   38
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "oak_planks",
+  "id": 7,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 2.0,
+  "best_tool": null,
+  "min_tier": 0,
+  "drops": [
+   {
+    "item": "oak_planks",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 0
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   180,
+   144,
+   90
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "crafting_table",
+  "id": 8,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 2.5,
+  "best_tool": null,
+  "min_tier": 0,
+  "drops": [
+   {
+    "item": "crafting_table",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 0
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   150,
+   98,
+   56
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "furnace",
+  "id": 9,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 3.5,
+  "best_tool": "pickaxe",
+  "min_tier": 1,
+  "drops": [
+   {
+    "item": "furnace",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 1
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   80,
+   80,
+   80
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "coal_ore",
+  "id": 10,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 3.0,
+  "best_tool": "pickaxe",
+  "min_tier": 1,
+  "drops": [
+   {
+    "item": "coal",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 1
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   125,
+   125,
+   125
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "iron_ore",
+  "id": 11,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 3.0,
+  "best_tool": "pickaxe",
+  "min_tier": 2,
+  "drops": [
+   {
+    "item": "raw_iron",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 2
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   125,
+   125,
+   125
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "diamond_ore",
+  "id": 12,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 3.0,
+  "best_tool": "pickaxe",
+  "min_tier": 3,
+  "drops": [
+   {
+    "item": "diamond",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 3
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   125,
+   125,
+   125
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "bedrock",
+  "id": 13,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": -1.0,
+  "best_tool": null,
+  "min_tier": 4,
+  "drops": [],
+  "light_emission": 0,
+  "color": [
+   45,
+   45,
+   45
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "sand",
+  "id": 14,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 0.5,
+  "best_tool": null,
+  "min_tier": 0,
+  "drops": [],
+  "light_emission": 0,
+  "color": [
+   219,
+   207,
+   163
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "gravel",
+  "id": 15,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 0.6,
+  "best_tool": null,
+  "min_tier": 0,
+  "drops": [],
+  "light_emission": 0,
+  "color": [
+   131,
+   127,
+   126
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "water",
+  "id": 16,
+  "solid": false,
+  "transparent": true,
+  "liquid": true,
+  "hardness": -1.0,
+  "best_tool": null,
+  "min_tier": 4,
+  "drops": [],
+  "light_emission": 0,
+  "color": [
+   50,
+   100,
+   210
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "deepslate",
+  "id": 17,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 3.0,
+  "best_tool": "pickaxe",
+  "min_tier": 1,
+  "drops": [
+   {
+    "item": "cobblestone",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 1
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   72,
+   72,
+   78
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "chest",
+  "id": 18,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 2.5,
+  "best_tool": null,
+  "min_tier": 0,
+  "drops": [
+   {
+    "item": "chest",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 0
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   139,
+   90,
+   43
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "agent",
+  "id": 19,
+  "solid": false,
+  "transparent": true,
+  "liquid": false,
+  "hardness": -1.0,
+  "best_tool": null,
+  "min_tier": 4,
+  "drops": [],
+  "light_emission": 0,
+  "color": [
+   255,
+   0,
+   255
+  ],
+  "dimension": "both",
+  "pseudo": true
+ },
+ {
+  "name": "zombie",
+  "id": 20,
+  "solid": false,
+  "transparent": true,
+  "liquid": false,
+  "hardness": -1.0,
+  "best_tool": null,
+  "min_tier": 4,
+  "drops": [],
+  "light_emission": 0,
+  "color": [
+   60,
+   140,
+   60
+  ],
+  "dimension": "both",
+  "pseudo": true
+ },
+ {
+  "name": "skeleton",
+  "id": 21,
+  "solid": false,
+  "transparent": true,
+  "liquid": false,
+  "hardness": -1.0,
+  "best_tool": null,
+  "min_tier": 4,
+  "drops": [],
+  "light_emission": 0,
+  "color": [
+   220,
+   220,
+   210
+  ],
+  "dimension": "both",
+  "pseudo": true
+ },
+ {
+  "name": "spider",
+  "id": 22,
+  "solid": false,
+  "transparent": true,
+  "liquid": false,
+  "hardness": -1.0,
+  "best_tool": null,
+  "min_tier": 4,
+  "drops": [],
+  "light_emission": 0,
+  "color": [
+   60,
+   40,
+   40
+  ],
+  "dimension": "both",
+  "pseudo": true
+ },
+ {
+  "name": "creeper",
+  "id": 23,
+  "solid": false,
+  "transparent": true,
+  "liquid": false,
+  "hardness": -1.0,
+  "best_tool": null,
+  "min_tier": 4,
+  "drops": [],
+  "light_emission": 0,
+  "color": [
+   90,
+   200,
+   90
+  ],
+  "dimension": "both",
+  "pseudo": true
+ },
+ {
+  "name": "cow",
+  "id": 24,
+  "solid": false,
+  "transparent": true,
+  "liquid": false,
+  "hardness": -1.0,
+  "best_tool": null,
+  "min_tier": 4,
+  "drops": [],
+  "light_emission": 0,
+  "color": [
+   120,
+   80,
+   50
+  ],
+  "dimension": "both",
+  "pseudo": true
+ },
+ {
+  "name": "pig",
+  "id": 25,
+  "solid": false,
+  "transparent": true,
+  "liquid": false,
+  "hardness": -1.0,
+  "best_tool": null,
+  "min_tier": 4,
+  "drops": [],
+  "light_emission": 0,
+  "color": [
+   240,
+   160,
+   160
+  ],
+  "dimension": "both",
+  "pseudo": true
+ },
+ {
+  "name": "sheep",
+  "id": 26,
+  "solid": false,
+  "transparent": true,
+  "liquid": false,
+  "hardness": -1.0,
+  "best_tool": null,
+  "min_tier": 4,
+  "drops": [],
+  "light_emission": 0,
+  "color": [
+   230,
+   230,
+   230
+  ],
+  "dimension": "both",
+  "pseudo": true
+ },
+ {
+  "name": "chicken",
+  "id": 27,
+  "solid": false,
+  "transparent": true,
+  "liquid": false,
+  "hardness": -1.0,
+  "best_tool": null,
+  "min_tier": 4,
+  "drops": [],
+  "light_emission": 0,
+  "color": [
+   250,
+   250,
+   240
+  ],
+  "dimension": "both",
+  "pseudo": true
+ },
+ {
+  "name": "zombified_piglin",
+  "id": 28,
+  "solid": false,
+  "transparent": true,
+  "liquid": false,
+  "hardness": -1.0,
+  "best_tool": null,
+  "min_tier": 4,
+  "drops": [],
+  "light_emission": 0,
+  "color": [
+   200,
+   140,
+   120
+  ],
+  "dimension": "both",
+  "pseudo": true
+ }
+]

@@ -1,0 +1,4737 @@
+[
+ {
+  "id": 0,
+  "name": "nether_portal",
+  "family": "portal",
+  "tier": 1,
+  "size": [
+   4,
+   5,
+   1
+  ],
+  "palette": {
+   "A": "obsidian"
+  },
+  "layers": [
+   [
+    "AAAA"
+   ],
+   [
+    "A..A"
+   ],
+   [
+    "A..A"
+   ],
+   [
+    "A..A"
+   ],
+   [
+    "AAAA"
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "obsidian": 14
+  },
+  "block_count": 14,
+  "source": "handmade:nether_portal",
+  "description": "Nether portal frame (4x5 obsidian, air inside)."
+ },
+ {
+  "id": 1,
+  "name": "dirt_hut",
+  "family": "shelter",
+  "tier": 2,
+  "size": [
+   4,
+   4,
+   4
+  ],
+  "palette": {
+   "A": "dirt"
+  },
+  "layers": [
+   [
+    "A.AA",
+    "A..A",
+    "A..A",
+    "AAAA"
+   ],
+   [
+    "A.AA",
+    "A..A",
+    "A..A",
+    "AAAA"
+   ],
+   [
+    "AAAA",
+    "A..A",
+    "A..A",
+    "AAAA"
+   ],
+   [
+    "AAAA",
+    "AAAA",
+    "AAAA",
+    "AAAA"
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "dirt": 50
+  },
+  "block_count": 50,
+  "source": "handmade:dirt_hut",
+  "description": "Dirt hut 4x4 with 2-high door and dirt roof."
+ },
+ {
+  "id": 2,
+  "name": "dirt_hut_small",
+  "family": "shelter",
+  "tier": 1,
+  "size": [
+   3,
+   3,
+   3
+  ],
+  "palette": {
+   "A": "dirt"
+  },
+  "layers": [
+   [
+    "A.A",
+    "A.A",
+    "AAA"
+   ],
+   [
+    "A.A",
+    "A.A",
+    "AAA"
+   ],
+   [
+    "AAA",
+    "AAA",
+    "AAA"
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "dirt": 23
+  },
+  "block_count": 23,
+  "source": "handmade:dirt_hut_small",
+  "description": "Minimal 3x3 dirt hut, one-block doorway."
+ },
+ {
+  "id": 3,
+  "name": "cobble_cottage",
+  "family": "house",
+  "tier": 2,
+  "size": [
+   5,
+   4,
+   5
+  ],
+  "palette": {
+   "A": "cobblestone",
+   "B": "glass",
+   "C": "oak_planks"
+  },
+  "layers": [
+   [
+    "CCCCC",
+    "CCCCC",
+    "CCCCC",
+    "CCCCC",
+    "CCCCC"
+   ],
+   [
+    "AA.AA",
+    "A...A",
+    "A...A",
+    "A...A",
+    "AAAAA"
+   ],
+   [
+    "AA.AA",
+    "A...A",
+    "B...B",
+    "A...A",
+    "AAAAA"
+   ],
+   [
+    "CCCCC",
+    "CCCCC",
+    "CCCCC",
+    "CCCCC",
+    "CCCCC"
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "cobblestone": 28,
+   "glass": 2,
+   "oak_planks": 50
+  },
+  "block_count": 80,
+  "source": "handmade:cobble_cottage",
+  "description": "5x5 cottage: cobblestone walls, planks floor and roof."
+ },
+ {
+  "id": 4,
+  "name": "cobble_house",
+  "family": "house",
+  "tier": 3,
+  "size": [
+   7,
+   5,
+   7
+  ],
+  "palette": {
+   "A": "cobblestone",
+   "B": "glass",
+   "C": "oak_planks"
+  },
+  "layers": [
+   [
+    "CCCCCCC",
+    "CCCCCCC",
+    "CCCCCCC",
+    "CCCCCCC",
+    "CCCCCCC",
+    "CCCCCCC",
+    "CCCCCCC"
+   ],
+   [
+    "AAA.AAA",
+    "A.....A",
+    "A.....A",
+    "A.....A",
+    "A.....A",
+    "A.....A",
+    "AAAAAAA"
+   ],
+   [
+    "AAABAAA",
+    "A.....A",
+    "A.....A",
+    "B.....B",
+    "A.....A",
+    "A.....A",
+    "AAABAAA"
+   ],
+   [
+    "AAA.AAA",
+    "A.....A",
+    "A.....A",
+    "A.....A",
+    "A.....A",
+    "A.....A",
+    "AAAAAAA"
+   ],
+   [
+    "CCCCCCC",
+    "CCCCCCC",
+    "CCCCCCC",
+    "CCCCCCC",
+    "CCCCCCC",
+    "CCCCCCC",
+    "CCCCCCC"
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "cobblestone": 66,
+   "glass": 4,
+   "oak_planks": 98
+  },
+  "block_count": 168,
+  "source": "handmade:cobble_house",
+  "description": "7x7 two-room cobblestone house with glass windows and planks roof."
+ },
+ {
+  "id": 5,
+  "name": "wooden_house",
+  "family": "house",
+  "tier": 3,
+  "size": [
+   7,
+   5,
+   7
+  ],
+  "palette": {
+   "A": "cobblestone",
+   "B": "glass",
+   "C": "oak_log",
+   "D": "oak_planks"
+  },
+  "layers": [
+   [
+    "AAAAAAA",
+    "AAAAAAA",
+    "AAAAAAA",
+    "AAAAAAA",
+    "AAAAAAA",
+    "AAAAAAA",
+    "AAAAAAA"
+   ],
+   [
+    "CDD.DDC",
+    "D.....D",
+    "D.....D",
+    "D.....D",
+    "D.....D",
+    "D.....D",
+    "CDDDDDC"
+   ],
+   [
+    "CDDBDDC",
+    "D.....D",
+    "D.....D",
+    "B.....B",
+    "D.....D",
+    "D.....D",
+    "CDDBDDC"
+   ],
+   [
+    "CDD.DDC",
+    "D.....D",
+    "D.....D",
+    "D.....D",
+    "D.....D",
+    "D.....D",
+    "CDDDDDC"
+   ],
+   [
+    "DDDDDDD",
+    "DDDDDDD",
+    "DDDDDDD",
+    "DDDDDDD",
+    "DDDDDDD",
+    "DDDDDDD",
+    "DDDDDDD"
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "cobblestone": 49,
+   "glass": 4,
+   "oak_log": 12,
+   "oak_planks": 103
+  },
+  "block_count": 168,
+  "source": "handmade:wooden_house",
+  "description": "7x7 planks house with log corners, cobble floor, glass windows."
+ },
+ {
+  "id": 6,
+  "name": "watchtower",
+  "family": "tower",
+  "tier": 2,
+  "size": [
+   3,
+   9,
+   3
+  ],
+  "palette": {
+   "A": "cobblestone",
+   "B": "glass",
+   "C": "oak_planks"
+  },
+  "layers": [
+   [
+    "CCC",
+    "CCC",
+    "CCC"
+   ],
+   [
+    "A.A",
+    "A.A",
+    "AAA"
+   ],
+   [
+    "A.A",
+    "A.A",
+    "AAA"
+   ],
+   [
+    "AAA",
+    "A.A",
+    "AAA"
+   ],
+   [
+    "AAA",
+    "B.A",
+    "AAA"
+   ],
+   [
+    "AAA",
+    "A.A",
+    "AAA"
+   ],
+   [
+    "AAA",
+    "A.B",
+    "AAA"
+   ],
+   [
+    "AAA",
+    "A.A",
+    "AAA"
+   ],
+   [
+    "A.A",
+    "...",
+    "A.A"
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "cobblestone": 56,
+   "glass": 2,
+   "oak_planks": 9
+  },
+  "block_count": 67,
+  "source": "handmade:watchtower",
+  "description": "3x3 cobblestone watchtower, 9 high, glass slits, battlement corners."
+ },
+ {
+  "id": 7,
+  "name": "bridge",
+  "family": "bridge",
+  "tier": 2,
+  "size": [
+   15,
+   3,
+   3
+  ],
+  "palette": {
+   "A": "cobblestone",
+   "B": "oak_planks"
+  },
+  "layers": [
+   [
+    "A......A......A",
+    "...............",
+    "A......A......A"
+   ],
+   [
+    "BBBBBBBBBBBBBBB",
+    "BBBBBBBBBBBBBBB",
+    "BBBBBBBBBBBBBBB"
+   ],
+   [
+    "AAAAAAAAAAAAAAA",
+    "...............",
+    "AAAAAAAAAAAAAAA"
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "cobblestone": 36,
+   "oak_planks": 45
+  },
+  "block_count": 81,
+  "source": "handmade:bridge",
+  "description": "15-long planks bridge, cobble pillars at x=0,7,14 and cobble rails."
+ },
+ {
+  "id": 8,
+  "name": "wall_segment",
+  "family": "wall",
+  "tier": 1,
+  "size": [
+   9,
+   3,
+   1
+  ],
+  "palette": {
+   "A": "cobblestone"
+  },
+  "layers": [
+   [
+    "AAAAAAAAA"
+   ],
+   [
+    "AAAAAAAAA"
+   ],
+   [
+    "A.A.A.A.A"
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "cobblestone": 23
+  },
+  "block_count": 23,
+  "source": "handmade:wall_segment",
+  "description": "9-long cobblestone wall, 2 high, crenellated top."
+ },
+ {
+  "id": 9,
+  "name": "farm_plot",
+  "family": "farm",
+  "tier": 1,
+  "size": [
+   5,
+   1,
+   5
+  ],
+  "palette": {
+   "A": "dirt",
+   "B": "oak_planks"
+  },
+  "layers": [
+   [
+    "BBBBB",
+    "BAAAB",
+    "BAAAB",
+    "BAAAB",
+    "BBBBB"
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "dirt": 9,
+   "oak_planks": 16
+  },
+  "block_count": 25,
+  "source": "handmade:farm_plot",
+  "description": "5x5 farm plot: dirt bed with a planks border."
+ },
+ {
+  "id": 10,
+  "name": "farm_plot_large",
+  "family": "farm",
+  "tier": 2,
+  "size": [
+   9,
+   1,
+   9
+  ],
+  "palette": {
+   "A": "dirt",
+   "B": "oak_planks"
+  },
+  "layers": [
+   [
+    "BBBBBBBBB",
+    "BAAAAAAAB",
+    "BAAAAAAAB",
+    "BAAAAAAAB",
+    "BAAAAAAAB",
+    "BAAAAAAAB",
+    "BAAAAAAAB",
+    "BAAAAAAAB",
+    "BBBBBBBBB"
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "dirt": 49,
+   "oak_planks": 32
+  },
+  "block_count": 81,
+  "source": "handmade:farm_plot_large",
+  "description": "9x9 farm plot: dirt bed with a planks border."
+ },
+ {
+  "id": 11,
+  "name": "well",
+  "family": "decor",
+  "tier": 1,
+  "size": [
+   3,
+   3,
+   3
+  ],
+  "palette": {
+   "A": "cobblestone",
+   "B": "oak_log",
+   "C": "oak_planks"
+  },
+  "layers": [
+   [
+    "AAA",
+    "A.A",
+    "AAA"
+   ],
+   [
+    "B.B",
+    "...",
+    "B.B"
+   ],
+   [
+    "CCC",
+    "C.C",
+    "CCC"
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "cobblestone": 8,
+   "oak_log": 4,
+   "oak_planks": 8
+  },
+  "block_count": 20,
+  "source": "handmade:well",
+  "description": "3x3 village well: cobble ring, four log posts, planks cap."
+ },
+ {
+  "id": 12,
+  "name": "vanilla_plains_small_house_5",
+  "family": "house",
+  "tier": 3,
+  "size": [
+   9,
+   11,
+   9
+  ],
+  "palette": {
+   "A": "cobblestone",
+   "B": "dirt",
+   "C": "glass",
+   "D": "oak_log",
+   "E": "oak_planks"
+  },
+  "layers": [
+   [
+    ".........",
+    "...BBBBB.",
+    "..BBBBBB.",
+    ".BBBBBBB.",
+    "BBBBBBBB.",
+    ".BBBBBBB.",
+    "..BBBBBB.",
+    "...BBBBB.",
+    "........."
+   ],
+   [
+    ".........",
+    "...DAAAD.",
+    "..A.EEEA.",
+    ".AEEEEEA.",
+    ".AEEEEEA.",
+    ".AE.EEEA.",
+    "..AEEEEA.",
+    "...DAAAD.",
+    "........."
+   ],
+   [
+    ".........",
+    "...DEEED.",
+    "..A....E.",
+    ".A.....E.",
+    ".E.....E.",
+    ".A....EE.",
+    "..A..EEE.",
+    "...DEEED.",
+    "........."
+   ],
+   [
+    ".........",
+    "...DECED.",
+    "..A....E.",
+    ".A.....D.",
+    ".E.....C.",
+    ".A.....D.",
+    "..A..E.E.",
+    "...DECED.",
+    "........."
+   ],
+   [
+    ".........",
+    "...DEEED.",
+    "..AE...E.",
+    ".AEEE..E.",
+    ".AEEE..E.",
+    ".AEEE..E.",
+    "..AEE..E.",
+    "...DEEED.",
+    "........."
+   ],
+   [
+    ".........",
+    "...DDDDD.",
+    "..EE...E.",
+    ".E.E...E.",
+    ".E.E...E.",
+    ".E.E...E.",
+    "..EE...E.",
+    "...DDDDD.",
+    "........."
+   ],
+   [
+    ".........",
+    "...DEEED.",
+    "...E...E.",
+    "...E...D.",
+    "...E...C.",
+    "...E...D.",
+    "...E...E.",
+    "...DEEED.",
+    "........."
+   ],
+   [
+    "..EEEEEEE",
+    "..EDEEEDE",
+    "...E...E.",
+    "...E...E.",
+    "...E...E.",
+    "...E...E.",
+    "...E...E.",
+    "..EDEEEDE",
+    "..EEEEEEE"
+   ],
+   [
+    ".........",
+    "..EEEEEEE",
+    "..EDEEEDE",
+    "...D...D.",
+    "...D...D.",
+    "...D...D.",
+    "..EDEEEDE",
+    "..EEEEEEE",
+    "........."
+   ],
+   [
+    ".........",
+    ".........",
+    "..EEEEEEE",
+    "..EEEEEEE",
+    "...E...E.",
+    "..EEEEEEE",
+    "..EEEEEEE",
+    ".........",
+    "........."
+   ],
+   [
+    ".........",
+    ".........",
+    ".........",
+    "..EEEEEEE",
+    "..EEEEEEE",
+    "..EEEEEEE",
+    ".........",
+    ".........",
+    "........."
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "cobblestone": 29,
+   "dirt": 44,
+   "glass": 4,
+   "oak_log": 48,
+   "oak_planks": 204
+  },
+  "block_count": 329,
+  "source": "vanilla:data/minecraft/structure/village/plains/houses/plains_small_house_5.nbt",
+  "description": "Converted from vanilla village structure; see mapping_losses in README.",
+  "vanilla_mapping_losses": {
+   "unmapped_vanilla_blocks": [],
+   "dropped_non_structural": {
+    "wall_torch": 9,
+    "jigsaw": 6,
+    "ladder": 3,
+    "white_bed": 2,
+    "green_carpet": 2
+   }
+  }
+ },
+ {
+  "id": 13,
+  "name": "vanilla_plains_accessory_1",
+  "family": "decor",
+  "tier": 1,
+  "size": [
+   3,
+   1,
+   5
+  ],
+  "palette": {
+   "A": "dirt",
+   "B": "oak_planks"
+  },
+  "layers": [
+   [
+    ".B.",
+    "BAB",
+    "BAB",
+    "BAB",
+    ".B."
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "dirt": 3,
+   "oak_planks": 8
+  },
+  "block_count": 11,
+  "source": "vanilla:data/minecraft/structure/village/plains/houses/plains_accessory_1.nbt",
+  "description": "Converted from vanilla village structure; see mapping_losses in README.",
+  "vanilla_mapping_losses": {
+   "unmapped_vanilla_blocks": [],
+   "dropped_non_structural": {
+    "jigsaw": 1,
+    "poppy": 1,
+    "oxeye_daisy": 1,
+    "dandelion": 1
+   }
+  }
+ },
+ {
+  "id": 14,
+  "name": "vanilla_plains_animal_pen_1",
+  "family": "farm",
+  "tier": 2,
+  "size": [
+   5,
+   2,
+   6
+  ],
+  "palette": {
+   "A": "dirt",
+   "B": "oak_planks"
+  },
+  "layers": [
+   [
+    "AAAAA",
+    "AA.AA",
+    "AAAAA",
+    "AAAAA",
+    "AAA.A",
+    "AAAAA"
+   ],
+   [
+    "BBBBB",
+    "B...B",
+    "....B",
+    "B...B",
+    "B...B",
+    "BBBBB"
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "dirt": 28,
+   "oak_planks": 17
+  },
+  "block_count": 45,
+  "source": "vanilla:data/minecraft/structure/village/plains/houses/plains_animal_pen_1.nbt",
+  "description": "Converted from vanilla village structure; see mapping_losses in README.",
+  "vanilla_mapping_losses": {
+   "unmapped_vanilla_blocks": [],
+   "dropped_non_structural": {
+    "jigsaw": 3,
+    "short_grass": 2,
+    "poppy": 1
+   }
+  }
+ },
+ {
+  "id": 15,
+  "name": "vanilla_plains_armorer_house_1",
+  "family": "house",
+  "tier": 3,
+  "size": [
+   9,
+   8,
+   8
+  ],
+  "palette": {
+   "A": "cobblestone",
+   "B": "furnace",
+   "C": "glass",
+   "D": "oak_log",
+   "E": "oak_planks"
+  },
+  "layers": [
+   [
+    ".........",
+    ".DAAAAAD.",
+    ".AAAAAAA.",
+    "AAAAAAAA.",
+    ".AAAAAAA.",
+    ".AAAAAAA.",
+    ".DAAAAAD.",
+    "...AAA..."
+   ],
+   [
+    ".........",
+    ".DAAAAAD.",
+    ".AAAAAAA.",
+    ".E....AA.",
+    ".E....AA.",
+    ".A.A.AAA.",
+    ".DAABAAD.",
+    "...AAA..."
+   ],
+   [
+    ".........",
+    ".DDCDCDD.",
+    ".A.....D.",
+    ".E.....C.",
+    ".E.....C.",
+    ".A.A.A.D.",
+    ".DAAAAAD.",
+    "...AAA..."
+   ],
+   [
+    "EEEEEEEEE",
+    "EDAAAAADE",
+    ".A.....A.",
+    ".A.....A.",
+    ".A.....A.",
+    ".A.AAA.A.",
+    "EDAAAAADE",
+    "EEEEEEEEE"
+   ],
+   [
+    ".........",
+    "EEEEEEEEE",
+    "EA.....AE",
+    ".A.....A.",
+    ".A.....A.",
+    "EA..A..AE",
+    "EEEEAEEEE",
+    "........."
+   ],
+   [
+    ".........",
+    ".........",
+    "EEEEEEEEE",
+    "EA.....AE",
+    "EA.....AE",
+    "EEEEEEEEE",
+    "....A....",
+    "........."
+   ],
+   [
+    ".........",
+    ".........",
+    ".........",
+    "EEEEEEEEE",
+    "EEEEEEEEE",
+    ".........",
+    "....A....",
+    "........."
+   ],
+   [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "....A....",
+    "........."
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "cobblestone": 120,
+   "furnace": 1,
+   "glass": 4,
+   "oak_log": 21,
+   "oak_planks": 87
+  },
+  "block_count": 233,
+  "source": "vanilla:data/minecraft/structure/village/plains/houses/plains_armorer_house_1.nbt",
+  "description": "Converted from vanilla village structure; see mapping_losses in README.",
+  "vanilla_mapping_losses": {
+   "unmapped_vanilla_blocks": [],
+   "dropped_non_structural": {
+    "wall_torch": 5,
+    "jigsaw": 1
+   }
+  }
+ },
+ {
+  "id": 16,
+  "name": "vanilla_plains_butcher_shop_1",
+  "family": "house",
+  "tier": 3,
+  "size": [
+   11,
+   8,
+   12
+  ],
+  "palette": {
+   "A": "cobblestone",
+   "B": "dirt",
+   "C": "furnace",
+   "D": "glass",
+   "E": "oak_log",
+   "F": "oak_planks"
+  },
+  "layers": [
+   [
+    "...........",
+    ".EAAAEAAAE.",
+    ".AFFFFAAAA.",
+    ".AFFFFAAAA.",
+    "FAFFFFAAAA.",
+    ".AFFFFFFFA.",
+    ".EAAAAAAAE.",
+    "...EBBBABE.",
+    "...EBBBBBE.",
+    "...EBB.BBE.",
+    "...EBBBBBE.",
+    "...EEEEEEE."
+   ],
+   [
+    "...........",
+    ".EAAAEAAAE.",
+    ".AFFF..A.A.",
+    ".F.....A.A.",
+    ".F.......A.",
+    ".AF.....CA.",
+    ".EAAAAAFAE.",
+    "...F.....F.",
+    "...F.....F.",
+    "...F.....F.",
+    "...F.....F.",
+    "...FFFFFFF."
+   ],
+   [
+    "...........",
+    ".EEDEEEDEE.",
+    ".E.F.....E.",
+    ".F.......D.",
+    ".F.......D.",
+    ".E......AE.",
+    ".EEDDEEFAE.",
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "..........."
+   ],
+   [
+    "FFFFFFFFFFF",
+    "FEFFFFFFFEF",
+    ".A.......A.",
+    ".A.......A.",
+    ".A.......A.",
+    ".A......AA.",
+    "FEFFFFFFFEF",
+    "FFFFFFFFFFF",
+    "...........",
+    "...........",
+    "...........",
+    "..........."
+   ],
+   [
+    "...........",
+    "FFFFFFFFFFF",
+    "FAFFFFFFFAF",
+    ".A.......A.",
+    ".A.......A.",
+    "FAFFFFFFAAF",
+    "FFFFFFFFFFF",
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "..........."
+   ],
+   [
+    "...........",
+    "...........",
+    "FFFFFFFFFFF",
+    "FAFFFFFFFAF",
+    "FAFFFFFFFAF",
+    "FFFFFFFFAFF",
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "..........."
+   ],
+   [
+    "...........",
+    "...........",
+    "...........",
+    "FFFFFFFFFFF",
+    "FFFFFFFFFFF",
+    "........A..",
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "..........."
+   ],
+   [
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "........A..",
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "..........."
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "cobblestone": 78,
+   "dirt": 18,
+   "furnace": 1,
+   "glass": 6,
+   "oak_log": 45,
+   "oak_planks": 186
+  },
+  "block_count": 334,
+  "source": "vanilla:data/minecraft/structure/village/plains/houses/plains_butcher_shop_1.nbt",
+  "description": "Converted from vanilla village structure; see mapping_losses in README.",
+  "vanilla_mapping_losses": {
+   "unmapped_vanilla_blocks": [],
+   "dropped_non_structural": {
+    "wall_torch": 5,
+    "jigsaw": 2,
+    "hay_block": 2,
+    "torch": 2,
+    "potted_dandelion": 1
+   }
+  }
+ },
+ {
+  "id": 17,
+  "name": "vanilla_plains_masons_house_1",
+  "family": "house",
+  "tier": 3,
+  "size": [
+   8,
+   7,
+   9
+  ],
+  "palette": {
+   "A": "cobblestone",
+   "B": "dirt",
+   "C": "glass",
+   "D": "oak_log",
+   "E": "oak_planks",
+   "F": "sand"
+  },
+  "layers": [
+   [
+    "........",
+    ".EAAAAA.",
+    "EBAAAAA.",
+    ".AAAEAA.",
+    "AAAAEAA.",
+    "AAAAEAA.",
+    "AAAAAAA.",
+    "AAAAAAA.",
+    "........"
+   ],
+   [
+    "........",
+    "..DFFFD.",
+    "..F.BBF.",
+    "..E..BF.",
+    "E.F..FF.",
+    "E.F...F.",
+    "E.F...F.",
+    "EEDFFFD.",
+    "........"
+   ],
+   [
+    "........",
+    "..DFCFD.",
+    "..F..BF.",
+    "..E...C.",
+    "..F...F.",
+    "..C...C.",
+    "..F...F.",
+    "..DFCFD.",
+    "........"
+   ],
+   [
+    ".EEEEEEE",
+    ".EDFFFDE",
+    "..F..FF.",
+    "..F...F.",
+    "..F...F.",
+    "..F...F.",
+    "..F...F.",
+    ".EDFFFDE",
+    ".EEEEEEE"
+   ],
+   [
+    "........",
+    ".EEEEEEE",
+    ".ED...DE",
+    "..D...D.",
+    "..D...D.",
+    "..D...D.",
+    ".ED...DE",
+    ".EEEEEEE",
+    "........"
+   ],
+   [
+    "........",
+    "........",
+    ".EEEEEEE",
+    ".EF...FE",
+    "..F...F.",
+    ".EF...FE",
+    ".EEEEEEE",
+    "........",
+    "........"
+   ],
+   [
+    "........",
+    "........",
+    "........",
+    ".EEEEEEE",
+    ".EEEEEEE",
+    ".EEEEEEE",
+    "........",
+    "........",
+    "........"
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "cobblestone": 41,
+   "dirt": 5,
+   "glass": 5,
+   "oak_log": 22,
+   "oak_planks": 87,
+   "sand": 49
+  },
+  "block_count": 209,
+  "source": "vanilla:data/minecraft/structure/village/plains/houses/plains_masons_house_1.nbt",
+  "description": "Converted from vanilla village structure; see mapping_losses in README.",
+  "vanilla_mapping_losses": {
+   "unmapped_vanilla_blocks": [],
+   "dropped_non_structural": {
+    "torch": 2,
+    "wall_torch": 2,
+    "jigsaw": 1,
+    "dandelion": 1,
+    "stonecutter": 1
+   }
+  }
+ },
+ {
+  "id": 18,
+  "name": "vanilla_desert_small_house_5",
+  "family": "house",
+  "tier": 2,
+  "size": [
+   5,
+   6,
+   6
+  ],
+  "palette": {
+   "A": "crafting_table",
+   "B": "oak_planks",
+   "C": "sand"
+  },
+  "layers": [
+   [
+    "CCCCC",
+    "CCCCC",
+    "CCCCC",
+    "CCC.C",
+    "CCCCC",
+    "CCCCC"
+   ],
+   [
+    ".....",
+    "CCBCC",
+    "CA..C",
+    "C...C",
+    "C...C",
+    "CCCCC"
+   ],
+   [
+    ".....",
+    "CCBCC",
+    "C...C",
+    "C...C",
+    "C...C",
+    "CCCCC"
+   ],
+   [
+    ".BBB.",
+    "CCCCC",
+    "C...C",
+    "C...C",
+    "C...C",
+    "C.C.C"
+   ],
+   [
+    ".....",
+    "CCCCC",
+    "CCCCC",
+    "CCCCC",
+    "CCCCC",
+    "CCCCC"
+   ],
+   [
+    ".....",
+    "C.C.C",
+    ".....",
+    "C...C",
+    ".....",
+    "C.C.C"
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "crafting_table": 1,
+   "oak_planks": 5,
+   "sand": 106
+  },
+  "block_count": 112,
+  "source": "vanilla:data/minecraft/structure/village/desert/houses/desert_small_house_5.nbt",
+  "description": "Converted from vanilla village structure; see mapping_losses in README.",
+  "vanilla_mapping_losses": {
+   "unmapped_vanilla_blocks": [],
+   "dropped_non_structural": {
+    "jigsaw": 2,
+    "lime_bed": 2,
+    "potted_cactus": 1,
+    "wall_torch": 1
+   }
+  }
+ },
+ {
+  "id": 19,
+  "name": "vanilla_desert_fletcher_house_1",
+  "family": "house",
+  "tier": 3,
+  "size": [
+   6,
+   11,
+   12
+  ],
+  "palette": {
+   "A": "cobblestone",
+   "B": "oak_planks",
+   "C": "sand"
+  },
+  "layers": [
+   [
+    ".CCCCC",
+    ".CCCCC",
+    ".CCCCC",
+    "CCCCCC",
+    ".CCCCC",
+    ".CCCCC",
+    ".CCCCC",
+    ".CCCCC",
+    ".CCCCC",
+    "..CCC.",
+    "..CCC.",
+    "..CCC."
+   ],
+   [
+    ".CCCCC",
+    ".CC.CC",
+    ".C...C",
+    ".B...C",
+    ".C...C",
+    ".C...C",
+    ".C...C",
+    ".C...C",
+    ".CA.AC",
+    "..CBC.",
+    "..C.C.",
+    "..CCC."
+   ],
+   [
+    ".CC.CC",
+    ".C...C",
+    ".C...C",
+    ".B...C",
+    ".C....",
+    ".C...C",
+    ".....C",
+    ".C...C",
+    ".C...C",
+    "..CBC.",
+    "..C.C.",
+    "..CCC."
+   ],
+   [
+    ".CCACC",
+    ".CAAAC",
+    ".CAAAC",
+    ".CAAAC",
+    ".CAAAA",
+    ".CAAAC",
+    ".AAAAC",
+    ".CAAAC",
+    ".CAAAC",
+    "..CCC.",
+    "..C.C.",
+    "..CCC."
+   ],
+   [
+    ".C.A.C",
+    "......",
+    ".A...A",
+    "......",
+    ".A...A",
+    "......",
+    ".A...A",
+    "......",
+    ".C...C",
+    "..CCC.",
+    "..C.C.",
+    "..CCC."
+   ],
+   [
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "..CCC.",
+    "..C.C.",
+    "..CCC."
+   ],
+   [
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "..CCC.",
+    "..C.C.",
+    "..CCC."
+   ],
+   [
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "..CCC.",
+    "..C.C.",
+    "..CCC."
+   ],
+   [
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "..CCC.",
+    "..C.C.",
+    "..CCC."
+   ],
+   [
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "..CAC.",
+    "..AAA.",
+    "..CAC."
+   ],
+   [
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "...C..",
+    "......"
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "cobblestone": 41,
+   "oak_planks": 4,
+   "sand": 183
+  },
+  "block_count": 228,
+  "source": "vanilla:data/minecraft/structure/village/desert/houses/desert_fletcher_house_1.nbt",
+  "description": "Converted from vanilla village structure; see mapping_losses in README.",
+  "vanilla_mapping_losses": {
+   "unmapped_vanilla_blocks": [],
+   "dropped_non_structural": {
+    "ladder": 5,
+    "wall_torch": 4,
+    "potted_cactus": 3,
+    "fletching_table": 1,
+    "jigsaw": 1,
+    "torch": 1
+   }
+  }
+ },
+ {
+  "id": 20,
+  "name": "vanilla_savanna_small_house_5",
+  "family": "house",
+  "tier": 3,
+  "size": [
+   7,
+   10,
+   7
+  ],
+  "palette": {
+   "A": "dirt",
+   "B": "glass",
+   "C": "oak_log",
+   "D": "oak_planks",
+   "E": "sand"
+  },
+  "layers": [
+   [
+    "AAAAAAA",
+    "AAAAAAA",
+    "AADDDAA",
+    "AADD.DA",
+    "AADDDAA",
+    "AAAAAAA",
+    "AAAAAAA"
+   ],
+   [
+    ".D...D.",
+    "D.CCC.D",
+    ".CD..C.",
+    ".C...D.",
+    ".C...C.",
+    "D.CCC.D",
+    ".D...D."
+   ],
+   [
+    ".D...D.",
+    "D.CBC.D",
+    ".CD..C.",
+    ".B...D.",
+    ".C...C.",
+    "D.CBC.D",
+    ".D...D."
+   ],
+   [
+    ".D...D.",
+    "D.CCC.D",
+    ".C...C.",
+    ".C...C.",
+    ".C...C.",
+    "D.CCC.D",
+    ".D...D."
+   ],
+   [
+    ".D...D.",
+    "D.EEE.D",
+    ".E...E.",
+    ".E...E.",
+    ".E...E.",
+    "D.EEE.D",
+    ".D...D."
+   ],
+   [
+    ".DDDDD.",
+    "DDDDDDD",
+    "DDEEEDD",
+    "DDE.EDD",
+    "DDEEEDD",
+    "DDDDDDD",
+    ".DDDDD."
+   ],
+   [
+    ".......",
+    ".......",
+    "..EDE..",
+    "..D.D..",
+    "..EDE..",
+    ".......",
+    "......."
+   ],
+   [
+    ".......",
+    ".......",
+    "..EEE..",
+    "..E.E..",
+    "..EEE..",
+    ".......",
+    "......."
+   ],
+   [
+    ".......",
+    ".DDDDD.",
+    ".DDDDD.",
+    ".DDDDD.",
+    ".DDDDD.",
+    ".DDDDD.",
+    "......."
+   ],
+   [
+    ".......",
+    ".......",
+    "..DDD..",
+    "..DDD..",
+    "..DDD..",
+    ".......",
+    "......."
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "dirt": 39,
+   "glass": 3,
+   "oak_log": 31,
+   "oak_planks": 119,
+   "sand": 32
+  },
+  "block_count": 224,
+  "source": "vanilla:data/minecraft/structure/village/savanna/houses/savanna_small_house_5.nbt",
+  "description": "Converted from vanilla village structure; see mapping_losses in README.",
+  "vanilla_mapping_losses": {
+   "unmapped_vanilla_blocks": [],
+   "dropped_non_structural": {
+    "short_grass": 9,
+    "wall_torch": 3,
+    "jigsaw": 2,
+    "orange_bed": 2
+   }
+  }
+ },
+ {
+  "id": 21,
+  "name": "vanilla_savanna_medium_house_1",
+  "family": "house",
+  "tier": 3,
+  "size": [
+   8,
+   7,
+   15
+  ],
+  "palette": {
+   "A": "chest",
+   "B": "crafting_table",
+   "C": "dirt",
+   "D": "glass",
+   "E": "oak_log",
+   "F": "oak_planks"
+  },
+  "layers": [
+   [
+    "........",
+    "..CCC...",
+    ".CFFFC..",
+    "CFF.FC..",
+    "CCFFFCCC",
+    "CCCFCCCC",
+    "CCCCCCCC",
+    "CCCCCC.C",
+    ".CCCCCCC",
+    "..CFCCCC",
+    ".CFFFCCC",
+    "CFF.FC..",
+    ".CFFFC..",
+    "..CCC...",
+    "........"
+   ],
+   [
+    "........",
+    "..EEE...",
+    ".EA..E..",
+    ".F...E..",
+    ".E..BEFF",
+    "..EFE..F",
+    "..F....F",
+    "..F....F",
+    "..F....F",
+    "..EFE..F",
+    ".E..EEFF",
+    ".F...E..",
+    ".E...E..",
+    "..EEE...",
+    "........"
+   ],
+   [
+    "........",
+    "..EDE...",
+    ".E...E..",
+    ".F...D..",
+    ".E...E..",
+    "..EFE...",
+    "........",
+    "........",
+    "........",
+    "..EFE...",
+    ".E...E..",
+    ".F...D..",
+    ".E...E..",
+    "..EDE...",
+    "........"
+   ],
+   [
+    "........",
+    "..EEE...",
+    ".E...E..",
+    ".E...E..",
+    ".E...E..",
+    "..EEE...",
+    "........",
+    "........",
+    "........",
+    "..EEE...",
+    ".E...E..",
+    ".E...E..",
+    ".E...E..",
+    "..EEE...",
+    "........"
+   ],
+   [
+    ".FFFFF..",
+    "FFFFFFF.",
+    "FF...FF.",
+    "FF...FF.",
+    "FF...FF.",
+    "FFFFFFF.",
+    ".FFFFF..",
+    "........",
+    ".FFFFF..",
+    "FFFFFFF.",
+    "FF...FF.",
+    "FF...FF.",
+    "FF...FF.",
+    "FFFFFFF.",
+    ".FFFFF.."
+   ],
+   [
+    "........",
+    ".FFFFF..",
+    ".FFFFF..",
+    ".FFFFF..",
+    ".FFFFF..",
+    ".FFFFF..",
+    "........",
+    "........",
+    "........",
+    ".FFFFF..",
+    ".FFFFF..",
+    ".FFFFF..",
+    ".FFFFF..",
+    ".FFFFF..",
+    "........"
+   ],
+   [
+    "........",
+    "........",
+    "..FFF...",
+    "..FFF...",
+    "..FFF...",
+    "........",
+    "........",
+    "........",
+    "........",
+    "........",
+    "..FFF...",
+    "..FFF...",
+    "..FFF...",
+    "........",
+    "........"
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "chest": 1,
+   "crafting_table": 1,
+   "dirt": 57,
+   "glass": 4,
+   "oak_log": 61,
+   "oak_planks": 180
+  },
+  "block_count": 304,
+  "source": "vanilla:data/minecraft/structure/village/savanna/houses/savanna_medium_house_1.nbt",
+  "description": "Converted from vanilla village structure; see mapping_losses in README.",
+  "vanilla_mapping_losses": {
+   "unmapped_vanilla_blocks": [],
+   "dropped_non_structural": {
+    "wheat": 9,
+    "wall_torch": 5,
+    "jigsaw": 4,
+    "orange_bed": 4,
+    "torch": 3,
+    "water": 1,
+    "short_grass": 1
+   }
+  }
+ },
+ {
+  "id": 22,
+  "name": "vanilla_taiga_small_house_5",
+  "family": "house",
+  "tier": 3,
+  "size": [
+   9,
+   7,
+   7
+  ],
+  "palette": {
+   "A": "chest",
+   "B": "cobblestone",
+   "C": "glass",
+   "D": "oak_log",
+   "E": "oak_planks"
+  },
+  "layers": [
+   [
+    ".........",
+    ".DBBBBBD.",
+    "..BEEEB..",
+    "..BE.EB..",
+    "..BEEEB..",
+    ".DBBBBBD.",
+    "........."
+   ],
+   [
+    ".........",
+    ".DBBBBBD.",
+    "..BA..B..",
+    "..E...B..",
+    "..B..BB..",
+    ".DBBBBBD.",
+    "........."
+   ],
+   [
+    "...E.E...",
+    ".DBBCBBD.",
+    "..B...BE.",
+    "..E...C..",
+    "..B...BE.",
+    ".DBBCBBD.",
+    "...E.E..."
+   ],
+   [
+    "DDDDDDDDD",
+    ".DBBBBBD.",
+    "..B...B..",
+    "..B...B..",
+    "..B...B..",
+    ".DBBBBBD.",
+    "DDDDDDDDD"
+   ],
+   [
+    ".........",
+    "DDDDDDDDD",
+    "..B...B..",
+    "..B...B..",
+    "..B...B..",
+    "DDDDDDDDD",
+    "........."
+   ],
+   [
+    ".........",
+    ".........",
+    "DDDDDDDDD",
+    "..B...B..",
+    "DDDDDDDDD",
+    ".........",
+    "........."
+   ],
+   [
+    ".........",
+    ".........",
+    ".........",
+    "DDDDDDDDD",
+    ".........",
+    ".........",
+    "........."
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "chest": 1,
+   "cobblestone": 68,
+   "glass": 3,
+   "oak_log": 79,
+   "oak_planks": 16
+  },
+  "block_count": 167,
+  "source": "vanilla:data/minecraft/structure/village/taiga/houses/taiga_small_house_5.nbt",
+  "description": "Converted from vanilla village structure; see mapping_losses in README.",
+  "vanilla_mapping_losses": {
+   "unmapped_vanilla_blocks": [],
+   "dropped_non_structural": {
+    "large_fern": 4,
+    "wall_torch": 3,
+    "jigsaw": 2,
+    "purple_bed": 2
+   }
+  }
+ },
+ {
+  "id": 23,
+  "name": "vanilla_taiga_small_house_4",
+  "family": "house",
+  "tier": 3,
+  "size": [
+   7,
+   6,
+   8
+  ],
+  "palette": {
+   "A": "cobblestone",
+   "B": "crafting_table",
+   "C": "dirt",
+   "D": "glass",
+   "E": "oak_log",
+   "F": "oak_planks"
+  },
+  "layers": [
+   [
+    ".......",
+    ".CCCCC.",
+    ".CAAAC.",
+    ".C.AAC.",
+    ".CCACC.",
+    "..CFC..",
+    "..CFC..",
+    "...C..."
+   ],
+   [
+    ".......",
+    ".AAAAA.",
+    ".AB..A.",
+    ".A...A.",
+    ".AAFAA.",
+    "..F.F..",
+    "..FFF..",
+    "......."
+   ],
+   [
+    ".F.F.F.",
+    ".ADADA.",
+    ".A...A.",
+    ".A...A.",
+    ".AAFAA.",
+    "..F.F..",
+    "..FFF..",
+    "......."
+   ],
+   [
+    "EEEEEEE",
+    ".AAAAA.",
+    ".A...A.",
+    ".A...A.",
+    ".AAAAA.",
+    "EEFFFEE",
+    ".EFFFE.",
+    ".E...E."
+   ],
+   [
+    ".......",
+    "EEEEEEE",
+    ".A...A.",
+    ".A...A.",
+    "EEEEEEE",
+    "..EFE..",
+    "..EFE..",
+    "..E.E.."
+   ],
+   [
+    ".......",
+    ".......",
+    "EEEEEEE",
+    "EEEEEEE",
+    "...E...",
+    "...E...",
+    "...E...",
+    "...E..."
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "cobblestone": 48,
+   "crafting_table": 1,
+   "dirt": 18,
+   "glass": 2,
+   "oak_log": 53,
+   "oak_planks": 25
+  },
+  "block_count": 147,
+  "source": "vanilla:data/minecraft/structure/village/taiga/houses/taiga_small_house_4.nbt",
+  "description": "Converted from vanilla village structure; see mapping_losses in README.",
+  "vanilla_mapping_losses": {
+   "unmapped_vanilla_blocks": [],
+   "dropped_non_structural": {
+    "jigsaw": 3,
+    "wall_torch": 3,
+    "blue_bed": 2
+   }
+  }
+ },
+ {
+  "id": 24,
+  "name": "vanilla_desert_farm_1",
+  "family": "farm",
+  "tier": 1,
+  "size": [
+   5,
+   1,
+   7
+  ],
+  "palette": {
+   "A": "cobblestone",
+   "B": "dirt",
+   "C": "sand"
+  },
+  "layers": [
+   [
+    "AACAA",
+    "ABBBA",
+    "C...C",
+    ".BBBC",
+    "C...C",
+    "ABBBA",
+    "AACAA"
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "cobblestone": 12,
+   "dirt": 9,
+   "sand": 7
+  },
+  "block_count": 28,
+  "source": "vanilla:data/minecraft/structure/village/desert/houses/desert_farm_1.nbt",
+  "description": "Converted from vanilla village structure; see mapping_losses in README.",
+  "vanilla_mapping_losses": {
+   "unmapped_vanilla_blocks": [],
+   "dropped_non_structural": {
+    "wheat": 8,
+    "water": 6,
+    "jigsaw": 1,
+    "composter": 1
+   }
+  }
+ },
+ {
+  "id": 25,
+  "name": "vanilla_taiga_medium_house_1",
+  "family": "house",
+  "tier": 3,
+  "size": [
+   8,
+   11,
+   7
+  ],
+  "palette": {
+   "A": "chest",
+   "B": "cobblestone",
+   "C": "dirt",
+   "D": "glass",
+   "E": "oak_log",
+   "F": "oak_planks"
+  },
+  "layers": [
+   [
+    "CCF..CCC",
+    "CCF..CCC",
+    "CCA..CCC",
+    "CCBBBCCC",
+    "CCCBCCCC",
+    "CCCCCCCC",
+    "CCCCCCCC"
+   ],
+   [
+    "CC...CCC",
+    "CC...CCC",
+    "CC...CCC",
+    "CCB.BCCC",
+    "CCBFBCCC",
+    "CC...CCC",
+    "CC..BCCC"
+   ],
+   [
+    "..CCCCCC",
+    "..CCC..C",
+    "..C.C.CC",
+    "..B.B.CC",
+    ".CBFBCC.",
+    ".C...CCC",
+    ".....BC."
+   ],
+   [
+    "...F.FF.",
+    "........",
+    "..BBB...",
+    "..B.B...",
+    "..BBB...",
+    "........",
+    "........"
+   ],
+   [
+    "...FFF..",
+    "........",
+    "..BBB...",
+    "..B.B...",
+    "..BBB...",
+    "........",
+    "........"
+   ],
+   [
+    "...FF...",
+    ".FFFFF..",
+    ".F.FFF..",
+    ".FF.FF..",
+    ".FFFFF..",
+    ".FFFFF..",
+    "........"
+   ],
+   [
+    "........",
+    ".EFFFE..",
+    ".F..FF..",
+    ".F..FF..",
+    ".F..FF..",
+    ".EFFFE..",
+    "........"
+   ],
+   [
+    "E.....E.",
+    "EEFFFEE.",
+    "EF...FE.",
+    "EF..FFE.",
+    "EF...FE.",
+    "EEFDFEE.",
+    "E.F.F.E."
+   ],
+   [
+    ".E...E..",
+    ".EFFFE..",
+    ".E...E..",
+    ".E...E..",
+    ".E...E..",
+    ".EFFFE..",
+    ".E...E.."
+   ],
+   [
+    "..E.E...",
+    "..EFE...",
+    "..E.E...",
+    "..E.E...",
+    "..E.E...",
+    "..EFE...",
+    "..E.E..."
+   ],
+   [
+    "...E....",
+    "...E....",
+    "...E....",
+    "...E....",
+    "...E....",
+    "...E....",
+    "...E...."
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "chest": 1,
+   "cobblestone": 30,
+   "dirt": 102,
+   "glass": 1,
+   "oak_log": 57,
+   "oak_planks": 72
+  },
+  "block_count": 263,
+  "source": "vanilla:data/minecraft/structure/village/taiga/houses/taiga_medium_house_1.nbt",
+  "description": "Converted from vanilla village structure; see mapping_losses in README.",
+  "vanilla_mapping_losses": {
+   "unmapped_vanilla_blocks": [],
+   "dropped_non_structural": {
+    "wall_torch": 7,
+    "large_fern": 6,
+    "jigsaw": 3,
+    "purple_bed": 2,
+    "fern": 2,
+    "blue_bed": 2
+   }
+  }
+ },
+ {
+  "id": 26,
+  "name": "vanilla_snowy_small_house_7",
+  "family": "house",
+  "tier": 3,
+  "size": [
+   6,
+   7,
+   7
+  ],
+  "palette": {
+   "A": "glass",
+   "B": "oak_log",
+   "C": "oak_planks"
+  },
+  "layers": [
+   [
+    "......",
+    "CBBBB.",
+    "CBBBB.",
+    ".B.BB.",
+    "CBBBB.",
+    "CBBBB.",
+    "......"
+   ],
+   [
+    "C.CC.C",
+    ".BBBB.",
+    ".B..B.",
+    ".C..B.",
+    ".BCCB.",
+    ".BBBB.",
+    "C.CC.C"
+   ],
+   [
+    "CCCCCC",
+    ".BBBB.",
+    ".B..B.",
+    ".C..A.",
+    ".B..B.",
+    ".BBBB.",
+    "CCCCCC"
+   ],
+   [
+    "C.CC.C",
+    "CCCCCC",
+    ".B..B.",
+    ".B..B.",
+    ".B..B.",
+    "CCCCCC",
+    "C.CC.C"
+   ],
+   [
+    "......",
+    "C.CC.C",
+    "CCCCCC",
+    ".B..B.",
+    "CCCCCC",
+    "C.CC.C",
+    "......"
+   ],
+   [
+    "......",
+    "......",
+    "C.CC.C",
+    "CCCCCC",
+    "C.CC.C",
+    "......",
+    "......"
+   ],
+   [
+    "......",
+    "......",
+    "......",
+    "C.CC.C",
+    "......",
+    "......",
+    "......"
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "glass": 1,
+   "oak_log": 52,
+   "oak_planks": 86
+  },
+  "block_count": 139,
+  "source": "vanilla:data/minecraft/structure/village/snowy/houses/snowy_small_house_7.nbt",
+  "description": "Converted from vanilla village structure; see mapping_losses in README.",
+  "vanilla_mapping_losses": {
+   "unmapped_vanilla_blocks": [],
+   "dropped_non_structural": {
+    "snow": 13,
+    "lantern": 3,
+    "jigsaw": 2,
+    "white_bed": 2
+   }
+  }
+ },
+ {
+  "id": 27,
+  "name": "vanilla_snowy_armorer_house_1",
+  "family": "house",
+  "tier": 3,
+  "size": [
+   8,
+   8,
+   7
+  ],
+  "palette": {
+   "A": "chest",
+   "B": "cobblestone",
+   "C": "furnace",
+   "D": "oak_log",
+   "E": "oak_planks"
+  },
+  "layers": [
+   [
+    "........",
+    ".DDDDDD.",
+    ".DDDBBD.",
+    ".DDDBBD.",
+    ".DDDBBD.",
+    ".DDDDDD.",
+    "........"
+   ],
+   [
+    "EEEEEEEE",
+    ".D....D.",
+    ".D...BD.",
+    ".E...CD.",
+    ".D...BD.",
+    ".DA...D.",
+    "EEEEEEEE"
+   ],
+   [
+    "EEEEEEEE",
+    ".D....D.",
+    ".D...BD.",
+    ".E...BD.",
+    ".D...BD.",
+    ".D....D.",
+    "EEEEEEEE"
+   ],
+   [
+    "........",
+    "EEEEEEEE",
+    ".D....D.",
+    ".D...BD.",
+    ".D....D.",
+    "EEEEEEEE",
+    "........"
+   ],
+   [
+    "........",
+    "EEEEEEEE",
+    ".D....D.",
+    "ED...BD.",
+    ".D....D.",
+    "EEEEEEEE",
+    "........"
+   ],
+   [
+    "........",
+    "........",
+    "EEEEEEEE",
+    "ED...BD.",
+    "EEEEEEEE",
+    "........",
+    "........"
+   ],
+   [
+    "........",
+    "........",
+    "....EEE.",
+    "EEEEEBEE",
+    "....EEE.",
+    "........",
+    "........"
+   ],
+   [
+    "........",
+    "........",
+    "........",
+    ".....B..",
+    "........",
+    "........",
+    "........"
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "chest": 1,
+   "cobblestone": 16,
+   "furnace": 1,
+   "oak_log": 56,
+   "oak_planks": 97
+  },
+  "block_count": 171,
+  "source": "vanilla:data/minecraft/structure/village/snowy/houses/snowy_armorer_house_1.nbt",
+  "description": "Converted from vanilla village structure; see mapping_losses in README.",
+  "vanilla_mapping_losses": {
+   "unmapped_vanilla_blocks": [],
+   "dropped_non_structural": {
+    "snow": 22,
+    "torch": 2,
+    "jigsaw": 1,
+    "short_grass": 1,
+    "lantern": 1,
+    "wall_torch": 1
+   }
+  }
+ },
+ {
+  "id": 28,
+  "name": "cobble_cottage__swap_material",
+  "family": "house",
+  "tier": 2,
+  "size": [
+   5,
+   4,
+   5
+  ],
+  "palette": {
+   "A": "cobblestone",
+   "B": "glass",
+   "C": "oak_planks"
+  },
+  "layers": [
+   [
+    "AAAAA",
+    "AAAAA",
+    "AAAAA",
+    "AAAAA",
+    "AAAAA"
+   ],
+   [
+    "CC.CC",
+    "C...C",
+    "C...C",
+    "C...C",
+    "CCCCC"
+   ],
+   [
+    "CC.CC",
+    "C...C",
+    "B...B",
+    "C...C",
+    "CCCCC"
+   ],
+   [
+    "AAAAA",
+    "AAAAA",
+    "AAAAA",
+    "AAAAA",
+    "AAAAA"
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "cobblestone": 50,
+   "glass": 2,
+   "oak_planks": 28
+  },
+  "block_count": 80,
+  "source": "variant:cobble_cottage:swap_planks_cobble",
+  "description": "Material swap planks<->cobblestone of cobble_cottage."
+ },
+ {
+  "id": 29,
+  "name": "cobble_house__swap_material",
+  "family": "house",
+  "tier": 3,
+  "size": [
+   7,
+   5,
+   7
+  ],
+  "palette": {
+   "A": "cobblestone",
+   "B": "glass",
+   "C": "oak_planks"
+  },
+  "layers": [
+   [
+    "AAAAAAA",
+    "AAAAAAA",
+    "AAAAAAA",
+    "AAAAAAA",
+    "AAAAAAA",
+    "AAAAAAA",
+    "AAAAAAA"
+   ],
+   [
+    "CCC.CCC",
+    "C.....C",
+    "C.....C",
+    "C.....C",
+    "C.....C",
+    "C.....C",
+    "CCCCCCC"
+   ],
+   [
+    "CCCBCCC",
+    "C.....C",
+    "C.....C",
+    "B.....B",
+    "C.....C",
+    "C.....C",
+    "CCCBCCC"
+   ],
+   [
+    "CCC.CCC",
+    "C.....C",
+    "C.....C",
+    "C.....C",
+    "C.....C",
+    "C.....C",
+    "CCCCCCC"
+   ],
+   [
+    "AAAAAAA",
+    "AAAAAAA",
+    "AAAAAAA",
+    "AAAAAAA",
+    "AAAAAAA",
+    "AAAAAAA",
+    "AAAAAAA"
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "cobblestone": 98,
+   "glass": 4,
+   "oak_planks": 66
+  },
+  "block_count": 168,
+  "source": "variant:cobble_house:swap_planks_cobble",
+  "description": "Material swap planks<->cobblestone of cobble_house."
+ },
+ {
+  "id": 30,
+  "name": "wooden_house__swap_material",
+  "family": "house",
+  "tier": 3,
+  "size": [
+   7,
+   5,
+   7
+  ],
+  "palette": {
+   "A": "cobblestone",
+   "B": "glass",
+   "C": "oak_log",
+   "D": "oak_planks"
+  },
+  "layers": [
+   [
+    "DDDDDDD",
+    "DDDDDDD",
+    "DDDDDDD",
+    "DDDDDDD",
+    "DDDDDDD",
+    "DDDDDDD",
+    "DDDDDDD"
+   ],
+   [
+    "CAA.AAC",
+    "A.....A",
+    "A.....A",
+    "A.....A",
+    "A.....A",
+    "A.....A",
+    "CAAAAAC"
+   ],
+   [
+    "CAABAAC",
+    "A.....A",
+    "A.....A",
+    "B.....B",
+    "A.....A",
+    "A.....A",
+    "CAABAAC"
+   ],
+   [
+    "CAA.AAC",
+    "A.....A",
+    "A.....A",
+    "A.....A",
+    "A.....A",
+    "A.....A",
+    "CAAAAAC"
+   ],
+   [
+    "AAAAAAA",
+    "AAAAAAA",
+    "AAAAAAA",
+    "AAAAAAA",
+    "AAAAAAA",
+    "AAAAAAA",
+    "AAAAAAA"
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "cobblestone": 103,
+   "glass": 4,
+   "oak_log": 12,
+   "oak_planks": 49
+  },
+  "block_count": 168,
+  "source": "variant:wooden_house:swap_planks_cobble",
+  "description": "Material swap planks<->cobblestone of wooden_house."
+ },
+ {
+  "id": 31,
+  "name": "watchtower__swap_material",
+  "family": "tower",
+  "tier": 2,
+  "size": [
+   3,
+   9,
+   3
+  ],
+  "palette": {
+   "A": "cobblestone",
+   "B": "glass",
+   "C": "oak_planks"
+  },
+  "layers": [
+   [
+    "AAA",
+    "AAA",
+    "AAA"
+   ],
+   [
+    "C.C",
+    "C.C",
+    "CCC"
+   ],
+   [
+    "C.C",
+    "C.C",
+    "CCC"
+   ],
+   [
+    "CCC",
+    "C.C",
+    "CCC"
+   ],
+   [
+    "CCC",
+    "B.C",
+    "CCC"
+   ],
+   [
+    "CCC",
+    "C.C",
+    "CCC"
+   ],
+   [
+    "CCC",
+    "C.B",
+    "CCC"
+   ],
+   [
+    "CCC",
+    "C.C",
+    "CCC"
+   ],
+   [
+    "C.C",
+    "...",
+    "C.C"
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "cobblestone": 9,
+   "glass": 2,
+   "oak_planks": 56
+  },
+  "block_count": 67,
+  "source": "variant:watchtower:swap_planks_cobble",
+  "description": "Material swap planks<->cobblestone of watchtower."
+ },
+ {
+  "id": 32,
+  "name": "well__swap_material",
+  "family": "decor",
+  "tier": 1,
+  "size": [
+   3,
+   3,
+   3
+  ],
+  "palette": {
+   "A": "cobblestone",
+   "B": "oak_log",
+   "C": "oak_planks"
+  },
+  "layers": [
+   [
+    "CCC",
+    "C.C",
+    "CCC"
+   ],
+   [
+    "B.B",
+    "...",
+    "B.B"
+   ],
+   [
+    "AAA",
+    "A.A",
+    "AAA"
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "cobblestone": 8,
+   "oak_log": 4,
+   "oak_planks": 8
+  },
+  "block_count": 20,
+  "source": "variant:well:swap_planks_cobble",
+  "description": "Material swap planks<->cobblestone of well."
+ },
+ {
+  "id": 33,
+  "name": "farm_plot__swap_material",
+  "family": "farm",
+  "tier": 1,
+  "size": [
+   5,
+   1,
+   5
+  ],
+  "palette": {
+   "A": "cobblestone",
+   "B": "dirt"
+  },
+  "layers": [
+   [
+    "AAAAA",
+    "ABBBA",
+    "ABBBA",
+    "ABBBA",
+    "AAAAA"
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "cobblestone": 16,
+   "dirt": 9
+  },
+  "block_count": 25,
+  "source": "variant:farm_plot:swap_planks_cobble",
+  "description": "Material swap planks<->cobblestone of farm_plot."
+ },
+ {
+  "id": 34,
+  "name": "bridge__swap_material",
+  "family": "bridge",
+  "tier": 2,
+  "size": [
+   15,
+   3,
+   3
+  ],
+  "palette": {
+   "A": "cobblestone",
+   "B": "oak_planks"
+  },
+  "layers": [
+   [
+    "B......B......B",
+    "...............",
+    "B......B......B"
+   ],
+   [
+    "AAAAAAAAAAAAAAA",
+    "AAAAAAAAAAAAAAA",
+    "AAAAAAAAAAAAAAA"
+   ],
+   [
+    "BBBBBBBBBBBBBBB",
+    "...............",
+    "BBBBBBBBBBBBBBB"
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "cobblestone": 45,
+   "oak_planks": 36
+  },
+  "block_count": 81,
+  "source": "variant:bridge:swap_planks_cobble",
+  "description": "Material swap planks<->cobblestone of bridge."
+ },
+ {
+  "id": 35,
+  "name": "wall_segment__x2",
+  "family": "wall",
+  "tier": 3,
+  "size": [
+   18,
+   6,
+   2
+  ],
+  "palette": {
+   "A": "cobblestone"
+  },
+  "layers": [
+   [
+    "AAAAAAAAAAAAAAAAAA",
+    "AAAAAAAAAAAAAAAAAA"
+   ],
+   [
+    "AAAAAAAAAAAAAAAAAA",
+    "AAAAAAAAAAAAAAAAAA"
+   ],
+   [
+    "AAAAAAAAAAAAAAAAAA",
+    "AAAAAAAAAAAAAAAAAA"
+   ],
+   [
+    "AAAAAAAAAAAAAAAAAA",
+    "AAAAAAAAAAAAAAAAAA"
+   ],
+   [
+    "AA..AA..AA..AA..AA",
+    "AA..AA..AA..AA..AA"
+   ],
+   [
+    "AA..AA..AA..AA..AA",
+    "AA..AA..AA..AA..AA"
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "cobblestone": 184
+  },
+  "block_count": 184,
+  "source": "variant:wall_segment:scale_x2",
+  "description": "Uniform 2x scale of wall_segment."
+ },
+ {
+  "id": 36,
+  "name": "farm_plot__x2",
+  "family": "farm",
+  "tier": 3,
+  "size": [
+   10,
+   2,
+   10
+  ],
+  "palette": {
+   "A": "dirt",
+   "B": "oak_planks"
+  },
+  "layers": [
+   [
+    "BBBBBBBBBB",
+    "BBBBBBBBBB",
+    "BBAAAAAABB",
+    "BBAAAAAABB",
+    "BBAAAAAABB",
+    "BBAAAAAABB",
+    "BBAAAAAABB",
+    "BBAAAAAABB",
+    "BBBBBBBBBB",
+    "BBBBBBBBBB"
+   ],
+   [
+    "BBBBBBBBBB",
+    "BBBBBBBBBB",
+    "BBAAAAAABB",
+    "BBAAAAAABB",
+    "BBAAAAAABB",
+    "BBAAAAAABB",
+    "BBAAAAAABB",
+    "BBAAAAAABB",
+    "BBBBBBBBBB",
+    "BBBBBBBBBB"
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "dirt": 72,
+   "oak_planks": 128
+  },
+  "block_count": 200,
+  "source": "variant:farm_plot:scale_x2",
+  "description": "Uniform 2x scale of farm_plot."
+ },
+ {
+  "id": 37,
+  "name": "well__x2",
+  "family": "decor",
+  "tier": 3,
+  "size": [
+   6,
+   6,
+   6
+  ],
+  "palette": {
+   "A": "cobblestone",
+   "B": "oak_log",
+   "C": "oak_planks"
+  },
+  "layers": [
+   [
+    "AAAAAA",
+    "AAAAAA",
+    "AA..AA",
+    "AA..AA",
+    "AAAAAA",
+    "AAAAAA"
+   ],
+   [
+    "AAAAAA",
+    "AAAAAA",
+    "AA..AA",
+    "AA..AA",
+    "AAAAAA",
+    "AAAAAA"
+   ],
+   [
+    "BB..BB",
+    "BB..BB",
+    "......",
+    "......",
+    "BB..BB",
+    "BB..BB"
+   ],
+   [
+    "BB..BB",
+    "BB..BB",
+    "......",
+    "......",
+    "BB..BB",
+    "BB..BB"
+   ],
+   [
+    "CCCCCC",
+    "CCCCCC",
+    "CC..CC",
+    "CC..CC",
+    "CCCCCC",
+    "CCCCCC"
+   ],
+   [
+    "CCCCCC",
+    "CCCCCC",
+    "CC..CC",
+    "CC..CC",
+    "CCCCCC",
+    "CCCCCC"
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "cobblestone": 64,
+   "oak_log": 32,
+   "oak_planks": 64
+  },
+  "block_count": 160,
+  "source": "variant:well:scale_x2",
+  "description": "Uniform 2x scale of well."
+ },
+ {
+  "id": 38,
+  "name": "dirt_hut_small__x2",
+  "family": "shelter",
+  "tier": 3,
+  "size": [
+   6,
+   6,
+   6
+  ],
+  "palette": {
+   "A": "dirt"
+  },
+  "layers": [
+   [
+    "AA..AA",
+    "AA..AA",
+    "AA..AA",
+    "AA..AA",
+    "AAAAAA",
+    "AAAAAA"
+   ],
+   [
+    "AA..AA",
+    "AA..AA",
+    "AA..AA",
+    "AA..AA",
+    "AAAAAA",
+    "AAAAAA"
+   ],
+   [
+    "AA..AA",
+    "AA..AA",
+    "AA..AA",
+    "AA..AA",
+    "AAAAAA",
+    "AAAAAA"
+   ],
+   [
+    "AA..AA",
+    "AA..AA",
+    "AA..AA",
+    "AA..AA",
+    "AAAAAA",
+    "AAAAAA"
+   ],
+   [
+    "AAAAAA",
+    "AAAAAA",
+    "AAAAAA",
+    "AAAAAA",
+    "AAAAAA",
+    "AAAAAA"
+   ],
+   [
+    "AAAAAA",
+    "AAAAAA",
+    "AAAAAA",
+    "AAAAAA",
+    "AAAAAA",
+    "AAAAAA"
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "dirt": 184
+  },
+  "block_count": 184,
+  "source": "variant:dirt_hut_small:scale_x2",
+  "description": "Uniform 2x scale of dirt_hut_small."
+ },
+ {
+  "id": 39,
+  "name": "watchtower__mirror_x",
+  "family": "tower",
+  "tier": 2,
+  "size": [
+   3,
+   9,
+   3
+  ],
+  "palette": {
+   "A": "cobblestone",
+   "B": "glass",
+   "C": "oak_planks"
+  },
+  "layers": [
+   [
+    "CCC",
+    "CCC",
+    "CCC"
+   ],
+   [
+    "A.A",
+    "A.A",
+    "AAA"
+   ],
+   [
+    "A.A",
+    "A.A",
+    "AAA"
+   ],
+   [
+    "AAA",
+    "A.A",
+    "AAA"
+   ],
+   [
+    "AAA",
+    "A.B",
+    "AAA"
+   ],
+   [
+    "AAA",
+    "A.A",
+    "AAA"
+   ],
+   [
+    "AAA",
+    "B.A",
+    "AAA"
+   ],
+   [
+    "AAA",
+    "A.A",
+    "AAA"
+   ],
+   [
+    "A.A",
+    "...",
+    "A.A"
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "cobblestone": 56,
+   "glass": 2,
+   "oak_planks": 9
+  },
+  "block_count": 67,
+  "source": "variant:watchtower:mirror_x",
+  "description": "Mirror-X of watchtower."
+ },
+ {
+  "id": 40,
+  "name": "vanilla_plains_small_house_5__mirror_x",
+  "family": "house",
+  "tier": 3,
+  "size": [
+   9,
+   11,
+   9
+  ],
+  "palette": {
+   "A": "cobblestone",
+   "B": "dirt",
+   "C": "glass",
+   "D": "oak_log",
+   "E": "oak_planks"
+  },
+  "layers": [
+   [
+    ".........",
+    ".BBBBB...",
+    ".BBBBBB..",
+    ".BBBBBBB.",
+    ".BBBBBBBB",
+    ".BBBBBBB.",
+    ".BBBBBB..",
+    ".BBBBB...",
+    "........."
+   ],
+   [
+    ".........",
+    ".DAAAD...",
+    ".AEEE.A..",
+    ".AEEEEEA.",
+    ".AEEEEEA.",
+    ".AEEE.EA.",
+    ".AEEEEA..",
+    ".DAAAD...",
+    "........."
+   ],
+   [
+    ".........",
+    ".DEEED...",
+    ".E....A..",
+    ".E.....A.",
+    ".E.....E.",
+    ".EE....A.",
+    ".EEE..A..",
+    ".DEEED...",
+    "........."
+   ],
+   [
+    ".........",
+    ".DECED...",
+    ".E....A..",
+    ".D.....A.",
+    ".C.....E.",
+    ".D.....A.",
+    ".E.E..A..",
+    ".DECED...",
+    "........."
+   ],
+   [
+    ".........",
+    ".DEEED...",
+    ".E...EA..",
+    ".E..EEEA.",
+    ".E..EEEA.",
+    ".E..EEEA.",
+    ".E..EEA..",
+    ".DEEED...",
+    "........."
+   ],
+   [
+    ".........",
+    ".DDDDD...",
+    ".E...EE..",
+    ".E...E.E.",
+    ".E...E.E.",
+    ".E...E.E.",
+    ".E...EE..",
+    ".DDDDD...",
+    "........."
+   ],
+   [
+    ".........",
+    ".DEEED...",
+    ".E...E...",
+    ".D...E...",
+    ".C...E...",
+    ".D...E...",
+    ".E...E...",
+    ".DEEED...",
+    "........."
+   ],
+   [
+    "EEEEEEE..",
+    "EDEEEDE..",
+    ".E...E...",
+    ".E...E...",
+    ".E...E...",
+    ".E...E...",
+    ".E...E...",
+    "EDEEEDE..",
+    "EEEEEEE.."
+   ],
+   [
+    ".........",
+    "EEEEEEE..",
+    "EDEEEDE..",
+    ".D...D...",
+    ".D...D...",
+    ".D...D...",
+    "EDEEEDE..",
+    "EEEEEEE..",
+    "........."
+   ],
+   [
+    ".........",
+    ".........",
+    "EEEEEEE..",
+    "EEEEEEE..",
+    ".E...E...",
+    "EEEEEEE..",
+    "EEEEEEE..",
+    ".........",
+    "........."
+   ],
+   [
+    ".........",
+    ".........",
+    ".........",
+    "EEEEEEE..",
+    "EEEEEEE..",
+    "EEEEEEE..",
+    ".........",
+    ".........",
+    "........."
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "cobblestone": 29,
+   "dirt": 44,
+   "glass": 4,
+   "oak_log": 48,
+   "oak_planks": 204
+  },
+  "block_count": 329,
+  "source": "variant:vanilla_plains_small_house_5:mirror_x",
+  "description": "Mirror-X of converted vanilla house vanilla_plains_small_house_5."
+ },
+ {
+  "id": 41,
+  "name": "vanilla_plains_animal_pen_1__mirror_x",
+  "family": "farm",
+  "tier": 2,
+  "size": [
+   5,
+   2,
+   6
+  ],
+  "palette": {
+   "A": "dirt",
+   "B": "oak_planks"
+  },
+  "layers": [
+   [
+    "AAAAA",
+    "AA.AA",
+    "AAAAA",
+    "AAAAA",
+    "A.AAA",
+    "AAAAA"
+   ],
+   [
+    "BBBBB",
+    "B...B",
+    "B....",
+    "B...B",
+    "B...B",
+    "BBBBB"
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "dirt": 28,
+   "oak_planks": 17
+  },
+  "block_count": 45,
+  "source": "variant:vanilla_plains_animal_pen_1:mirror_x",
+  "description": "Mirror-X of converted vanilla house vanilla_plains_animal_pen_1."
+ },
+ {
+  "id": 42,
+  "name": "vanilla_plains_armorer_house_1__mirror_x",
+  "family": "house",
+  "tier": 3,
+  "size": [
+   9,
+   8,
+   8
+  ],
+  "palette": {
+   "A": "cobblestone",
+   "B": "furnace",
+   "C": "glass",
+   "D": "oak_log",
+   "E": "oak_planks"
+  },
+  "layers": [
+   [
+    ".........",
+    ".DAAAAAD.",
+    ".AAAAAAA.",
+    ".AAAAAAAA",
+    ".AAAAAAA.",
+    ".AAAAAAA.",
+    ".DAAAAAD.",
+    "...AAA..."
+   ],
+   [
+    ".........",
+    ".DAAAAAD.",
+    ".AAAAAAA.",
+    ".AA....E.",
+    ".AA....E.",
+    ".AAA.A.A.",
+    ".DAABAAD.",
+    "...AAA..."
+   ],
+   [
+    ".........",
+    ".DDCDCDD.",
+    ".D.....A.",
+    ".C.....E.",
+    ".C.....E.",
+    ".D.A.A.A.",
+    ".DAAAAAD.",
+    "...AAA..."
+   ],
+   [
+    "EEEEEEEEE",
+    "EDAAAAADE",
+    ".A.....A.",
+    ".A.....A.",
+    ".A.....A.",
+    ".A.AAA.A.",
+    "EDAAAAADE",
+    "EEEEEEEEE"
+   ],
+   [
+    ".........",
+    "EEEEEEEEE",
+    "EA.....AE",
+    ".A.....A.",
+    ".A.....A.",
+    "EA..A..AE",
+    "EEEEAEEEE",
+    "........."
+   ],
+   [
+    ".........",
+    ".........",
+    "EEEEEEEEE",
+    "EA.....AE",
+    "EA.....AE",
+    "EEEEEEEEE",
+    "....A....",
+    "........."
+   ],
+   [
+    ".........",
+    ".........",
+    ".........",
+    "EEEEEEEEE",
+    "EEEEEEEEE",
+    ".........",
+    "....A....",
+    "........."
+   ],
+   [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "....A....",
+    "........."
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "cobblestone": 120,
+   "furnace": 1,
+   "glass": 4,
+   "oak_log": 21,
+   "oak_planks": 87
+  },
+  "block_count": 233,
+  "source": "variant:vanilla_plains_armorer_house_1:mirror_x",
+  "description": "Mirror-X of converted vanilla house vanilla_plains_armorer_house_1."
+ },
+ {
+  "id": 43,
+  "name": "vanilla_plains_butcher_shop_1__mirror_x",
+  "family": "house",
+  "tier": 3,
+  "size": [
+   11,
+   8,
+   12
+  ],
+  "palette": {
+   "A": "cobblestone",
+   "B": "dirt",
+   "C": "furnace",
+   "D": "glass",
+   "E": "oak_log",
+   "F": "oak_planks"
+  },
+  "layers": [
+   [
+    "...........",
+    ".EAAAEAAAE.",
+    ".AAAAFFFFA.",
+    ".AAAAFFFFA.",
+    ".AAAAFFFFAF",
+    ".AFFFFFFFA.",
+    ".EAAAAAAAE.",
+    ".EBABBBE...",
+    ".EBBBBBE...",
+    ".EBB.BBE...",
+    ".EBBBBBE...",
+    ".EEEEEEE..."
+   ],
+   [
+    "...........",
+    ".EAAAEAAAE.",
+    ".A.A..FFFA.",
+    ".A.A.....F.",
+    ".A.......F.",
+    ".AC.....FA.",
+    ".EAFAAAAAE.",
+    ".F.....F...",
+    ".F.....F...",
+    ".F.....F...",
+    ".F.....F...",
+    ".FFFFFFF..."
+   ],
+   [
+    "...........",
+    ".EEDEEEDEE.",
+    ".E.....F.E.",
+    ".D.......F.",
+    ".D.......F.",
+    ".EA......E.",
+    ".EAFEEDDEE.",
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "..........."
+   ],
+   [
+    "FFFFFFFFFFF",
+    "FEFFFFFFFEF",
+    ".A.......A.",
+    ".A.......A.",
+    ".A.......A.",
+    ".AA......A.",
+    "FEFFFFFFFEF",
+    "FFFFFFFFFFF",
+    "...........",
+    "...........",
+    "...........",
+    "..........."
+   ],
+   [
+    "...........",
+    "FFFFFFFFFFF",
+    "FAFFFFFFFAF",
+    ".A.......A.",
+    ".A.......A.",
+    "FAAFFFFFFAF",
+    "FFFFFFFFFFF",
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "..........."
+   ],
+   [
+    "...........",
+    "...........",
+    "FFFFFFFFFFF",
+    "FAFFFFFFFAF",
+    "FAFFFFFFFAF",
+    "FFAFFFFFFFF",
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "..........."
+   ],
+   [
+    "...........",
+    "...........",
+    "...........",
+    "FFFFFFFFFFF",
+    "FFFFFFFFFFF",
+    "..A........",
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "..........."
+   ],
+   [
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "..A........",
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "..........."
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "cobblestone": 78,
+   "dirt": 18,
+   "furnace": 1,
+   "glass": 6,
+   "oak_log": 45,
+   "oak_planks": 186
+  },
+  "block_count": 334,
+  "source": "variant:vanilla_plains_butcher_shop_1:mirror_x",
+  "description": "Mirror-X of converted vanilla house vanilla_plains_butcher_shop_1."
+ },
+ {
+  "id": 44,
+  "name": "vanilla_plains_masons_house_1__mirror_x",
+  "family": "house",
+  "tier": 3,
+  "size": [
+   8,
+   7,
+   9
+  ],
+  "palette": {
+   "A": "cobblestone",
+   "B": "dirt",
+   "C": "glass",
+   "D": "oak_log",
+   "E": "oak_planks",
+   "F": "sand"
+  },
+  "layers": [
+   [
+    "........",
+    ".AAAAAE.",
+    ".AAAAABE",
+    ".AAEAAA.",
+    ".AAEAAAA",
+    ".AAEAAAA",
+    ".AAAAAAA",
+    ".AAAAAAA",
+    "........"
+   ],
+   [
+    "........",
+    ".DFFFD..",
+    ".FBB.F..",
+    ".FB..E..",
+    ".FF..F.E",
+    ".F...F.E",
+    ".F...F.E",
+    ".DFFFDEE",
+    "........"
+   ],
+   [
+    "........",
+    ".DFCFD..",
+    ".FB..F..",
+    ".C...E..",
+    ".F...F..",
+    ".C...C..",
+    ".F...F..",
+    ".DFCFD..",
+    "........"
+   ],
+   [
+    "EEEEEEE.",
+    "EDFFFDE.",
+    ".FF..F..",
+    ".F...F..",
+    ".F...F..",
+    ".F...F..",
+    ".F...F..",
+    "EDFFFDE.",
+    "EEEEEEE."
+   ],
+   [
+    "........",
+    "EEEEEEE.",
+    "ED...DE.",
+    ".D...D..",
+    ".D...D..",
+    ".D...D..",
+    "ED...DE.",
+    "EEEEEEE.",
+    "........"
+   ],
+   [
+    "........",
+    "........",
+    "EEEEEEE.",
+    "EF...FE.",
+    ".F...F..",
+    "EF...FE.",
+    "EEEEEEE.",
+    "........",
+    "........"
+   ],
+   [
+    "........",
+    "........",
+    "........",
+    "EEEEEEE.",
+    "EEEEEEE.",
+    "EEEEEEE.",
+    "........",
+    "........",
+    "........"
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "cobblestone": 41,
+   "dirt": 5,
+   "glass": 5,
+   "oak_log": 22,
+   "oak_planks": 87,
+   "sand": 49
+  },
+  "block_count": 209,
+  "source": "variant:vanilla_plains_masons_house_1:mirror_x",
+  "description": "Mirror-X of converted vanilla house vanilla_plains_masons_house_1."
+ },
+ {
+  "id": 45,
+  "name": "vanilla_desert_small_house_5__mirror_x",
+  "family": "house",
+  "tier": 2,
+  "size": [
+   5,
+   6,
+   6
+  ],
+  "palette": {
+   "A": "crafting_table",
+   "B": "oak_planks",
+   "C": "sand"
+  },
+  "layers": [
+   [
+    "CCCCC",
+    "CCCCC",
+    "CCCCC",
+    "C.CCC",
+    "CCCCC",
+    "CCCCC"
+   ],
+   [
+    ".....",
+    "CCBCC",
+    "C..AC",
+    "C...C",
+    "C...C",
+    "CCCCC"
+   ],
+   [
+    ".....",
+    "CCBCC",
+    "C...C",
+    "C...C",
+    "C...C",
+    "CCCCC"
+   ],
+   [
+    ".BBB.",
+    "CCCCC",
+    "C...C",
+    "C...C",
+    "C...C",
+    "C.C.C"
+   ],
+   [
+    ".....",
+    "CCCCC",
+    "CCCCC",
+    "CCCCC",
+    "CCCCC",
+    "CCCCC"
+   ],
+   [
+    ".....",
+    "C.C.C",
+    ".....",
+    "C...C",
+    ".....",
+    "C.C.C"
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "crafting_table": 1,
+   "oak_planks": 5,
+   "sand": 106
+  },
+  "block_count": 112,
+  "source": "variant:vanilla_desert_small_house_5:mirror_x",
+  "description": "Mirror-X of converted vanilla house vanilla_desert_small_house_5."
+ },
+ {
+  "id": 46,
+  "name": "vanilla_desert_fletcher_house_1__mirror_x",
+  "family": "house",
+  "tier": 3,
+  "size": [
+   6,
+   11,
+   12
+  ],
+  "palette": {
+   "A": "cobblestone",
+   "B": "oak_planks",
+   "C": "sand"
+  },
+  "layers": [
+   [
+    "CCCCC.",
+    "CCCCC.",
+    "CCCCC.",
+    "CCCCCC",
+    "CCCCC.",
+    "CCCCC.",
+    "CCCCC.",
+    "CCCCC.",
+    "CCCCC.",
+    ".CCC..",
+    ".CCC..",
+    ".CCC.."
+   ],
+   [
+    "CCCCC.",
+    "CC.CC.",
+    "C...C.",
+    "C...B.",
+    "C...C.",
+    "C...C.",
+    "C...C.",
+    "C...C.",
+    "CA.AC.",
+    ".CBC..",
+    ".C.C..",
+    ".CCC.."
+   ],
+   [
+    "CC.CC.",
+    "C...C.",
+    "C...C.",
+    "C...B.",
+    "....C.",
+    "C...C.",
+    "C.....",
+    "C...C.",
+    "C...C.",
+    ".CBC..",
+    ".C.C..",
+    ".CCC.."
+   ],
+   [
+    "CCACC.",
+    "CAAAC.",
+    "CAAAC.",
+    "CAAAC.",
+    "AAAAC.",
+    "CAAAC.",
+    "CAAAA.",
+    "CAAAC.",
+    "CAAAC.",
+    ".CCC..",
+    ".C.C..",
+    ".CCC.."
+   ],
+   [
+    "C.A.C.",
+    "......",
+    "A...A.",
+    "......",
+    "A...A.",
+    "......",
+    "A...A.",
+    "......",
+    "C...C.",
+    ".CCC..",
+    ".C.C..",
+    ".CCC.."
+   ],
+   [
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    ".CCC..",
+    ".C.C..",
+    ".CCC.."
+   ],
+   [
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    ".CCC..",
+    ".C.C..",
+    ".CCC.."
+   ],
+   [
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    ".CCC..",
+    ".C.C..",
+    ".CCC.."
+   ],
+   [
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    ".CCC..",
+    ".C.C..",
+    ".CCC.."
+   ],
+   [
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    ".CAC..",
+    ".AAA..",
+    ".CAC.."
+   ],
+   [
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "..C...",
+    "......"
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "cobblestone": 41,
+   "oak_planks": 4,
+   "sand": 183
+  },
+  "block_count": 228,
+  "source": "variant:vanilla_desert_fletcher_house_1:mirror_x",
+  "description": "Mirror-X of converted vanilla house vanilla_desert_fletcher_house_1."
+ },
+ {
+  "id": 47,
+  "name": "vanilla_savanna_small_house_5__mirror_x",
+  "family": "house",
+  "tier": 3,
+  "size": [
+   7,
+   10,
+   7
+  ],
+  "palette": {
+   "A": "dirt",
+   "B": "glass",
+   "C": "oak_log",
+   "D": "oak_planks",
+   "E": "sand"
+  },
+  "layers": [
+   [
+    "AAAAAAA",
+    "AAAAAAA",
+    "AADDDAA",
+    "AD.DDAA",
+    "AADDDAA",
+    "AAAAAAA",
+    "AAAAAAA"
+   ],
+   [
+    ".D...D.",
+    "D.CCC.D",
+    ".C..DC.",
+    ".D...C.",
+    ".C...C.",
+    "D.CCC.D",
+    ".D...D."
+   ],
+   [
+    ".D...D.",
+    "D.CBC.D",
+    ".C..DC.",
+    ".D...B.",
+    ".C...C.",
+    "D.CBC.D",
+    ".D...D."
+   ],
+   [
+    ".D...D.",
+    "D.CCC.D",
+    ".C...C.",
+    ".C...C.",
+    ".C...C.",
+    "D.CCC.D",
+    ".D...D."
+   ],
+   [
+    ".D...D.",
+    "D.EEE.D",
+    ".E...E.",
+    ".E...E.",
+    ".E...E.",
+    "D.EEE.D",
+    ".D...D."
+   ],
+   [
+    ".DDDDD.",
+    "DDDDDDD",
+    "DDEEEDD",
+    "DDE.EDD",
+    "DDEEEDD",
+    "DDDDDDD",
+    ".DDDDD."
+   ],
+   [
+    ".......",
+    ".......",
+    "..EDE..",
+    "..D.D..",
+    "..EDE..",
+    ".......",
+    "......."
+   ],
+   [
+    ".......",
+    ".......",
+    "..EEE..",
+    "..E.E..",
+    "..EEE..",
+    ".......",
+    "......."
+   ],
+   [
+    ".......",
+    ".DDDDD.",
+    ".DDDDD.",
+    ".DDDDD.",
+    ".DDDDD.",
+    ".DDDDD.",
+    "......."
+   ],
+   [
+    ".......",
+    ".......",
+    "..DDD..",
+    "..DDD..",
+    "..DDD..",
+    ".......",
+    "......."
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "dirt": 39,
+   "glass": 3,
+   "oak_log": 31,
+   "oak_planks": 119,
+   "sand": 32
+  },
+  "block_count": 224,
+  "source": "variant:vanilla_savanna_small_house_5:mirror_x",
+  "description": "Mirror-X of converted vanilla house vanilla_savanna_small_house_5."
+ },
+ {
+  "id": 48,
+  "name": "vanilla_savanna_medium_house_1__mirror_x",
+  "family": "house",
+  "tier": 3,
+  "size": [
+   8,
+   7,
+   15
+  ],
+  "palette": {
+   "A": "chest",
+   "B": "crafting_table",
+   "C": "dirt",
+   "D": "glass",
+   "E": "oak_log",
+   "F": "oak_planks"
+  },
+  "layers": [
+   [
+    "........",
+    "...CCC..",
+    "..CFFFC.",
+    "..CF.FFC",
+    "CCCFFFCC",
+    "CCCCFCCC",
+    "CCCCCCCC",
+    "C.CCCCCC",
+    "CCCCCCC.",
+    "CCCCFC..",
+    "CCCFFFC.",
+    "..CF.FFC",
+    "..CFFFC.",
+    "...CCC..",
+    "........"
+   ],
+   [
+    "........",
+    "...EEE..",
+    "..E..AE.",
+    "..E...F.",
+    "FFEB..E.",
+    "F..EFE..",
+    "F....F..",
+    "F....F..",
+    "F....F..",
+    "F..EFE..",
+    "FFEE..E.",
+    "..E...F.",
+    "..E...E.",
+    "...EEE..",
+    "........"
+   ],
+   [
+    "........",
+    "...EDE..",
+    "..E...E.",
+    "..D...F.",
+    "..E...E.",
+    "...EFE..",
+    "........",
+    "........",
+    "........",
+    "...EFE..",
+    "..E...E.",
+    "..D...F.",
+    "..E...E.",
+    "...EDE..",
+    "........"
+   ],
+   [
+    "........",
+    "...EEE..",
+    "..E...E.",
+    "..E...E.",
+    "..E...E.",
+    "...EEE..",
+    "........",
+    "........",
+    "........",
+    "...EEE..",
+    "..E...E.",
+    "..E...E.",
+    "..E...E.",
+    "...EEE..",
+    "........"
+   ],
+   [
+    "..FFFFF.",
+    ".FFFFFFF",
+    ".FF...FF",
+    ".FF...FF",
+    ".FF...FF",
+    ".FFFFFFF",
+    "..FFFFF.",
+    "........",
+    "..FFFFF.",
+    ".FFFFFFF",
+    ".FF...FF",
+    ".FF...FF",
+    ".FF...FF",
+    ".FFFFFFF",
+    "..FFFFF."
+   ],
+   [
+    "........",
+    "..FFFFF.",
+    "..FFFFF.",
+    "..FFFFF.",
+    "..FFFFF.",
+    "..FFFFF.",
+    "........",
+    "........",
+    "........",
+    "..FFFFF.",
+    "..FFFFF.",
+    "..FFFFF.",
+    "..FFFFF.",
+    "..FFFFF.",
+    "........"
+   ],
+   [
+    "........",
+    "........",
+    "...FFF..",
+    "...FFF..",
+    "...FFF..",
+    "........",
+    "........",
+    "........",
+    "........",
+    "........",
+    "...FFF..",
+    "...FFF..",
+    "...FFF..",
+    "........",
+    "........"
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "chest": 1,
+   "crafting_table": 1,
+   "dirt": 57,
+   "glass": 4,
+   "oak_log": 61,
+   "oak_planks": 180
+  },
+  "block_count": 304,
+  "source": "variant:vanilla_savanna_medium_house_1:mirror_x",
+  "description": "Mirror-X of converted vanilla house vanilla_savanna_medium_house_1."
+ },
+ {
+  "id": 49,
+  "name": "vanilla_taiga_small_house_5__mirror_x",
+  "family": "house",
+  "tier": 3,
+  "size": [
+   9,
+   7,
+   7
+  ],
+  "palette": {
+   "A": "chest",
+   "B": "cobblestone",
+   "C": "glass",
+   "D": "oak_log",
+   "E": "oak_planks"
+  },
+  "layers": [
+   [
+    ".........",
+    ".DBBBBBD.",
+    "..BEEEB..",
+    "..BE.EB..",
+    "..BEEEB..",
+    ".DBBBBBD.",
+    "........."
+   ],
+   [
+    ".........",
+    ".DBBBBBD.",
+    "..B..AB..",
+    "..B...E..",
+    "..BB..B..",
+    ".DBBBBBD.",
+    "........."
+   ],
+   [
+    "...E.E...",
+    ".DBBCBBD.",
+    ".EB...B..",
+    "..C...E..",
+    ".EB...B..",
+    ".DBBCBBD.",
+    "...E.E..."
+   ],
+   [
+    "DDDDDDDDD",
+    ".DBBBBBD.",
+    "..B...B..",
+    "..B...B..",
+    "..B...B..",
+    ".DBBBBBD.",
+    "DDDDDDDDD"
+   ],
+   [
+    ".........",
+    "DDDDDDDDD",
+    "..B...B..",
+    "..B...B..",
+    "..B...B..",
+    "DDDDDDDDD",
+    "........."
+   ],
+   [
+    ".........",
+    ".........",
+    "DDDDDDDDD",
+    "..B...B..",
+    "DDDDDDDDD",
+    ".........",
+    "........."
+   ],
+   [
+    ".........",
+    ".........",
+    ".........",
+    "DDDDDDDDD",
+    ".........",
+    ".........",
+    "........."
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "chest": 1,
+   "cobblestone": 68,
+   "glass": 3,
+   "oak_log": 79,
+   "oak_planks": 16
+  },
+  "block_count": 167,
+  "source": "variant:vanilla_taiga_small_house_5:mirror_x",
+  "description": "Mirror-X of converted vanilla house vanilla_taiga_small_house_5."
+ },
+ {
+  "id": 50,
+  "name": "vanilla_taiga_small_house_4__mirror_x",
+  "family": "house",
+  "tier": 3,
+  "size": [
+   7,
+   6,
+   8
+  ],
+  "palette": {
+   "A": "cobblestone",
+   "B": "crafting_table",
+   "C": "dirt",
+   "D": "glass",
+   "E": "oak_log",
+   "F": "oak_planks"
+  },
+  "layers": [
+   [
+    ".......",
+    ".CCCCC.",
+    ".CAAAC.",
+    ".CAA.C.",
+    ".CCACC.",
+    "..CFC..",
+    "..CFC..",
+    "...C..."
+   ],
+   [
+    ".......",
+    ".AAAAA.",
+    ".A..BA.",
+    ".A...A.",
+    ".AAFAA.",
+    "..F.F..",
+    "..FFF..",
+    "......."
+   ],
+   [
+    ".F.F.F.",
+    ".ADADA.",
+    ".A...A.",
+    ".A...A.",
+    ".AAFAA.",
+    "..F.F..",
+    "..FFF..",
+    "......."
+   ],
+   [
+    "EEEEEEE",
+    ".AAAAA.",
+    ".A...A.",
+    ".A...A.",
+    ".AAAAA.",
+    "EEFFFEE",
+    ".EFFFE.",
+    ".E...E."
+   ],
+   [
+    ".......",
+    "EEEEEEE",
+    ".A...A.",
+    ".A...A.",
+    "EEEEEEE",
+    "..EFE..",
+    "..EFE..",
+    "..E.E.."
+   ],
+   [
+    ".......",
+    ".......",
+    "EEEEEEE",
+    "EEEEEEE",
+    "...E...",
+    "...E...",
+    "...E...",
+    "...E..."
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "cobblestone": 48,
+   "crafting_table": 1,
+   "dirt": 18,
+   "glass": 2,
+   "oak_log": 53,
+   "oak_planks": 25
+  },
+  "block_count": 147,
+  "source": "variant:vanilla_taiga_small_house_4:mirror_x",
+  "description": "Mirror-X of converted vanilla house vanilla_taiga_small_house_4."
+ },
+ {
+  "id": 51,
+  "name": "vanilla_desert_farm_1__mirror_x",
+  "family": "farm",
+  "tier": 1,
+  "size": [
+   5,
+   1,
+   7
+  ],
+  "palette": {
+   "A": "cobblestone",
+   "B": "dirt",
+   "C": "sand"
+  },
+  "layers": [
+   [
+    "AACAA",
+    "ABBBA",
+    "C...C",
+    "CBBB.",
+    "C...C",
+    "ABBBA",
+    "AACAA"
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "cobblestone": 12,
+   "dirt": 9,
+   "sand": 7
+  },
+  "block_count": 28,
+  "source": "variant:vanilla_desert_farm_1:mirror_x",
+  "description": "Mirror-X of converted vanilla house vanilla_desert_farm_1."
+ },
+ {
+  "id": 52,
+  "name": "vanilla_taiga_medium_house_1__mirror_x",
+  "family": "house",
+  "tier": 3,
+  "size": [
+   8,
+   11,
+   7
+  ],
+  "palette": {
+   "A": "chest",
+   "B": "cobblestone",
+   "C": "dirt",
+   "D": "glass",
+   "E": "oak_log",
+   "F": "oak_planks"
+  },
+  "layers": [
+   [
+    "CCC..FCC",
+    "CCC..FCC",
+    "CCC..ACC",
+    "CCCBBBCC",
+    "CCCCBCCC",
+    "CCCCCCCC",
+    "CCCCCCCC"
+   ],
+   [
+    "CCC...CC",
+    "CCC...CC",
+    "CCC...CC",
+    "CCCB.BCC",
+    "CCCBFBCC",
+    "CCC...CC",
+    "CCCB..CC"
+   ],
+   [
+    "CCCCCC..",
+    "C..CCC..",
+    "CC.C.C..",
+    "CC.B.B..",
+    ".CCBFBC.",
+    "CCC...C.",
+    ".CB....."
+   ],
+   [
+    ".FF.F...",
+    "........",
+    "...BBB..",
+    "...B.B..",
+    "...BBB..",
+    "........",
+    "........"
+   ],
+   [
+    "..FFF...",
+    "........",
+    "...BBB..",
+    "...B.B..",
+    "...BBB..",
+    "........",
+    "........"
+   ],
+   [
+    "...FF...",
+    "..FFFFF.",
+    "..FFF.F.",
+    "..FF.FF.",
+    "..FFFFF.",
+    "..FFFFF.",
+    "........"
+   ],
+   [
+    "........",
+    "..EFFFE.",
+    "..FF..F.",
+    "..FF..F.",
+    "..FF..F.",
+    "..EFFFE.",
+    "........"
+   ],
+   [
+    ".E.....E",
+    ".EEFFFEE",
+    ".EF...FE",
+    ".EFF..FE",
+    ".EF...FE",
+    ".EEFDFEE",
+    ".E.F.F.E"
+   ],
+   [
+    "..E...E.",
+    "..EFFFE.",
+    "..E...E.",
+    "..E...E.",
+    "..E...E.",
+    "..EFFFE.",
+    "..E...E."
+   ],
+   [
+    "...E.E..",
+    "...EFE..",
+    "...E.E..",
+    "...E.E..",
+    "...E.E..",
+    "...EFE..",
+    "...E.E.."
+   ],
+   [
+    "....E...",
+    "....E...",
+    "....E...",
+    "....E...",
+    "....E...",
+    "....E...",
+    "....E..."
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "chest": 1,
+   "cobblestone": 30,
+   "dirt": 102,
+   "glass": 1,
+   "oak_log": 57,
+   "oak_planks": 72
+  },
+  "block_count": 263,
+  "source": "variant:vanilla_taiga_medium_house_1:mirror_x",
+  "description": "Mirror-X of converted vanilla house vanilla_taiga_medium_house_1."
+ },
+ {
+  "id": 53,
+  "name": "vanilla_snowy_small_house_7__mirror_x",
+  "family": "house",
+  "tier": 3,
+  "size": [
+   6,
+   7,
+   7
+  ],
+  "palette": {
+   "A": "glass",
+   "B": "oak_log",
+   "C": "oak_planks"
+  },
+  "layers": [
+   [
+    "......",
+    ".BBBBC",
+    ".BBBBC",
+    ".BB.B.",
+    ".BBBBC",
+    ".BBBBC",
+    "......"
+   ],
+   [
+    "C.CC.C",
+    ".BBBB.",
+    ".B..B.",
+    ".B..C.",
+    ".BCCB.",
+    ".BBBB.",
+    "C.CC.C"
+   ],
+   [
+    "CCCCCC",
+    ".BBBB.",
+    ".B..B.",
+    ".A..C.",
+    ".B..B.",
+    ".BBBB.",
+    "CCCCCC"
+   ],
+   [
+    "C.CC.C",
+    "CCCCCC",
+    ".B..B.",
+    ".B..B.",
+    ".B..B.",
+    "CCCCCC",
+    "C.CC.C"
+   ],
+   [
+    "......",
+    "C.CC.C",
+    "CCCCCC",
+    ".B..B.",
+    "CCCCCC",
+    "C.CC.C",
+    "......"
+   ],
+   [
+    "......",
+    "......",
+    "C.CC.C",
+    "CCCCCC",
+    "C.CC.C",
+    "......",
+    "......"
+   ],
+   [
+    "......",
+    "......",
+    "......",
+    "C.CC.C",
+    "......",
+    "......",
+    "......"
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "glass": 1,
+   "oak_log": 52,
+   "oak_planks": 86
+  },
+  "block_count": 139,
+  "source": "variant:vanilla_snowy_small_house_7:mirror_x",
+  "description": "Mirror-X of converted vanilla house vanilla_snowy_small_house_7."
+ },
+ {
+  "id": 54,
+  "name": "vanilla_snowy_armorer_house_1__mirror_x",
+  "family": "house",
+  "tier": 3,
+  "size": [
+   8,
+   8,
+   7
+  ],
+  "palette": {
+   "A": "chest",
+   "B": "cobblestone",
+   "C": "furnace",
+   "D": "oak_log",
+   "E": "oak_planks"
+  },
+  "layers": [
+   [
+    "........",
+    ".DDDDDD.",
+    ".DBBDDD.",
+    ".DBBDDD.",
+    ".DBBDDD.",
+    ".DDDDDD.",
+    "........"
+   ],
+   [
+    "EEEEEEEE",
+    ".D....D.",
+    ".DB...D.",
+    ".DC...E.",
+    ".DB...D.",
+    ".D...AD.",
+    "EEEEEEEE"
+   ],
+   [
+    "EEEEEEEE",
+    ".D....D.",
+    ".DB...D.",
+    ".DB...E.",
+    ".DB...D.",
+    ".D....D.",
+    "EEEEEEEE"
+   ],
+   [
+    "........",
+    "EEEEEEEE",
+    ".D....D.",
+    ".DB...D.",
+    ".D....D.",
+    "EEEEEEEE",
+    "........"
+   ],
+   [
+    "........",
+    "EEEEEEEE",
+    ".D....D.",
+    ".DB...DE",
+    ".D....D.",
+    "EEEEEEEE",
+    "........"
+   ],
+   [
+    "........",
+    "........",
+    "EEEEEEEE",
+    ".DB...DE",
+    "EEEEEEEE",
+    "........",
+    "........"
+   ],
+   [
+    "........",
+    "........",
+    ".EEE....",
+    "EEBEEEEE",
+    ".EEE....",
+    "........",
+    "........"
+   ],
+   [
+    "........",
+    "........",
+    "........",
+    "..B.....",
+    "........",
+    "........",
+    "........"
+   ]
+  ],
+  "anchor": "bottom_center",
+  "required_items": {
+   "chest": 1,
+   "cobblestone": 16,
+   "furnace": 1,
+   "oak_log": 56,
+   "oak_planks": 97
+  },
+  "block_count": 171,
+  "source": "variant:vanilla_snowy_armorer_house_1:mirror_x",
+  "description": "Mirror-X of converted vanilla house vanilla_snowy_armorer_house_1."
+ }
+]

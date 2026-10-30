@@ -1,0 +1,45 @@
+{
+  "name": "gather_heavy",
+  "description": "Gather-heavy alternative: more resource grinding, fewer starting kits.",
+  "mix": {
+    "gather": 0.36,
+    "food": 0.09,
+    "tools": 0.135,
+    "build": 0.09,
+    "combat": 0.045,
+    "survival": 0.09,
+    "nether": 0.045,
+    "explore": 0.045,
+    "social": 0.1
+  },
+  "curriculum": {
+    "enabled": true,
+    "ema_alpha": 0.05,
+    "unlock_ema_threshold": 0.6,
+    "mastered_ema_threshold": 0.9,
+    "min_episodes_before_unlock": 30,
+    "review_weight": 0.25
+  },
+  "kits": {
+    "use_task_start_kit": true,
+    "start_kit_probability": 0.5,
+    "drop_start_kit_when_mastered": true,
+    "rules": [
+      {
+        "family": "tools",
+        "kit": {
+          "oak_planks": 4,
+          "stick": 2
+        },
+        "probability": 0.5
+      },
+      {
+        "family": "nether",
+        "kit": {
+          "oak_planks": 8
+        },
+        "probability": 0.25
+      }
+    ]
+  }
+}

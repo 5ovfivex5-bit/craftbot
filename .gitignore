@@ -1,0 +1,54 @@
+# Local environments and generated native builds
+.venv/
+__pycache__/
+*.py[cod]
+build/
+build-*/
+**/build/
+**/.gradle/
+**/CMakeFiles/
+**/CMakeCache.txt
+*.so
+*.o
+*.a
+
+# Experiments stay on disk; curated reports live in docs/results/.
+runs/
+backups/
+mcsrc/
+mcmod/run/
+mcrecorder/run/
+data/demos/
+data/demos_raw/
+data/recordings/
+*.pt
+*.pth
+*.npz
+*.npy
+*.log
+*.log.gz
+*.tmp
+
+# Published checkpoints are GitHub Release assets, not Git history.
+dist/
+models/*.pt
+models/*.sha256
+models/manifest.json
+
+# Private machine/session files and caches
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.keystore
+.opencode/
+.claude/
+.codex/
+.idea/
+.vscode/
+.DS_Store
+imgui.ini
+layouts/
+dashboard/*.png
+dashboard/third_party/imgui/

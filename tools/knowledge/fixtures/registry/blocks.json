@@ -1,0 +1,8 @@
+[
+ {"name":"oak_log","id":5,"solid":true,"transparent":false,"liquid":false,"hardness":2.0,"best_tool":"axe","min_tier":0,"drops":[{"item":"oak_log","count_min":1,"count_max":1,"chance":1.0}],"light_emission":0,"dimension":"overworld","pseudo":false},
+ {"name":"dirt","id":2,"solid":true,"transparent":false,"liquid":false,"hardness":0.5,"best_tool":"shovel","min_tier":0,"drops":[{"item":"dirt","count_min":1,"count_max":1,"chance":1.0}],"light_emission":0,"dimension":"overworld","pseudo":false},
+ {"name":"stone","id":3,"solid":true,"transparent":false,"liquid":false,"hardness":1.5,"best_tool":"pickaxe","min_tier":1,"drops":[{"item":"cobblestone","count_min":1,"count_max":1,"chance":1.0,"requires_tool_tier":1}],"light_emission":0,"dimension":"overworld","pseudo":false},
+ {"name":"coal_ore","id":10,"solid":true,"transparent":false,"liquid":false,"hardness":3.0,"best_tool":"pickaxe","min_tier":1,"drops":[{"item":"coal","count_min":1,"count_max":1,"chance":1.0}],"light_emission":0,"dimension":"overworld","pseudo":false},
+ {"name":"iron_ore","id":11,"solid":true,"transparent":false,"liquid":false,"hardness":3.0,"best_tool":"pickaxe","min_tier":2,"drops":[{"item":"raw_iron","count_min":1,"count_max":1,"chance":1.0}],"light_emission":0,"dimension":"overworld","pseudo":false},
+ {"name":"diamond_ore","id":12,"solid":true,"transparent":false,"liquid":false,"hardness":3.0,"best_tool":"pickaxe","min_tier":3,"drops":[{"item":"diamond","count_min":1,"count_max":1,"chance":1.0}],"light_emission":0,"dimension":"overworld","pseudo":false}
+]

@@ -1,0 +1,1489 @@
+[
+ {
+  "name": "air",
+  "id": 0,
+  "solid": false,
+  "transparent": true,
+  "liquid": false,
+  "hardness": 0.0,
+  "best_tool": null,
+  "min_tier": 0,
+  "drops": [],
+  "light_emission": 0,
+  "color": [
+   0,
+   0,
+   0
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "grass",
+  "id": 1,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 0.6,
+  "best_tool": null,
+  "min_tier": 0,
+  "drops": [
+   {
+    "item": "dirt",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 0
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   106,
+   170,
+   64
+  ],
+  "dimension": "overworld",
+  "pseudo": false
+ },
+ {
+  "name": "dirt",
+  "id": 2,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 0.5,
+  "best_tool": "shovel",
+  "min_tier": 0,
+  "drops": [
+   {
+    "item": "dirt",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 0
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   134,
+   96,
+   67
+  ],
+  "dimension": "overworld",
+  "pseudo": false
+ },
+ {
+  "name": "stone",
+  "id": 3,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 1.5,
+  "best_tool": "pickaxe",
+  "min_tier": 1,
+  "drops": [
+   {
+    "item": "cobblestone",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 1
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   125,
+   125,
+   125
+  ],
+  "dimension": "overworld",
+  "pseudo": false
+ },
+ {
+  "name": "cobblestone",
+  "id": 4,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 2.0,
+  "best_tool": "pickaxe",
+  "min_tier": 1,
+  "drops": [
+   {
+    "item": "cobblestone",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 1
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   110,
+   110,
+   110
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "oak_log",
+  "id": 5,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 2.0,
+  "best_tool": "axe",
+  "min_tier": 0,
+  "drops": [
+   {
+    "item": "oak_log",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 0
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   102,
+   81,
+   49
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "oak_leaves",
+  "id": 6,
+  "solid": true,
+  "transparent": true,
+  "liquid": false,
+  "hardness": 0.2,
+  "best_tool": "hoe",
+  "min_tier": 0,
+  "drops": [
+   {
+    "item": "stick",
+    "count_min": 1,
+    "count_max": 2,
+    "chance": 0.02,
+    "requires_tool_tier": 0
+   },
+   {
+    "item": "apple",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 0.005,
+    "requires_tool_tier": 0
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   56,
+   110,
+   40
+  ],
+  "dimension": "overworld",
+  "pseudo": false
+ },
+ {
+  "name": "oak_planks",
+  "id": 7,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 2.0,
+  "best_tool": "axe",
+  "min_tier": 0,
+  "drops": [
+   {
+    "item": "oak_planks",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 0
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   162,
+   130,
+   78
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "crafting_table",
+  "id": 8,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 2.5,
+  "best_tool": "axe",
+  "min_tier": 0,
+  "drops": [
+   {
+    "item": "crafting_table",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 0
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   150,
+   110,
+   60
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "furnace",
+  "id": 9,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 3.5,
+  "best_tool": "pickaxe",
+  "min_tier": 1,
+  "drops": [
+   {
+    "item": "furnace",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 1
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   115,
+   115,
+   115
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "coal_ore",
+  "id": 10,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 3.0,
+  "best_tool": "pickaxe",
+  "min_tier": 1,
+  "drops": [
+   {
+    "item": "coal",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 1
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   100,
+   100,
+   100
+  ],
+  "dimension": "overworld",
+  "pseudo": false
+ },
+ {
+  "name": "iron_ore",
+  "id": 11,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 3.0,
+  "best_tool": "pickaxe",
+  "min_tier": 2,
+  "drops": [
+   {
+    "item": "raw_iron",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 2
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   136,
+   120,
+   110
+  ],
+  "dimension": "overworld",
+  "pseudo": false
+ },
+ {
+  "name": "diamond_ore",
+  "id": 12,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 3.0,
+  "best_tool": "pickaxe",
+  "min_tier": 3,
+  "drops": [
+   {
+    "item": "diamond",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 3
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   100,
+   160,
+   160
+  ],
+  "dimension": "overworld",
+  "pseudo": false
+ },
+ {
+  "name": "bedrock",
+  "id": 13,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": -1.0,
+  "best_tool": null,
+  "min_tier": 0,
+  "drops": [],
+  "light_emission": 0,
+  "color": [
+   60,
+   60,
+   60
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "sand",
+  "id": 14,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 0.5,
+  "best_tool": "shovel",
+  "min_tier": 0,
+  "drops": [
+   {
+    "item": "sand",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 0
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   219,
+   211,
+   160
+  ],
+  "dimension": "overworld",
+  "pseudo": false
+ },
+ {
+  "name": "gravel",
+  "id": 15,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 0.6,
+  "best_tool": "shovel",
+  "min_tier": 0,
+  "drops": [
+   {
+    "item": "flint",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 0.1,
+    "requires_tool_tier": 0
+   },
+   {
+    "item": "gravel",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 0.9,
+    "requires_tool_tier": 0
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   136,
+   130,
+   128
+  ],
+  "dimension": "overworld",
+  "pseudo": false
+ },
+ {
+  "name": "water",
+  "id": 16,
+  "solid": false,
+  "transparent": true,
+  "liquid": true,
+  "hardness": 100.0,
+  "best_tool": null,
+  "min_tier": 0,
+  "drops": [],
+  "light_emission": 0,
+  "color": [
+   60,
+   90,
+   220
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "deepslate",
+  "id": 17,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 3.0,
+  "best_tool": "pickaxe",
+  "min_tier": 1,
+  "drops": [
+   {
+    "item": "cobbled_deepslate",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 1
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   80,
+   80,
+   84
+  ],
+  "dimension": "overworld",
+  "pseudo": false
+ },
+ {
+  "name": "chest",
+  "id": 18,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 2.5,
+  "best_tool": "axe",
+  "min_tier": 0,
+  "drops": [
+   {
+    "item": "chest",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 0
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   160,
+   115,
+   50
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "agent",
+  "id": 19,
+  "solid": false,
+  "transparent": true,
+  "liquid": false,
+  "hardness": 0.0,
+  "best_tool": null,
+  "min_tier": 0,
+  "drops": [],
+  "light_emission": 0,
+  "color": [
+   255,
+   255,
+   255
+  ],
+  "dimension": "both",
+  "pseudo": true
+ },
+ {
+  "name": "zombie",
+  "id": 20,
+  "solid": false,
+  "transparent": true,
+  "liquid": false,
+  "hardness": 0.0,
+  "best_tool": null,
+  "min_tier": 0,
+  "drops": [],
+  "light_emission": 0,
+  "color": [
+   60,
+   120,
+   60
+  ],
+  "dimension": "overworld",
+  "pseudo": true
+ },
+ {
+  "name": "skeleton",
+  "id": 21,
+  "solid": false,
+  "transparent": true,
+  "liquid": false,
+  "hardness": 0.0,
+  "best_tool": null,
+  "min_tier": 0,
+  "drops": [],
+  "light_emission": 0,
+  "color": [
+   220,
+   220,
+   210
+  ],
+  "dimension": "overworld",
+  "pseudo": true
+ },
+ {
+  "name": "spider",
+  "id": 22,
+  "solid": false,
+  "transparent": true,
+  "liquid": false,
+  "hardness": 0.0,
+  "best_tool": null,
+  "min_tier": 0,
+  "drops": [],
+  "light_emission": 0,
+  "color": [
+   60,
+   50,
+   50
+  ],
+  "dimension": "overworld",
+  "pseudo": true
+ },
+ {
+  "name": "creeper",
+  "id": 23,
+  "solid": false,
+  "transparent": true,
+  "liquid": false,
+  "hardness": 0.0,
+  "best_tool": null,
+  "min_tier": 0,
+  "drops": [],
+  "light_emission": 0,
+  "color": [
+   60,
+   160,
+   60
+  ],
+  "dimension": "overworld",
+  "pseudo": true
+ },
+ {
+  "name": "cow",
+  "id": 24,
+  "solid": false,
+  "transparent": true,
+  "liquid": false,
+  "hardness": 0.0,
+  "best_tool": null,
+  "min_tier": 0,
+  "drops": [],
+  "light_emission": 0,
+  "color": [
+   120,
+   90,
+   60
+  ],
+  "dimension": "overworld",
+  "pseudo": true
+ },
+ {
+  "name": "pig",
+  "id": 25,
+  "solid": false,
+  "transparent": true,
+  "liquid": false,
+  "hardness": 0.0,
+  "best_tool": null,
+  "min_tier": 0,
+  "drops": [],
+  "light_emission": 0,
+  "color": [
+   240,
+   160,
+   160
+  ],
+  "dimension": "overworld",
+  "pseudo": true
+ },
+ {
+  "name": "sheep",
+  "id": 26,
+  "solid": false,
+  "transparent": true,
+  "liquid": false,
+  "hardness": 0.0,
+  "best_tool": null,
+  "min_tier": 0,
+  "drops": [],
+  "light_emission": 0,
+  "color": [
+   240,
+   240,
+   240
+  ],
+  "dimension": "overworld",
+  "pseudo": true
+ },
+ {
+  "name": "chicken",
+  "id": 27,
+  "solid": false,
+  "transparent": true,
+  "liquid": false,
+  "hardness": 0.0,
+  "best_tool": null,
+  "min_tier": 0,
+  "drops": [],
+  "light_emission": 0,
+  "color": [
+   250,
+   250,
+   240
+  ],
+  "dimension": "overworld",
+  "pseudo": true
+ },
+ {
+  "name": "zombified_piglin",
+  "id": 28,
+  "solid": false,
+  "transparent": true,
+  "liquid": false,
+  "hardness": 0.0,
+  "best_tool": null,
+  "min_tier": 0,
+  "drops": [],
+  "light_emission": 0,
+  "color": [
+   150,
+   190,
+   120
+  ],
+  "dimension": "nether",
+  "pseudo": true
+ },
+ {
+  "name": "lava",
+  "id": 29,
+  "solid": false,
+  "transparent": true,
+  "liquid": true,
+  "hardness": 100.0,
+  "best_tool": null,
+  "min_tier": 0,
+  "drops": [],
+  "light_emission": 15,
+  "color": [
+   230,
+   100,
+   20
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "glass",
+  "id": 30,
+  "solid": true,
+  "transparent": true,
+  "liquid": false,
+  "hardness": 0.3,
+  "best_tool": null,
+  "min_tier": 0,
+  "drops": [],
+  "light_emission": 0,
+  "color": [
+   200,
+   230,
+   240
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "obsidian",
+  "id": 31,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 50.0,
+  "best_tool": "pickaxe",
+  "min_tier": 4,
+  "drops": [
+   {
+    "item": "obsidian",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 4
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   20,
+   15,
+   30
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "netherrack",
+  "id": 32,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 0.4,
+  "best_tool": "pickaxe",
+  "min_tier": 1,
+  "drops": [
+   {
+    "item": "netherrack",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 1
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   110,
+   40,
+   40
+  ],
+  "dimension": "nether",
+  "pseudo": false
+ },
+ {
+  "name": "nether_quartz_ore",
+  "id": 33,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 3.0,
+  "best_tool": "pickaxe",
+  "min_tier": 1,
+  "drops": [
+   {
+    "item": "quartz",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 1
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   150,
+   100,
+   90
+  ],
+  "dimension": "nether",
+  "pseudo": false
+ },
+ {
+  "name": "soul_sand",
+  "id": 34,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 0.5,
+  "best_tool": "shovel",
+  "min_tier": 0,
+  "drops": [
+   {
+    "item": "soul_sand",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 0
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   85,
+   65,
+   50
+  ],
+  "dimension": "nether",
+  "pseudo": false
+ },
+ {
+  "name": "glowstone",
+  "id": 35,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 0.3,
+  "best_tool": null,
+  "min_tier": 0,
+  "drops": [
+   {
+    "item": "glowstone_dust",
+    "count_min": 2,
+    "count_max": 4,
+    "chance": 1.0,
+    "requires_tool_tier": 0
+   }
+  ],
+  "light_emission": 15,
+  "color": [
+   230,
+   190,
+   100
+  ],
+  "dimension": "nether",
+  "pseudo": false
+ },
+ {
+  "name": "magma_block",
+  "id": 36,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 0.5,
+  "best_tool": "pickaxe",
+  "min_tier": 1,
+  "drops": [
+   {
+    "item": "magma_block",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 1
+   }
+  ],
+  "light_emission": 3,
+  "color": [
+   170,
+   80,
+   30
+  ],
+  "dimension": "nether",
+  "pseudo": false
+ },
+ {
+  "name": "gold_ore",
+  "id": 37,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 3.0,
+  "best_tool": "pickaxe",
+  "min_tier": 3,
+  "drops": [
+   {
+    "item": "raw_gold",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 3
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   150,
+   140,
+   70
+  ],
+  "dimension": "overworld",
+  "pseudo": false
+ },
+ {
+  "name": "deepslate_coal_ore",
+  "id": 38,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 4.5,
+  "best_tool": "pickaxe",
+  "min_tier": 1,
+  "drops": [
+   {
+    "item": "coal",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 1
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   70,
+   70,
+   74
+  ],
+  "dimension": "overworld",
+  "pseudo": false
+ },
+ {
+  "name": "deepslate_iron_ore",
+  "id": 39,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 4.5,
+  "best_tool": "pickaxe",
+  "min_tier": 2,
+  "drops": [
+   {
+    "item": "raw_iron",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 2
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   90,
+   80,
+   80
+  ],
+  "dimension": "overworld",
+  "pseudo": false
+ },
+ {
+  "name": "deepslate_diamond_ore",
+  "id": 40,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 4.5,
+  "best_tool": "pickaxe",
+  "min_tier": 3,
+  "drops": [
+   {
+    "item": "diamond",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 3
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   70,
+   110,
+   110
+  ],
+  "dimension": "overworld",
+  "pseudo": false
+ },
+ {
+  "name": "deepslate_gold_ore",
+  "id": 41,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 4.5,
+  "best_tool": "pickaxe",
+  "min_tier": 3,
+  "drops": [
+   {
+    "item": "raw_gold",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 3
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   100,
+   90,
+   50
+  ],
+  "dimension": "overworld",
+  "pseudo": false
+ },
+ {
+  "name": "cobbled_deepslate",
+  "id": 42,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 3.5,
+  "best_tool": "pickaxe",
+  "min_tier": 1,
+  "drops": [
+   {
+    "item": "cobbled_deepslate",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 1
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   70,
+   70,
+   74
+  ],
+  "dimension": "overworld",
+  "pseudo": false
+ },
+ {
+  "name": "granite",
+  "id": 43,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 1.5,
+  "best_tool": "pickaxe",
+  "min_tier": 1,
+  "drops": [
+   {
+    "item": "granite",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 1
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   150,
+   100,
+   80
+  ],
+  "dimension": "overworld",
+  "pseudo": false
+ },
+ {
+  "name": "diorite",
+  "id": 44,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 1.5,
+  "best_tool": "pickaxe",
+  "min_tier": 1,
+  "drops": [
+   {
+    "item": "diorite",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 1
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   190,
+   190,
+   190
+  ],
+  "dimension": "overworld",
+  "pseudo": false
+ },
+ {
+  "name": "andesite",
+  "id": 45,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 1.5,
+  "best_tool": "pickaxe",
+  "min_tier": 1,
+  "drops": [
+   {
+    "item": "andesite",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 1
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   130,
+   130,
+   130
+  ],
+  "dimension": "overworld",
+  "pseudo": false
+ },
+ {
+  "name": "stone_bricks",
+  "id": 46,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 1.5,
+  "best_tool": "pickaxe",
+  "min_tier": 1,
+  "drops": [
+   {
+    "item": "stone_bricks",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 1
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   120,
+   120,
+   120
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "cobblestone_stairs",
+  "id": 47,
+  "solid": true,
+  "transparent": true,
+  "liquid": false,
+  "hardness": 0.0,
+  "best_tool": "pickaxe",
+  "min_tier": 0,
+  "drops": [
+   {
+    "item": "cobblestone_stairs",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 0
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   110,
+   110,
+   110
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "cobblestone_slab",
+  "id": 48,
+  "solid": true,
+  "transparent": true,
+  "liquid": false,
+  "hardness": 2.0,
+  "best_tool": "pickaxe",
+  "min_tier": 1,
+  "drops": [
+   {
+    "item": "cobblestone_slab",
+    "count_min": 2,
+    "count_max": 2,
+    "chance": 1.0,
+    "requires_tool_tier": 1
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   110,
+   110,
+   110
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "oak_stairs",
+  "id": 49,
+  "solid": true,
+  "transparent": true,
+  "liquid": false,
+  "hardness": 0.0,
+  "best_tool": "axe",
+  "min_tier": 0,
+  "drops": [
+   {
+    "item": "oak_stairs",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 0
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   162,
+   130,
+   78
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "oak_slab",
+  "id": 50,
+  "solid": true,
+  "transparent": true,
+  "liquid": false,
+  "hardness": 2.0,
+  "best_tool": "axe",
+  "min_tier": 0,
+  "drops": [
+   {
+    "item": "oak_slab",
+    "count_min": 2,
+    "count_max": 2,
+    "chance": 1.0,
+    "requires_tool_tier": 0
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   162,
+   130,
+   78
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "oak_fence",
+  "id": 51,
+  "solid": true,
+  "transparent": true,
+  "liquid": false,
+  "hardness": 2.0,
+  "best_tool": "axe",
+  "min_tier": 0,
+  "drops": [
+   {
+    "item": "oak_fence",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 0
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   162,
+   130,
+   78
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "oak_door",
+  "id": 52,
+  "solid": true,
+  "transparent": true,
+  "liquid": false,
+  "hardness": 3.0,
+  "best_tool": "axe",
+  "min_tier": 0,
+  "drops": [
+   {
+    "item": "oak_door",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 0
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   160,
+   125,
+   70
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "oak_trapdoor",
+  "id": 53,
+  "solid": true,
+  "transparent": true,
+  "liquid": false,
+  "hardness": 3.0,
+  "best_tool": "axe",
+  "min_tier": 0,
+  "drops": [
+   {
+    "item": "oak_trapdoor",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 0
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   160,
+   125,
+   70
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "ladder",
+  "id": 54,
+  "solid": false,
+  "transparent": true,
+  "liquid": false,
+  "hardness": 0.4,
+  "best_tool": "axe",
+  "min_tier": 0,
+  "drops": [
+   {
+    "item": "ladder",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 0
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   150,
+   120,
+   70
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "torch",
+  "id": 55,
+  "solid": false,
+  "transparent": true,
+  "liquid": false,
+  "hardness": 0.0,
+  "best_tool": null,
+  "min_tier": 0,
+  "drops": [
+   {
+    "item": "torch",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 0
+   }
+  ],
+  "light_emission": 14,
+  "color": [
+   250,
+   200,
+   80
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "white_wool",
+  "id": 56,
+  "solid": true,
+  "transparent": false,
+  "liquid": false,
+  "hardness": 0.8,
+  "best_tool": null,
+  "min_tier": 0,
+  "drops": [
+   {
+    "item": "white_wool",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 0
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   230,
+   230,
+   230
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "white_bed",
+  "id": 57,
+  "solid": true,
+  "transparent": true,
+  "liquid": false,
+  "hardness": 0.2,
+  "best_tool": null,
+  "min_tier": 0,
+  "drops": [
+   {
+    "item": "white_bed",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 0
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   235,
+   235,
+   235
+  ],
+  "dimension": "both",
+  "pseudo": false
+ },
+ {
+  "name": "wheat",
+  "id": 58,
+  "solid": false,
+  "transparent": true,
+  "liquid": false,
+  "hardness": 0.0,
+  "best_tool": null,
+  "min_tier": 0,
+  "drops": [
+   {
+    "item": "wheat",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0,
+    "requires_tool_tier": 0
+   }
+  ],
+  "light_emission": 0,
+  "color": [
+   200,
+   170,
+   70
+  ],
+  "dimension": "overworld",
+  "pseudo": false
+ }
+]

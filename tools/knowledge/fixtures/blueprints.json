@@ -1,0 +1,4 @@
+{"blueprints": [
+ {"id":1,"name":"tiny_hut","family":"shelter","size":[3,2,3],"palette":{"#":"oak_planks","c":"chest"},
+  "layers":[["###","#c#","###"],["###","###","###"]],"anchor":"ground","required_items":{"oak_planks":12,"chest":1},"source":"fixture"}
+]}

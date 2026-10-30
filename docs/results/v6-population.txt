@@ -1,0 +1,11 @@
+=== runs/team-v6/checkpoints/ckpt_000005316608_u000649.pt
+wooden_pickaxe: mean over goals                     100.0%
+stone_pickaxe: mean over goals                      68.8%
+furnace: mean over goals                      96.9%
+coal: mean over goals                      10.9%
+=== runs/pop-human/checkpoints/ckpt_000002007040_u000845.pt
+wooden_pickaxe: mean over goals                     100.0%
+stone_pickaxe: mean over goals                      95.3%
+furnace: mean over goals                     100.0%
+coal: mean over goals                      18.8%
+ALLDONE

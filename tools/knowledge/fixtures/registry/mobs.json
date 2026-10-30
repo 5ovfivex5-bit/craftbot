@@ -1,0 +1,5 @@
+[
+ {"name":"cow","pseudo_block":20,"hostile":false,"health":10,"damage":0,"speed":0.25,
+  "spawn":{"light_max":16,"dimension":"overworld","biomes":null,"day":"any","group_min":1,"group_max":3},
+  "drops":[{"item":"beef","count_min":1,"count_max":3,"chance":1.0}],"burns_in_sun":false,"attack":"melee","size":[0.9,1.4]}
+]

@@ -1,0 +1,746 @@
+[
+ {
+  "id": 0,
+  "result": "andesite",
+  "count": 2,
+  "ingredients": {
+   "diorite": 1,
+   "cobblestone": 1
+  },
+  "needs": "inventory",
+  "cook_ticks": 0,
+  "name": "andesite"
+ },
+ {
+  "id": 1,
+  "result": "arrow",
+  "count": 4,
+  "ingredients": {
+   "flint": 1,
+   "stick": 1,
+   "feather": 1
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "arrow"
+ },
+ {
+  "id": 2,
+  "result": "bread",
+  "count": 1,
+  "ingredients": {
+   "wheat": 3
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "bread"
+ },
+ {
+  "id": 3,
+  "result": "bucket",
+  "count": 1,
+  "ingredients": {
+   "iron_ingot": 3
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "bucket"
+ },
+ {
+  "id": 4,
+  "result": "chest",
+  "count": 1,
+  "ingredients": {
+   "oak_planks": 8
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "chest"
+ },
+ {
+  "id": 5,
+  "result": "cobblestone_slab",
+  "count": 6,
+  "ingredients": {
+   "cobblestone": 3
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "cobblestone_slab"
+ },
+ {
+  "id": 6,
+  "result": "cobblestone_stairs",
+  "count": 4,
+  "ingredients": {
+   "cobblestone": 6
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "cobblestone_stairs"
+ },
+ {
+  "id": 7,
+  "result": "crafting_table",
+  "count": 1,
+  "ingredients": {
+   "oak_planks": 4
+  },
+  "needs": "inventory",
+  "cook_ticks": 0,
+  "name": "crafting_table"
+ },
+ {
+  "id": 8,
+  "result": "diamond_axe",
+  "count": 1,
+  "ingredients": {
+   "diamond": 3,
+   "stick": 2
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "diamond_axe"
+ },
+ {
+  "id": 9,
+  "result": "diamond_boots",
+  "count": 1,
+  "ingredients": {
+   "diamond": 4
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "diamond_boots"
+ },
+ {
+  "id": 10,
+  "result": "diamond_chestplate",
+  "count": 1,
+  "ingredients": {
+   "diamond": 8
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "diamond_chestplate"
+ },
+ {
+  "id": 11,
+  "result": "diamond_helmet",
+  "count": 1,
+  "ingredients": {
+   "diamond": 5
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "diamond_helmet"
+ },
+ {
+  "id": 12,
+  "result": "diamond_hoe",
+  "count": 1,
+  "ingredients": {
+   "diamond": 2,
+   "stick": 2
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "diamond_hoe"
+ },
+ {
+  "id": 13,
+  "result": "diamond_leggings",
+  "count": 1,
+  "ingredients": {
+   "diamond": 7
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "diamond_leggings"
+ },
+ {
+  "id": 14,
+  "result": "diamond_pickaxe",
+  "count": 1,
+  "ingredients": {
+   "diamond": 3,
+   "stick": 2
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "diamond_pickaxe"
+ },
+ {
+  "id": 15,
+  "result": "diamond_shovel",
+  "count": 1,
+  "ingredients": {
+   "diamond": 1,
+   "stick": 2
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "diamond_shovel"
+ },
+ {
+  "id": 16,
+  "result": "diamond_sword",
+  "count": 1,
+  "ingredients": {
+   "diamond": 2,
+   "stick": 1
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "diamond_sword"
+ },
+ {
+  "id": 17,
+  "result": "diorite",
+  "count": 2,
+  "ingredients": {
+   "cobblestone": 2,
+   "quartz": 2
+  },
+  "needs": "inventory",
+  "cook_ticks": 0,
+  "name": "diorite"
+ },
+ {
+  "id": 18,
+  "result": "flint_and_steel",
+  "count": 1,
+  "ingredients": {
+   "iron_ingot": 1,
+   "flint": 1
+  },
+  "needs": "inventory",
+  "cook_ticks": 0,
+  "name": "flint_and_steel"
+ },
+ {
+  "id": 19,
+  "result": "furnace",
+  "count": 1,
+  "ingredients": {
+   "cobblestone": 8
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "furnace"
+ },
+ {
+  "id": 20,
+  "result": "glowstone",
+  "count": 1,
+  "ingredients": {
+   "glowstone_dust": 4
+  },
+  "needs": "inventory",
+  "cook_ticks": 0,
+  "name": "glowstone"
+ },
+ {
+  "id": 21,
+  "result": "granite",
+  "count": 1,
+  "ingredients": {
+   "diorite": 1,
+   "quartz": 1
+  },
+  "needs": "inventory",
+  "cook_ticks": 0,
+  "name": "granite"
+ },
+ {
+  "id": 22,
+  "result": "iron_axe",
+  "count": 1,
+  "ingredients": {
+   "iron_ingot": 3,
+   "stick": 2
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "iron_axe"
+ },
+ {
+  "id": 23,
+  "result": "iron_boots",
+  "count": 1,
+  "ingredients": {
+   "iron_ingot": 4
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "iron_boots"
+ },
+ {
+  "id": 24,
+  "result": "iron_chestplate",
+  "count": 1,
+  "ingredients": {
+   "iron_ingot": 8
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "iron_chestplate"
+ },
+ {
+  "id": 25,
+  "result": "iron_helmet",
+  "count": 1,
+  "ingredients": {
+   "iron_ingot": 5
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "iron_helmet"
+ },
+ {
+  "id": 26,
+  "result": "iron_hoe",
+  "count": 1,
+  "ingredients": {
+   "iron_ingot": 2,
+   "stick": 2
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "iron_hoe"
+ },
+ {
+  "id": 27,
+  "result": "iron_leggings",
+  "count": 1,
+  "ingredients": {
+   "iron_ingot": 7
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "iron_leggings"
+ },
+ {
+  "id": 28,
+  "result": "iron_pickaxe",
+  "count": 1,
+  "ingredients": {
+   "iron_ingot": 3,
+   "stick": 2
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "iron_pickaxe"
+ },
+ {
+  "id": 29,
+  "result": "iron_shovel",
+  "count": 1,
+  "ingredients": {
+   "iron_ingot": 1,
+   "stick": 2
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "iron_shovel"
+ },
+ {
+  "id": 30,
+  "result": "iron_sword",
+  "count": 1,
+  "ingredients": {
+   "iron_ingot": 2,
+   "stick": 1
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "iron_sword"
+ },
+ {
+  "id": 31,
+  "result": "ladder",
+  "count": 3,
+  "ingredients": {
+   "stick": 7
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "ladder"
+ },
+ {
+  "id": 32,
+  "result": "leather_boots",
+  "count": 1,
+  "ingredients": {
+   "leather": 4
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "leather_boots"
+ },
+ {
+  "id": 33,
+  "result": "leather_chestplate",
+  "count": 1,
+  "ingredients": {
+   "leather": 8
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "leather_chestplate"
+ },
+ {
+  "id": 34,
+  "result": "leather_helmet",
+  "count": 1,
+  "ingredients": {
+   "leather": 5
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "leather_helmet"
+ },
+ {
+  "id": 35,
+  "result": "leather_leggings",
+  "count": 1,
+  "ingredients": {
+   "leather": 7
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "leather_leggings"
+ },
+ {
+  "id": 36,
+  "result": "oak_door",
+  "count": 3,
+  "ingredients": {
+   "oak_planks": 6
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "oak_door"
+ },
+ {
+  "id": 37,
+  "result": "oak_fence",
+  "count": 3,
+  "ingredients": {
+   "oak_planks": 4,
+   "stick": 2
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "oak_fence"
+ },
+ {
+  "id": 38,
+  "result": "oak_planks",
+  "count": 4,
+  "ingredients": {
+   "oak_log": 1
+  },
+  "needs": "inventory",
+  "cook_ticks": 0,
+  "name": "oak_planks"
+ },
+ {
+  "id": 39,
+  "result": "oak_slab",
+  "count": 6,
+  "ingredients": {
+   "oak_planks": 3
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "oak_slab"
+ },
+ {
+  "id": 40,
+  "result": "oak_stairs",
+  "count": 4,
+  "ingredients": {
+   "oak_planks": 6
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "oak_stairs"
+ },
+ {
+  "id": 41,
+  "result": "oak_trapdoor",
+  "count": 2,
+  "ingredients": {
+   "oak_planks": 6
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "oak_trapdoor"
+ },
+ {
+  "id": 42,
+  "result": "stick",
+  "count": 4,
+  "ingredients": {
+   "oak_planks": 2
+  },
+  "needs": "inventory",
+  "cook_ticks": 0,
+  "name": "stick"
+ },
+ {
+  "id": 43,
+  "result": "stone_axe",
+  "count": 1,
+  "ingredients": {
+   "cobblestone": 3,
+   "stick": 2
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "stone_axe"
+ },
+ {
+  "id": 44,
+  "result": "stone_bricks",
+  "count": 4,
+  "ingredients": {
+   "stone": 4
+  },
+  "needs": "inventory",
+  "cook_ticks": 0,
+  "name": "stone_bricks"
+ },
+ {
+  "id": 45,
+  "result": "stone_hoe",
+  "count": 1,
+  "ingredients": {
+   "cobblestone": 2,
+   "stick": 2
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "stone_hoe"
+ },
+ {
+  "id": 46,
+  "result": "stone_pickaxe",
+  "count": 1,
+  "ingredients": {
+   "cobblestone": 3,
+   "stick": 2
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "stone_pickaxe"
+ },
+ {
+  "id": 47,
+  "result": "stone_shovel",
+  "count": 1,
+  "ingredients": {
+   "cobblestone": 1,
+   "stick": 2
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "stone_shovel"
+ },
+ {
+  "id": 48,
+  "result": "stone_sword",
+  "count": 1,
+  "ingredients": {
+   "cobblestone": 2,
+   "stick": 1
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "stone_sword"
+ },
+ {
+  "id": 49,
+  "result": "torch",
+  "count": 4,
+  "ingredients": {
+   "coal": 1,
+   "stick": 1
+  },
+  "needs": "inventory",
+  "cook_ticks": 0,
+  "name": "torch"
+ },
+ {
+  "id": 50,
+  "result": "white_bed",
+  "count": 1,
+  "ingredients": {
+   "white_wool": 3,
+   "oak_planks": 3
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "white_bed"
+ },
+ {
+  "id": 51,
+  "result": "white_wool",
+  "count": 1,
+  "ingredients": {
+   "string": 4
+  },
+  "needs": "inventory",
+  "cook_ticks": 0,
+  "name": "white_wool_from_string"
+ },
+ {
+  "id": 52,
+  "result": "wooden_axe",
+  "count": 1,
+  "ingredients": {
+   "oak_planks": 3,
+   "stick": 2
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "wooden_axe"
+ },
+ {
+  "id": 53,
+  "result": "wooden_hoe",
+  "count": 1,
+  "ingredients": {
+   "oak_planks": 2,
+   "stick": 2
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "wooden_hoe"
+ },
+ {
+  "id": 54,
+  "result": "wooden_pickaxe",
+  "count": 1,
+  "ingredients": {
+   "oak_planks": 3,
+   "stick": 2
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "wooden_pickaxe"
+ },
+ {
+  "id": 55,
+  "result": "wooden_shovel",
+  "count": 1,
+  "ingredients": {
+   "oak_planks": 1,
+   "stick": 2
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "wooden_shovel"
+ },
+ {
+  "id": 56,
+  "result": "wooden_sword",
+  "count": 1,
+  "ingredients": {
+   "oak_planks": 2,
+   "stick": 1
+  },
+  "needs": "crafting_table",
+  "cook_ticks": 0,
+  "name": "wooden_sword"
+ },
+ {
+  "id": 57,
+  "name": "cooked_beef",
+  "result": "cooked_beef",
+  "count": 1,
+  "ingredients": {
+   "beef": 1
+  },
+  "needs": "furnace",
+  "cook_ticks": 200
+ },
+ {
+  "id": 58,
+  "name": "cooked_chicken",
+  "result": "cooked_chicken",
+  "count": 1,
+  "ingredients": {
+   "chicken": 1
+  },
+  "needs": "furnace",
+  "cook_ticks": 200
+ },
+ {
+  "id": 59,
+  "name": "cooked_mutton",
+  "result": "cooked_mutton",
+  "count": 1,
+  "ingredients": {
+   "mutton": 1
+  },
+  "needs": "furnace",
+  "cook_ticks": 200
+ },
+ {
+  "id": 60,
+  "name": "cooked_porkchop",
+  "result": "cooked_porkchop",
+  "count": 1,
+  "ingredients": {
+   "porkchop": 1
+  },
+  "needs": "furnace",
+  "cook_ticks": 200
+ },
+ {
+  "id": 61,
+  "name": "glass",
+  "result": "glass",
+  "count": 1,
+  "ingredients": {
+   "sand": 1
+  },
+  "needs": "furnace",
+  "cook_ticks": 200
+ },
+ {
+  "id": 62,
+  "name": "gold_ingot_from_smelting_raw_gold",
+  "result": "gold_ingot",
+  "count": 1,
+  "ingredients": {
+   "raw_gold": 1
+  },
+  "needs": "furnace",
+  "cook_ticks": 200
+ },
+ {
+  "id": 63,
+  "name": "iron_ingot_from_smelting_raw_iron",
+  "result": "iron_ingot",
+  "count": 1,
+  "ingredients": {
+   "raw_iron": 1
+  },
+  "needs": "furnace",
+  "cook_ticks": 200
+ },
+ {
+  "id": 64,
+  "name": "stone",
+  "result": "stone",
+  "count": 1,
+  "ingredients": {
+   "cobblestone": 1
+  },
+  "needs": "furnace",
+  "cook_ticks": 200
+ }
+]

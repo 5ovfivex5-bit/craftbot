@@ -1,0 +1,185 @@
+[
+ {
+  "name": "oak_log",
+  "id": 0,
+  "stack": 64,
+  "kind": "block",
+  "places_block": "oak_log",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "oak_planks",
+  "id": 1,
+  "stack": 64,
+  "kind": "block",
+  "places_block": "oak_planks",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 2
+ },
+ {
+  "name": "stick",
+  "id": 2,
+  "stack": 64,
+  "kind": "material",
+  "places_block": null,
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 4
+ },
+ {
+  "name": "crafting_table",
+  "id": 3,
+  "stack": 64,
+  "kind": "block",
+  "places_block": "crafting_table",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 4
+ },
+ {
+  "name": "wooden_pickaxe",
+  "id": 4,
+  "stack": 1,
+  "kind": "tool",
+  "places_block": null,
+  "tool": {
+   "type": "pickaxe",
+   "tier": 1,
+   "speed": 2.0,
+   "damage": 2,
+   "durability": 59
+  },
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 8
+ },
+ {
+  "name": "cobblestone",
+  "id": 5,
+  "stack": 64,
+  "kind": "block",
+  "places_block": "cobblestone",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 16
+ },
+ {
+  "name": "stone_pickaxe",
+  "id": 6,
+  "stack": 1,
+  "kind": "tool",
+  "places_block": null,
+  "tool": {
+   "type": "pickaxe",
+   "tier": 2,
+   "speed": 4.0,
+   "damage": 3,
+   "durability": 131
+  },
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 32
+ },
+ {
+  "name": "furnace",
+  "id": 7,
+  "stack": 64,
+  "kind": "block",
+  "places_block": "furnace",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 32
+ },
+ {
+  "name": "coal",
+  "id": 8,
+  "stack": 64,
+  "kind": "material",
+  "places_block": null,
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 8,
+  "value": 16
+ },
+ {
+  "name": "raw_iron",
+  "id": 9,
+  "stack": 64,
+  "kind": "material",
+  "places_block": null,
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 64
+ },
+ {
+  "name": "iron_ingot",
+  "id": 10,
+  "stack": 64,
+  "kind": "material",
+  "places_block": null,
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 128
+ },
+ {
+  "name": "iron_pickaxe",
+  "id": 11,
+  "stack": 1,
+  "kind": "tool",
+  "places_block": null,
+  "tool": {
+   "type": "pickaxe",
+   "tier": 3,
+   "speed": 6.0,
+   "damage": 4,
+   "durability": 250
+  },
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 256
+ },
+ {
+  "name": "diamond",
+  "id": 12,
+  "stack": 64,
+  "kind": "material",
+  "places_block": null,
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 1024
+ },
+ {
+  "name": "dirt",
+  "id": 13,
+  "stack": 64,
+  "kind": "block",
+  "places_block": "dirt",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 0
+ },
+ {
+  "name": "chest",
+  "id": 14,
+  "stack": 64,
+  "kind": "block",
+  "places_block": "chest",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 8
+ }
+]

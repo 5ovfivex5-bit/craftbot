@@ -1,0 +1,2111 @@
+[
+ {
+  "id": "gather_wood",
+  "name": "Gather 8 oak logs",
+  "family": "gather",
+  "description": "Chop 8 oak logs.",
+  "params": {
+   "item": "oak_log",
+   "count": 8
+  },
+  "success": {
+   "type": "mined",
+   "block": "oak_log",
+   "count": 8
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "mined",
+     "block": "oak_log",
+     "count": 2
+    },
+    "reward": 0.05
+   },
+   {
+    "predicate": {
+     "type": "mined",
+     "block": "oak_log",
+     "count": 4
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 1500,
+  "prerequisites": [],
+  "source": "story/root (crafting table needs planks; wood is the first step)"
+ },
+ {
+  "id": "gather_sand",
+  "name": "Mine 8 sand",
+  "family": "gather",
+  "description": "Dig up 8 sand blocks.",
+  "params": {
+   "item": "sand",
+   "count": 8
+  },
+  "success": {
+   "type": "mined",
+   "block": "sand",
+   "count": 8
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "mined",
+     "block": "sand",
+     "count": 4
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 1200,
+  "prerequisites": [
+   "gather_wood"
+  ],
+  "source": "none (no vanilla advancement; curriculum filler)"
+ },
+ {
+  "id": "gather_stone",
+  "name": "Mine 8 stone",
+  "family": "gather",
+  "description": "Mine 8 stone blocks with a wooden pickaxe.",
+  "params": {
+   "item": "stone",
+   "count": 8
+  },
+  "success": {
+   "type": "mined",
+   "block": "stone",
+   "count": 8
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "mined",
+     "block": "stone",
+     "count": 4
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 1500,
+  "prerequisites": [
+   "tools_wooden_pickaxe"
+  ],
+  "source": "story/mine_stone"
+ },
+ {
+  "id": "gather_gravel",
+  "name": "Mine 8 gravel",
+  "family": "gather",
+  "description": "Dig 8 gravel; gravel drops flint.",
+  "params": {
+   "item": "gravel",
+   "count": 8
+  },
+  "success": {
+   "type": "mined",
+   "block": "gravel",
+   "count": 8
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "has_item",
+     "item": "flint",
+     "count": 1
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 1200,
+  "prerequisites": [
+   "tools_wooden_pickaxe"
+  ],
+  "source": "none (no vanilla advancement; curriculum filler)"
+ },
+ {
+  "id": "gather_coal",
+  "name": "Collect 8 coal",
+  "family": "gather",
+  "description": "Mine coal ore for fuel.",
+  "params": {
+   "item": "coal",
+   "count": 8
+  },
+  "success": {
+   "type": "has_item",
+   "item": "coal",
+   "count": 8
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "mined",
+     "block": "coal_ore",
+     "count": 2
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 2000,
+  "prerequisites": [
+   "tools_wooden_pickaxe"
+  ],
+  "source": "story/smelt_iron (coal is the smelting fuel)"
+ },
+ {
+  "id": "gather_iron",
+  "name": "Mine 6 iron ore",
+  "family": "gather",
+  "description": "Mine 6 iron ore with a stone pickaxe.",
+  "params": {
+   "item": "iron_ore",
+   "count": 6
+  },
+  "success": {
+   "type": "mined",
+   "block": "iron_ore",
+   "count": 6
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "mined",
+     "block": "iron_ore",
+     "count": 1
+    },
+    "reward": 0.1
+   },
+   {
+    "predicate": {
+     "type": "has_item",
+     "item": "raw_iron",
+     "count": 3
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 4000,
+  "prerequisites": [
+   "tools_stone_pickaxe"
+  ],
+  "source": "story/smelt_iron"
+ },
+ {
+  "id": "gather_diamond",
+  "name": "Find a diamond",
+  "family": "gather",
+  "description": "Mine one diamond with an iron pickaxe.",
+  "params": {
+   "item": "diamond",
+   "count": 1
+  },
+  "success": {
+   "type": "has_item",
+   "item": "diamond",
+   "count": 1
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "mined",
+     "block": "iron_ore",
+     "count": 3
+    },
+    "reward": 0.1
+   },
+   {
+    "predicate": {
+     "type": "mined",
+     "block": "diamond_ore",
+     "count": 1
+    },
+    "reward": 0.2
+   }
+  ],
+  "max_steps": 12000,
+  "prerequisites": [
+   "tools_iron_pickaxe"
+  ],
+  "source": "story/mine_diamond"
+ },
+ {
+  "id": "gather_obsidian",
+  "name": "Mine 10 obsidian",
+  "family": "gather",
+  "description": "Mine 10 obsidian with a diamond pickaxe.",
+  "params": {
+   "item": "obsidian",
+   "count": 10
+  },
+  "success": {
+   "type": "has_item",
+   "item": "obsidian",
+   "count": 10
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "mined",
+     "block": "obsidian",
+     "count": 1
+    },
+    "reward": 0.1
+   },
+   {
+    "predicate": {
+     "type": "mined",
+     "block": "obsidian",
+     "count": 5
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 8000,
+  "prerequisites": [
+   "tools_diamond_pickaxe"
+  ],
+  "start_kit": {
+   "diamond_pickaxe": 1
+  },
+  "source": "story/form_obsidian"
+ },
+ {
+  "id": "tools_crafting_table",
+  "name": "Craft a crafting table",
+  "family": "tools",
+  "description": "Craft a crafting table from planks.",
+  "params": {
+   "item": "crafting_table",
+   "count": 1
+  },
+  "success": {
+   "type": "crafted",
+   "item": "crafting_table"
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "has_item",
+     "item": "oak_planks",
+     "count": 4
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 600,
+  "prerequisites": [
+   "gather_wood"
+  ],
+  "source": "story/root"
+ },
+ {
+  "id": "tools_wooden_pickaxe",
+  "name": "Craft a wooden pickaxe",
+  "family": "tools",
+  "description": "Craft a wooden pickaxe at a crafting table.",
+  "params": {
+   "item": "wooden_pickaxe",
+   "count": 1
+  },
+  "success": {
+   "type": "crafted",
+   "item": "wooden_pickaxe"
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "has_item",
+     "item": "stick",
+     "count": 2
+    },
+    "reward": 0.05
+   }
+  ],
+  "max_steps": 600,
+  "prerequisites": [
+   "tools_crafting_table"
+  ],
+  "source": "story/mine_stone (wood pickaxe is its prerequisite tool)"
+ },
+ {
+  "id": "tools_wooden_axe",
+  "name": "Craft a wooden axe",
+  "family": "tools",
+  "description": "Craft a wooden axe.",
+  "params": {
+   "item": "wooden_axe",
+   "count": 1
+  },
+  "success": {
+   "type": "crafted",
+   "item": "wooden_axe"
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "has_item",
+     "item": "stick",
+     "count": 2
+    },
+    "reward": 0.05
+   }
+  ],
+  "max_steps": 600,
+  "prerequisites": [
+   "tools_crafting_table"
+  ],
+  "source": "none (recipe-only; wood tier of story/mine_stone)"
+ },
+ {
+  "id": "tools_stone_pickaxe",
+  "name": "Craft a stone pickaxe",
+  "family": "tools",
+  "description": "Craft a stone pickaxe.",
+  "params": {
+   "item": "stone_pickaxe",
+   "count": 1
+  },
+  "success": {
+   "type": "crafted",
+   "item": "stone_pickaxe"
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "has_item",
+     "item": "cobblestone",
+     "count": 3
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 900,
+  "prerequisites": [
+   "gather_stone",
+   "tools_crafting_table"
+  ],
+  "source": "story/upgrade_tools"
+ },
+ {
+  "id": "tools_stone_axe",
+  "name": "Craft a stone axe",
+  "family": "tools",
+  "description": "Craft a stone axe.",
+  "params": {
+   "item": "stone_axe",
+   "count": 1
+  },
+  "success": {
+   "type": "crafted",
+   "item": "stone_axe"
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "has_item",
+     "item": "cobblestone",
+     "count": 3
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 900,
+  "prerequisites": [
+   "gather_stone",
+   "tools_crafting_table"
+  ],
+  "source": "story/upgrade_tools (stone tier)"
+ },
+ {
+  "id": "tools_furnace",
+  "name": "Craft a furnace",
+  "family": "tools",
+  "description": "Craft a furnace from 8 cobblestone.",
+  "params": {
+   "item": "furnace",
+   "count": 1
+  },
+  "success": {
+   "type": "crafted",
+   "item": "furnace"
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "has_item",
+     "item": "cobblestone",
+     "count": 8
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 900,
+  "prerequisites": [
+   "gather_stone"
+  ],
+  "source": "story/smelt_iron"
+ },
+ {
+  "id": "tools_iron_pickaxe",
+  "name": "Craft an iron pickaxe",
+  "family": "tools",
+  "description": "Smelt iron and craft an iron pickaxe.",
+  "params": {
+   "item": "iron_pickaxe",
+   "count": 1
+  },
+  "success": {
+   "type": "crafted",
+   "item": "iron_pickaxe"
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "has_item",
+     "item": "iron_ingot",
+     "count": 3
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 1500,
+  "prerequisites": [
+   "gather_iron",
+   "tools_furnace"
+  ],
+  "source": "story/iron_tools"
+ },
+ {
+  "id": "tools_iron_axe",
+  "name": "Craft an iron axe",
+  "family": "tools",
+  "description": "Smelt iron and craft an iron axe.",
+  "params": {
+   "item": "iron_axe",
+   "count": 1
+  },
+  "success": {
+   "type": "crafted",
+   "item": "iron_axe"
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "has_item",
+     "item": "iron_ingot",
+     "count": 3
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 1500,
+  "prerequisites": [
+   "gather_iron",
+   "tools_furnace"
+  ],
+  "source": "story/iron_tools (iron tier)"
+ },
+ {
+  "id": "tools_diamond_pickaxe",
+  "name": "Craft a diamond pickaxe",
+  "family": "tools",
+  "description": "Craft a diamond pickaxe from 3 diamonds.",
+  "params": {
+   "item": "diamond_pickaxe",
+   "count": 1
+  },
+  "success": {
+   "type": "crafted",
+   "item": "diamond_pickaxe"
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "has_item",
+     "item": "diamond",
+     "count": 3
+    },
+    "reward": 0.2
+   }
+  ],
+  "max_steps": 2000,
+  "prerequisites": [
+   "gather_diamond"
+  ],
+  "source": "story/mine_diamond"
+ },
+ {
+  "id": "food_hunt_cow",
+  "name": "Kill 2 cows",
+  "family": "food",
+  "description": "Hunt two cows for beef.",
+  "params": {
+   "mob": "cow",
+   "count": 2
+  },
+  "success": {
+   "type": "killed",
+   "mob": "cow",
+   "count": 2
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "killed",
+     "mob": "cow",
+     "count": 1
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 1500,
+  "prerequisites": [],
+  "source": "husbandry/root (consume_item entry point)"
+ },
+ {
+  "id": "food_hunt_pig",
+  "name": "Kill 2 pigs",
+  "family": "food",
+  "description": "Hunt two pigs for porkchop.",
+  "params": {
+   "mob": "pig",
+   "count": 2
+  },
+  "success": {
+   "type": "killed",
+   "mob": "pig",
+   "count": 2
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "killed",
+     "mob": "pig",
+     "count": 1
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 1500,
+  "prerequisites": [],
+  "source": "husbandry/root"
+ },
+ {
+  "id": "food_hunt_sheep",
+  "name": "Kill 2 sheep",
+  "family": "food",
+  "description": "Hunt two sheep (mutton and wool for beds).",
+  "params": {
+   "mob": "sheep",
+   "count": 2
+  },
+  "success": {
+   "type": "killed",
+   "mob": "sheep",
+   "count": 2
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "killed",
+     "mob": "sheep",
+     "count": 1
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 1500,
+  "prerequisites": [],
+  "source": "husbandry/root"
+ },
+ {
+  "id": "food_hunt_chicken",
+  "name": "Kill 2 chickens",
+  "family": "food",
+  "description": "Hunt two chickens.",
+  "params": {
+   "mob": "chicken",
+   "count": 2
+  },
+  "success": {
+   "type": "killed",
+   "mob": "chicken",
+   "count": 2
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "killed",
+     "mob": "chicken",
+     "count": 1
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 1500,
+  "prerequisites": [],
+  "source": "husbandry/root"
+ },
+ {
+  "id": "food_cook_beef",
+  "name": "Cook 2 beef",
+  "family": "food",
+  "description": "Smelt raw beef in a furnace.",
+  "params": {
+   "item": "cooked_beef",
+   "count": 2
+  },
+  "success": {
+   "type": "has_item",
+   "item": "cooked_beef",
+   "count": 2
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "has_item",
+     "item": "beef",
+     "count": 2
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 1500,
+  "prerequisites": [
+   "food_hunt_cow",
+   "tools_furnace"
+  ],
+  "source": "husbandry/balanced_diet"
+ },
+ {
+  "id": "food_cook_porkchop",
+  "name": "Cook 2 porkchops",
+  "family": "food",
+  "description": "Smelt raw porkchop in a furnace.",
+  "params": {
+   "item": "cooked_porkchop",
+   "count": 2
+  },
+  "success": {
+   "type": "has_item",
+   "item": "cooked_porkchop",
+   "count": 2
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "has_item",
+     "item": "porkchop",
+     "count": 2
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 1500,
+  "prerequisites": [
+   "food_hunt_pig",
+   "tools_furnace"
+  ],
+  "source": "husbandry/balanced_diet"
+ },
+ {
+  "id": "food_eat_cooked_beef",
+  "name": "Eat cooked beef",
+  "family": "food",
+  "description": "Eat a cooked beef.",
+  "params": {
+   "food": "cooked_beef"
+  },
+  "success": {
+   "type": "ate",
+   "food": "cooked_beef"
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "has_item",
+     "item": "cooked_beef",
+     "count": 1
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 800,
+  "prerequisites": [
+   "food_cook_beef"
+  ],
+  "source": "husbandry/balanced_diet"
+ },
+ {
+  "id": "build_dirt_hut",
+  "name": "Build a dirt hut",
+  "family": "build",
+  "description": "Build the dirt_hut blueprint from dirt.",
+  "params": {
+   "blueprint": "dirt_hut"
+  },
+  "success": {
+   "type": "build_complete",
+   "blueprint": "dirt_hut",
+   "min_progress": 1.0
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "build_complete",
+     "blueprint": "dirt_hut",
+     "min_progress": 0.5
+    },
+    "reward": 0.2
+   },
+   {
+    "predicate": {
+     "type": "has_item",
+     "item": "dirt",
+     "count": 16
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 4000,
+  "prerequisites": [],
+  "source": "none (no vanilla advancement; curriculum filler) (shelter for the night; see survival_survive_night_hut)"
+ },
+ {
+  "id": "build_storage_chest",
+  "name": "Place a chest",
+  "family": "build",
+  "description": "Craft and place a chest for storage.",
+  "params": {
+   "item": "chest",
+   "count": 1
+  },
+  "success": {
+   "type": "placed",
+   "block": "chest",
+   "count": 1
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "crafted",
+     "item": "chest"
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 600,
+  "prerequisites": [
+   "tools_crafting_table"
+  ],
+  "source": "none (no vanilla advancement; curriculum filler)"
+ },
+ {
+  "id": "build_wooden_house",
+  "name": "Build a wooden house",
+  "family": "build",
+  "description": "Build the wooden_house blueprint.",
+  "params": {
+   "blueprint": "wooden_house"
+  },
+  "success": {
+   "type": "build_complete",
+   "blueprint": "wooden_house",
+   "min_progress": 1.0
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "build_complete",
+     "blueprint": "wooden_house",
+     "min_progress": 0.5
+    },
+    "reward": 0.2
+   },
+   {
+    "predicate": {
+     "type": "has_item",
+     "item": "oak_planks",
+     "count": 32
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 12000,
+  "prerequisites": [
+   "tools_wooden_axe",
+   "tools_crafting_table"
+  ],
+  "source": "structure/village houses (data/minecraft/structure/village); no advancement"
+ },
+ {
+  "id": "build_cobble_house",
+  "name": "Build a cobble house",
+  "family": "build",
+  "description": "Build the cobble_house blueprint.",
+  "params": {
+   "blueprint": "cobble_house"
+  },
+  "success": {
+   "type": "build_complete",
+   "blueprint": "cobble_house",
+   "min_progress": 1.0
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "build_complete",
+     "blueprint": "cobble_house",
+     "min_progress": 0.5
+    },
+    "reward": 0.2
+   },
+   {
+    "predicate": {
+     "type": "has_item",
+     "item": "cobblestone",
+     "count": 32
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 10000,
+  "prerequisites": [
+   "tools_stone_pickaxe"
+  ],
+  "source": "structure/village houses (stone variant); no advancement"
+ },
+ {
+  "id": "build_watchtower",
+  "name": "Build a watchtower",
+  "family": "build",
+  "description": "Build the watchtower blueprint.",
+  "params": {
+   "blueprint": "watchtower"
+  },
+  "success": {
+   "type": "build_complete",
+   "blueprint": "watchtower",
+   "min_progress": 1.0
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "build_complete",
+     "blueprint": "watchtower",
+     "min_progress": 0.5
+    },
+    "reward": 0.2
+   },
+   {
+    "predicate": {
+     "type": "placed",
+     "block": "cobblestone",
+     "count": 20
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 15000,
+  "prerequisites": [
+   "build_cobble_house"
+  ],
+  "source": "none (no vanilla advancement; curriculum filler) (tower massing from structure data)"
+ },
+ {
+  "id": "build_bridge",
+  "name": "Build a bridge",
+  "family": "build",
+  "description": "Build the bridge blueprint across a gap.",
+  "params": {
+   "blueprint": "bridge"
+  },
+  "success": {
+   "type": "build_complete",
+   "blueprint": "bridge",
+   "min_progress": 1.0
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "build_complete",
+     "blueprint": "bridge",
+     "min_progress": 0.5
+    },
+    "reward": 0.2
+   },
+   {
+    "predicate": {
+     "type": "placed",
+     "block": "oak_planks",
+     "count": 10
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 8000,
+  "prerequisites": [
+   "tools_stone_pickaxe"
+  ],
+  "source": "none (no vanilla advancement; curriculum filler)"
+ },
+ {
+  "id": "build_wall_segment",
+  "name": "Build a wall segment",
+  "family": "build",
+  "description": "Build the wall_segment blueprint.",
+  "params": {
+   "blueprint": "wall_segment"
+  },
+  "success": {
+   "type": "build_complete",
+   "blueprint": "wall_segment",
+   "min_progress": 1.0
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "build_complete",
+     "blueprint": "wall_segment",
+     "min_progress": 0.5
+    },
+    "reward": 0.2
+   },
+   {
+    "predicate": {
+     "type": "placed",
+     "block": "cobblestone",
+     "count": 16
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 6000,
+  "prerequisites": [
+   "tools_stone_pickaxe"
+  ],
+  "source": "none (no vanilla advancement; curriculum filler) (defensive wall)"
+ },
+ {
+  "id": "build_farm_plot",
+  "name": "Build a farm plot",
+  "family": "build",
+  "description": "Build the farm_plot blueprint.",
+  "params": {
+   "blueprint": "farm_plot"
+  },
+  "success": {
+   "type": "build_complete",
+   "blueprint": "farm_plot",
+   "min_progress": 1.0
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "build_complete",
+     "blueprint": "farm_plot",
+     "min_progress": 0.5
+    },
+    "reward": 0.2
+   },
+   {
+    "predicate": {
+     "type": "placed",
+     "block": "dirt",
+     "count": 9
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 4000,
+  "prerequisites": [
+   "tools_crafting_table"
+  ],
+  "source": "husbandry/plant_seed (farm plot to plant on)"
+ },
+ {
+  "id": "combat_kill_zombie",
+  "name": "Kill a zombie",
+  "family": "combat",
+  "description": "Kill one zombie.",
+  "params": {
+   "mob": "zombie",
+   "count": 1
+  },
+  "success": {
+   "type": "killed",
+   "mob": "zombie",
+   "count": 1
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "distance_travelled",
+     "n": 50
+    },
+    "reward": 0.05
+   }
+  ],
+  "max_steps": 6000,
+  "prerequisites": [],
+  "source": "adventure/kill_a_mob"
+ },
+ {
+  "id": "combat_kill_skeleton",
+  "name": "Kill a skeleton",
+  "family": "combat",
+  "description": "Kill one skeleton.",
+  "params": {
+   "mob": "skeleton",
+   "count": 1
+  },
+  "success": {
+   "type": "killed",
+   "mob": "skeleton",
+   "count": 1
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "killed",
+     "mob": "zombie",
+     "count": 1
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 6000,
+  "prerequisites": [
+   "combat_kill_zombie"
+  ],
+  "source": "adventure/kill_a_mob (skeleton); adventure/sniper_duel"
+ },
+ {
+  "id": "combat_kill_spider",
+  "name": "Kill a spider",
+  "family": "combat",
+  "description": "Kill one spider.",
+  "params": {
+   "mob": "spider",
+   "count": 1
+  },
+  "success": {
+   "type": "killed",
+   "mob": "spider",
+   "count": 1
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "distance_travelled",
+     "n": 100
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 6000,
+  "prerequisites": [
+   "combat_kill_zombie"
+  ],
+  "source": "adventure/kill_a_mob (spider)"
+ },
+ {
+  "id": "combat_kill_creeper",
+  "name": "Kill a creeper",
+  "family": "combat",
+  "description": "Kill one creeper.",
+  "params": {
+   "mob": "creeper",
+   "count": 1
+  },
+  "success": {
+   "type": "killed",
+   "mob": "creeper",
+   "count": 1
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "distance_travelled",
+     "n": 100
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 6000,
+  "prerequisites": [
+   "combat_kill_zombie"
+  ],
+  "source": "adventure/kill_a_mob (creeper)"
+ },
+ {
+  "id": "combat_zombie_horde",
+  "name": "Kill 5 zombies",
+  "family": "combat",
+  "description": "Kill five zombies.",
+  "params": {
+   "mob": "zombie",
+   "count": 5
+  },
+  "success": {
+   "type": "killed",
+   "mob": "zombie",
+   "count": 5
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "killed",
+     "mob": "zombie",
+     "count": 2
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 9000,
+  "prerequisites": [
+   "combat_kill_zombie"
+  ],
+  "source": "adventure/kill_all_mobs"
+ },
+ {
+  "id": "combat_iron_sword",
+  "name": "Craft an iron sword",
+  "family": "combat",
+  "description": "Smelt iron and craft an iron sword.",
+  "params": {
+   "item": "iron_sword",
+   "count": 1
+  },
+  "success": {
+   "type": "crafted",
+   "item": "iron_sword"
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "has_item",
+     "item": "iron_ingot",
+     "count": 2
+    },
+    "reward": 0.1
+   },
+   {
+    "predicate": {
+     "type": "has_item",
+     "item": "stick",
+     "count": 1
+    },
+    "reward": 0.05
+   }
+  ],
+  "max_steps": 1500,
+  "prerequisites": [
+   "gather_iron",
+   "tools_furnace"
+  ],
+  "source": "story/iron_tools"
+ },
+ {
+  "id": "combat_iron_chestplate",
+  "name": "Craft an iron chestplate",
+  "family": "combat",
+  "description": "Smelt iron and craft an iron chestplate.",
+  "params": {
+   "item": "iron_chestplate",
+   "count": 1
+  },
+  "success": {
+   "type": "has_item",
+   "item": "iron_chestplate",
+   "count": 1
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "has_item",
+     "item": "iron_ingot",
+     "count": 4
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 4000,
+  "prerequisites": [
+   "gather_iron",
+   "tools_furnace"
+  ],
+  "source": "story/obtain_armor"
+ },
+ {
+  "id": "survival_eat_any",
+  "name": "Eat anything",
+  "family": "survival",
+  "description": "Eat any food item.",
+  "params": {
+   "food": "any"
+  },
+  "success": {
+   "type": "ate",
+   "food": "any"
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "killed",
+     "mob": "cow",
+     "count": 1
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 1000,
+  "prerequisites": [],
+  "source": "husbandry/root (consumed_item)"
+ },
+ {
+  "id": "survival_recover_health",
+  "name": "Heal to 18 health",
+  "family": "survival",
+  "description": "Eat food and recover health to 18 or more.",
+  "params": {
+   "health": 18
+  },
+  "success": {
+   "type": "health_above",
+   "n": 18
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "health_above",
+     "n": 10
+    },
+    "reward": 0.1
+   },
+   {
+    "predicate": {
+     "type": "ate",
+     "food": "any"
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 2000,
+  "prerequisites": [
+   "survival_eat_any"
+  ],
+  "source": "none (no vanilla advancement; curriculum filler) (food-based regeneration)"
+ },
+ {
+  "id": "survival_sleep_in_bed",
+  "name": "Sleep in a bed",
+  "family": "survival",
+  "description": "Craft a bed and sleep in it.",
+  "params": {
+   "item": "white_bed",
+   "count": 1
+  },
+  "success": {
+   "type": "slept"
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "killed",
+     "mob": "sheep",
+     "count": 1
+    },
+    "reward": 0.1
+   },
+   {
+    "predicate": {
+     "type": "crafted",
+     "item": "white_bed"
+    },
+    "reward": 0.2
+   }
+  ],
+  "max_steps": 6000,
+  "prerequisites": [
+   "food_hunt_sheep",
+   "build_dirt_hut"
+  ],
+  "source": "adventure/sleep_in_bed"
+ },
+ {
+  "id": "survival_survive_night_hut",
+  "name": "Survive a night in a shelter",
+  "family": "survival",
+  "description": "Survive the night in or near a dirt hut.",
+  "params": {},
+  "success": {
+   "type": "survive_night"
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "placed",
+     "block": "dirt",
+     "count": 4
+    },
+    "reward": 0.05
+   },
+   {
+    "predicate": {
+     "type": "killed",
+     "mob": "zombie",
+     "count": 1
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 14000,
+  "prerequisites": [
+   "build_dirt_hut",
+   "combat_kill_zombie"
+  ],
+  "source": "adventure/sleep_in_bed (night survival)"
+ },
+ {
+  "id": "survival_survive_night_bed",
+  "name": "Survive a night with a bed",
+  "family": "survival",
+  "description": "Survive the night using a bed.",
+  "params": {},
+  "success": {
+   "type": "survive_night"
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "killed",
+     "mob": "zombie",
+     "count": 1
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 14000,
+  "prerequisites": [
+   "survival_sleep_in_bed"
+  ],
+  "start_kit": {
+   "white_bed": 1
+  },
+  "source": "adventure/sleep_in_bed"
+ },
+ {
+  "id": "nether_flint_and_steel",
+  "name": "Craft flint and steel",
+  "family": "nether",
+  "description": "Craft flint and steel to light a portal.",
+  "params": {
+   "item": "flint_and_steel",
+   "count": 1
+  },
+  "success": {
+   "type": "crafted",
+   "item": "flint_and_steel"
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "has_item",
+     "item": "flint",
+     "count": 1
+    },
+    "reward": 0.1
+   },
+   {
+    "predicate": {
+     "type": "has_item",
+     "item": "iron_ingot",
+     "count": 1
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 2000,
+  "prerequisites": [
+   "gather_gravel",
+   "gather_iron",
+   "tools_furnace"
+  ],
+  "source": "story/form_obsidian (flint and steel lights the portal)"
+ },
+ {
+  "id": "nether_build_portal",
+  "name": "Build a nether portal frame",
+  "family": "nether",
+  "description": "Build the nether_portal obsidian frame.",
+  "params": {
+   "blueprint": "nether_portal"
+  },
+  "success": {
+   "type": "build_complete",
+   "blueprint": "nether_portal",
+   "min_progress": 1.0
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "has_item",
+     "item": "obsidian",
+     "count": 10
+    },
+    "reward": 0.1
+   },
+   {
+    "predicate": {
+     "type": "build_complete",
+     "blueprint": "nether_portal",
+     "min_progress": 0.5
+    },
+    "reward": 0.2
+   }
+  ],
+  "max_steps": 6000,
+  "prerequisites": [
+   "gather_obsidian"
+  ],
+  "start_kit": {
+   "obsidian": 20
+  },
+  "source": "story/enter_the_nether (portal frame)"
+ },
+ {
+  "id": "nether_light_portal",
+  "name": "Light the nether portal",
+  "family": "nether",
+  "description": "Light the built portal frame with flint and steel.",
+  "params": {},
+  "success": {
+   "type": "portal_lit"
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "has_item",
+     "item": "flint_and_steel",
+     "count": 1
+    },
+    "reward": 0.1
+   },
+   {
+    "predicate": {
+     "type": "build_complete",
+     "blueprint": "nether_portal",
+     "min_progress": 1.0
+    },
+    "reward": 0.2
+   }
+  ],
+  "max_steps": 3000,
+  "prerequisites": [
+   "nether_build_portal",
+   "nether_flint_and_steel"
+  ],
+  "start_kit": {
+   "obsidian": 20,
+   "flint_and_steel": 1
+  },
+  "source": "story/enter_the_nether"
+ },
+ {
+  "id": "nether_enter",
+  "name": "Enter the Nether",
+  "family": "nether",
+  "description": "Obtain obsidian, build and light the portal, and step through into the Nether.",
+  "params": {
+   "dim": "nether"
+  },
+  "success": {
+   "type": "in_dimension",
+   "dim": "nether"
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "has_item",
+     "item": "obsidian",
+     "count": 10
+    },
+    "reward": 0.1
+   },
+   {
+    "predicate": {
+     "type": "crafted",
+     "item": "flint_and_steel"
+    },
+    "reward": 0.1
+   },
+   {
+    "predicate": {
+     "type": "placed",
+     "block": "obsidian",
+     "count": 10
+    },
+    "reward": 0.2
+   },
+   {
+    "predicate": {
+     "type": "portal_lit"
+    },
+    "reward": 0.2
+   }
+  ],
+  "max_steps": 20000,
+  "prerequisites": [
+   "nether_light_portal"
+  ],
+  "start_kit": {
+   "obsidian": 20,
+   "flint_and_steel": 1
+  },
+  "source": "story/enter_the_nether"
+ },
+ {
+  "id": "nether_gather_netherrack",
+  "name": "Mine 16 netherrack",
+  "family": "nether",
+  "description": "Mine 16 netherrack in the Nether.",
+  "params": {
+   "item": "netherrack",
+   "count": 16
+  },
+  "success": {
+   "type": "mined",
+   "block": "netherrack",
+   "count": 16
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "mined",
+     "block": "netherrack",
+     "count": 4
+    },
+    "reward": 0.1
+   },
+   {
+    "predicate": {
+     "type": "mined",
+     "block": "netherrack",
+     "count": 8
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 6000,
+  "prerequisites": [
+   "nether_enter",
+   "tools_iron_pickaxe"
+  ],
+  "start_kit": {
+   "iron_pickaxe": 1
+  },
+  "source": "nether/root (Nether terrain)"
+ },
+ {
+  "id": "nether_gather_quartz",
+  "name": "Mine 4 nether quartz",
+  "family": "nether",
+  "description": "Mine four nether quartz.",
+  "params": {
+   "item": "quartz",
+   "count": 4
+  },
+  "success": {
+   "type": "has_item",
+   "item": "quartz",
+   "count": 4
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "mined",
+     "block": "nether_quartz_ore",
+     "count": 1
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 8000,
+  "prerequisites": [
+   "nether_enter"
+  ],
+  "start_kit": {
+   "iron_pickaxe": 1
+  },
+  "source": "nether/root"
+ },
+ {
+  "id": "nether_kill_piglin",
+  "name": "Kill a zombified piglin",
+  "family": "nether",
+  "description": "Kill one zombified piglin in the Nether.",
+  "params": {
+   "mob": "zombified_piglin",
+   "count": 1
+  },
+  "success": {
+   "type": "killed",
+   "mob": "zombified_piglin",
+   "count": 1
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "in_dimension",
+     "dim": "nether"
+    },
+    "reward": 0.1
+   },
+   {
+    "predicate": {
+     "type": "crafted",
+     "item": "iron_sword"
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 12000,
+  "prerequisites": [
+   "nether_enter",
+   "combat_iron_sword"
+  ],
+  "start_kit": {
+   "iron_sword": 1
+  },
+  "source": "adventure/kill_a_mob (zombified_piglin)"
+ },
+ {
+  "id": "nether_glowstone",
+  "name": "Collect glowstone dust",
+  "family": "nether",
+  "description": "Mine glowstone and collect 4 glowstone dust.",
+  "params": {
+   "item": "glowstone_dust",
+   "count": 4
+  },
+  "success": {
+   "type": "has_item",
+   "item": "glowstone_dust",
+   "count": 4
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "mined",
+     "block": "glowstone",
+     "count": 1
+    },
+    "reward": 0.2
+   },
+   {
+    "predicate": {
+     "type": "in_dimension",
+     "dim": "nether"
+    },
+    "reward": 0.05
+   }
+  ],
+  "max_steps": 10000,
+  "prerequisites": [
+   "nether_enter"
+  ],
+  "start_kit": {
+   "iron_pickaxe": 1
+  },
+  "source": "nether/root (glowstone)"
+ },
+ {
+  "id": "nether_soul_sand",
+  "name": "Mine soul sand",
+  "family": "nether",
+  "description": "Mine 4 soul sand in the Nether.",
+  "params": {
+   "block": "soul_sand",
+   "count": 4
+  },
+  "success": {
+   "type": "mined",
+   "block": "soul_sand",
+   "count": 4
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "mined",
+     "block": "soul_sand",
+     "count": 1
+    },
+    "reward": 0.1
+   },
+   {
+    "predicate": {
+     "type": "in_dimension",
+     "dim": "nether"
+    },
+    "reward": 0.05
+   }
+  ],
+  "max_steps": 8000,
+  "prerequisites": [
+   "nether_enter"
+  ],
+  "start_kit": {
+   "iron_shovel": 1
+  },
+  "source": "nether/root (soul sand valley)"
+ },
+ {
+  "id": "nether_resources",
+  "name": "Gather Nether resources",
+  "family": "nether",
+  "description": "Collect quartz, glowstone dust and netherrack in one trip.",
+  "params": {
+   "item": "quartz",
+   "count": 2
+  },
+  "success": {
+   "type": "has_item",
+   "item": "quartz",
+   "count": 2
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "mined",
+     "block": "netherrack",
+     "count": 8
+    },
+    "reward": 0.1
+   },
+   {
+    "predicate": {
+     "type": "has_item",
+     "item": "glowstone_dust",
+     "count": 2
+    },
+    "reward": 0.2
+   },
+   {
+    "predicate": {
+     "type": "in_dimension",
+     "dim": "nether"
+    },
+    "reward": 0.05
+   }
+  ],
+  "max_steps": 15000,
+  "prerequisites": [
+   "nether_gather_quartz",
+   "nether_glowstone"
+  ],
+  "start_kit": {
+   "iron_pickaxe": 1
+  },
+  "source": "nether/root"
+ },
+ {
+  "id": "explore_walk_100",
+  "name": "Travel 100 blocks",
+  "family": "explore",
+  "description": "Walk a total of 100 blocks.",
+  "params": {
+   "n": 100
+  },
+  "success": {
+   "type": "distance_travelled",
+   "n": 100
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "distance_travelled",
+     "n": 30
+    },
+    "reward": 0.1
+   },
+   {
+    "predicate": {
+     "type": "distance_travelled",
+     "n": 60
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 1500,
+  "prerequisites": [],
+  "source": "nether/fast_travel (scaled down from 7000 horizontal)"
+ },
+ {
+  "id": "explore_walk_500",
+  "name": "Travel 500 blocks",
+  "family": "explore",
+  "description": "Walk a total of 500 blocks.",
+  "params": {
+   "n": 500
+  },
+  "success": {
+   "type": "distance_travelled",
+   "n": 500
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "distance_travelled",
+     "n": 150
+    },
+    "reward": 0.1
+   },
+   {
+    "predicate": {
+     "type": "distance_travelled",
+     "n": 250
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 4000,
+  "prerequisites": [
+   "explore_walk_100"
+  ],
+  "source": "nether/fast_travel (scaled down)"
+ },
+ {
+  "id": "explore_deep_mine",
+  "name": "Mine down to y 16",
+  "family": "explore",
+  "description": "Dig down to y 16 or below.",
+  "params": {
+   "max_y": 16
+  },
+  "success": {
+   "type": "reached_y",
+   "max_y": 16
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "mined",
+     "block": "stone",
+     "count": 16
+    },
+    "reward": 0.1
+   },
+   {
+    "predicate": {
+     "type": "mined",
+     "block": "iron_ore",
+     "count": 1
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 6000,
+  "prerequisites": [
+   "gather_iron"
+  ],
+  "source": "story/mine_diamond (deep ore levels)"
+ },
+ {
+  "id": "explore_nether_walk",
+  "name": "Travel 300 blocks in the Nether",
+  "family": "explore",
+  "description": "Walk 300 blocks total after reaching the Nether.",
+  "params": {
+   "n": 300
+  },
+  "success": {
+   "type": "distance_travelled",
+   "n": 300
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "in_dimension",
+     "dim": "nether"
+    },
+    "reward": 0.1
+   },
+   {
+    "predicate": {
+     "type": "distance_travelled",
+     "n": 100
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 8000,
+  "prerequisites": [
+   "nether_enter",
+   "explore_walk_100"
+  ],
+  "start_kit": {
+   "cooked_beef": 8
+  },
+  "source": "nether/explore_nether"
+ },
+ {
+  "id": "social_crouch_greet",
+  "name": "Crouch-greet a teammate",
+  "family": "social",
+  "description": "Crouch-greet a nearby teammate (sneak toggles while facing them).",
+  "params": {
+   "count": 3
+  },
+  "success": {
+   "type": "crouch_greet",
+   "count": 3
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "crouch_greet",
+     "count": 1
+    },
+    "reward": 0.05
+   }
+  ],
+  "max_steps": 3000,
+  "prerequisites": [],
+  "source": "none (no vanilla advancement; curriculum filler) (multiplayer etiquette, PROTOCOL 12.8)"
+ },
+ {
+  "id": "social_look_at_teammate",
+  "name": "Look at a teammate",
+  "family": "social",
+  "description": "Look at teammates with the crosshair on them.",
+  "params": {
+   "count": 10
+  },
+  "success": {
+   "type": "look_at_teammate",
+   "count": 10
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "look_at_teammate",
+     "count": 3
+    },
+    "reward": 0.05
+   }
+  ],
+  "max_steps": 2000,
+  "prerequisites": [],
+  "source": "none (no vanilla advancement; curriculum filler) (PROTOCOL 12.8)"
+ },
+ {
+  "id": "social_stay_together",
+  "name": "Stay near a teammate",
+  "family": "social",
+  "description": "Stay within 6 blocks of a teammate for 200 decisions.",
+  "params": {
+   "dist": 6,
+   "steps": 200
+  },
+  "success": {
+   "type": "near_teammate",
+   "dist": 6,
+   "steps": 200
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "near_teammate",
+     "dist": 6,
+     "steps": 50
+    },
+    "reward": 0.05
+   }
+  ],
+  "max_steps": 3000,
+  "prerequisites": [],
+  "source": "none (no vanilla advancement; curriculum filler) (PROTOCOL 12.8)"
+ },
+ {
+  "id": "social_follow_teammate",
+  "name": "Follow a teammate",
+  "family": "social",
+  "description": "Follow a teammate that is 3 to 8 blocks away while moving.",
+  "params": {
+   "steps": 100
+  },
+  "success": {
+   "type": "follow_teammate",
+   "steps": 100
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "follow_teammate",
+     "steps": 20
+    },
+    "reward": 0.05
+   }
+  ],
+  "max_steps": 3000,
+  "prerequisites": [],
+  "source": "none (no vanilla advancement; curriculum filler) (PROTOCOL 12.8)"
+ },
+ {
+  "id": "social_chat_nearby",
+  "name": "Say hi to a teammate",
+  "family": "social",
+  "description": "Send a non-silent chat token while a teammate is within 8 blocks.",
+  "params": {
+   "count": 3
+  },
+  "success": {
+   "type": "msg_near_teammate",
+   "count": 3
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "msg_near_teammate",
+     "count": 1
+    },
+    "reward": 0.05
+   }
+  ],
+  "max_steps": 2000,
+  "prerequisites": [],
+  "source": "none (no vanilla advancement; curriculum filler) (PROTOCOL 12.8)"
+ },
+ {
+  "id": "social_share_chest",
+  "name": "Share a chest with a teammate",
+  "family": "social",
+  "description": "Give an item to a teammate and share a chest with them.",
+  "params": {
+   "count": 1
+  },
+  "success": {
+   "type": "shared_chest",
+   "count": 1
+  },
+  "milestones": [
+   {
+    "predicate": {
+     "type": "gave_item",
+     "count": 1
+    },
+    "reward": 0.1
+   }
+  ],
+  "max_steps": 4000,
+  "prerequisites": [],
+  "start_kit": {
+   "chest": 1
+  },
+  "source": "none (no vanilla advancement; curriculum filler) (PROTOCOL 12.8)"
+ }
+]

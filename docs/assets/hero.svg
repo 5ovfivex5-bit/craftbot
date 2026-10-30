@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-labelledby="title desc">
+  <title id="title">CraftBot — learn by doing</title>
+  <desc id="desc">A voxel cube connected to a recurrent neural policy. A CPU-first embodied learning lab.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101c2a"/><stop offset="1" stop-color="#152d35"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#9adac9" stroke-opacity=".055"/></pattern>
+  </defs>
+  <rect width="1200" height="350" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="350" rx="20" fill="url(#grid)"/>
+  <rect x="60" y="57" width="222" height="30" rx="15" fill="#25453f"/>
+  <text x="78" y="77" fill="#a5efcf" font-family="monospace" font-size="13" letter-spacing="2">EMBODIED LEARNING LAB</text>
+  <text x="57" y="167" fill="#f2f5ef" font-family="sans-serif" font-weight="700" font-size="76" letter-spacing="-3">CraftBot</text>
+  <text x="60" y="213" fill="#b6c9c9" font-family="sans-serif" font-size="25">A small agent. A world of things to learn.</text>
+  <text x="60" y="277" fill="#8fcbbf" font-family="monospace" font-size="15">VOXEL SIMULATOR  /  RECURRENT PPO  /  TRAINING STUDIO</text>
+  <g transform="translate(833 87)">
+    <path d="M0 55 90 3 180 55 90 107Z" fill="#91d38b"/>
+    <path d="M0 55 90 107V209L0 157Z" fill="#406e56"/>
+    <path d="M90 107 180 55V157L90 209Z" fill="#284c45"/>
+    <path d="M0 55 90 107 180 55M90 107V209" fill="none" stroke="#b1ecc0" stroke-opacity=".25" stroke-width="2"/>
+    <g fill="#e8b56d"><rect x="28" y="95" width="16" height="16" transform="skewY(30)"/><rect x="58" y="117" width="12" height="12"/></g>
+  </g>
+  <g stroke="#75c7ba" stroke-width="2" fill="#18303a">
+    <path d="M1014 146 1080 105 1125 160 1080 219 1014 206M1080 105V219" fill="none" stroke-opacity=".5"/>
+    <circle cx="1080" cy="105" r="9"/><circle cx="1125" cy="160" r="9"/><circle cx="1080" cy="219" r="9"/>
+    <path d="M1136 165C1170 200 1140 264 1090 246" fill="none" stroke-dasharray="5 5"/>
+  </g>
+</svg>

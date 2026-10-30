@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "minemind_recorder",
+	"version": "${version}",
+	"name": "MineMind Recorder",
+	"description": "Records human gameplay (inputs, observations, labels) for MineMind behavior-cloning pretraining.",
+	"authors": ["deck"],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.minemind.recorder.RecorderMod"],
+		"client": ["com.minemind.recorder.RecorderClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.0",
+		"fabric-api": "*",
+		"minecraft": "~26.2",
+		"java": ">=25"
+	}
+}

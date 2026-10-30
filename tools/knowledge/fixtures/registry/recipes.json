@@ -1,0 +1,12 @@
+[
+ {"id":0,"result":"oak_planks","count":4,"ingredients":{"oak_log":1},"needs":"inventory"},
+ {"id":1,"result":"stick","count":4,"ingredients":{"oak_planks":2},"needs":"inventory"},
+ {"id":2,"result":"crafting_table","count":1,"ingredients":{"oak_planks":4},"needs":"inventory"},
+ {"id":3,"result":"wooden_pickaxe","count":1,"ingredients":{"oak_planks":3,"stick":2},"needs":"crafting_table"},
+ {"id":4,"result":"furnace","count":1,"ingredients":{"cobblestone":8},"needs":"crafting_table"},
+ {"id":5,"result":"stone_pickaxe","count":1,"ingredients":{"cobblestone":3,"stick":2},"needs":"crafting_table"},
+ {"id":6,"result":"iron_ingot","count":1,"ingredients":{"raw_iron":1},"needs":"furnace","cook_ticks":200},
+ {"id":7,"result":"cooked_beef","count":1,"ingredients":{"beef":1},"needs":"furnace","cook_ticks":200},
+ {"id":8,"result":"iron_pickaxe","count":1,"ingredients":{"iron_ingot":3,"stick":2},"needs":"crafting_table"},
+ {"id":9,"result":"chest","count":1,"ingredients":{"oak_planks":8},"needs":"crafting_table"}
+]

@@ -1,0 +1,17 @@
+gather_wood OLD mean over tasks                                              81.2%
+gather_wood NEW mean over tasks                                               6.2%
+tools_wooden_pickaxe OLD mean over tasks                                               0.0%
+tools_wooden_pickaxe NEW mean over tasks                                               0.0%
+tools_stone_pickaxe OLD mean over tasks                                               0.0%
+tools_stone_pickaxe NEW mean over tasks                                               0.0%
+food_hunt_pig OLD mean over tasks                                               0.0%
+food_hunt_pig NEW mean over tasks                                               0.0%
+survival_eat_any OLD mean over tasks                                               0.0%
+survival_eat_any NEW mean over tasks                                               0.0%
+combat_kill_zombie OLD mean over tasks                                               0.0%
+combat_kill_zombie NEW mean over tasks                                               0.0%
+build_dirt_hut OLD mean over tasks                                               0.0%
+build_dirt_hut NEW mean over tasks                                               0.0%
+social_stay_together OLD mean over tasks                                             100.0%
+social_stay_together NEW mean over tasks                                             100.0%
+ALLDONE

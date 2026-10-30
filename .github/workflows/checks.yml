@@ -1,0 +1,26 @@
+name: CPU checks
+
+on: [push, pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  simulator:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install native build tools
+        run: sudo apt-get update && sudo apt-get install -y cmake g++
+      - name: Install Python dependencies
+        run: |
+          python -m venv .venv
+          .venv/bin/python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+          .venv/bin/python -m pip install -r requirements.txt
+      - name: Build simulator
+        run: JOBS=2 ./build.sh
+      - name: Validate registry, task graph and simulator
+        run: .venv/bin/python tools/check_project.py

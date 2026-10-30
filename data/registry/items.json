@@ -1,0 +1,1282 @@
+[
+ {
+  "name": "oak_log",
+  "id": 0,
+  "stack": 64,
+  "kind": "block",
+  "places_block": "oak_log",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 300,
+  "value": 1
+ },
+ {
+  "name": "oak_planks",
+  "id": 1,
+  "stack": 64,
+  "kind": "block",
+  "places_block": "oak_planks",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 300,
+  "value": 2
+ },
+ {
+  "name": "stick",
+  "id": 2,
+  "stack": 64,
+  "kind": "material",
+  "places_block": null,
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 100,
+  "value": 2
+ },
+ {
+  "name": "crafting_table",
+  "id": 3,
+  "stack": 64,
+  "kind": "block",
+  "places_block": "crafting_table",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 300,
+  "value": 2
+ },
+ {
+  "name": "wooden_pickaxe",
+  "id": 4,
+  "stack": 1,
+  "kind": "tool",
+  "places_block": null,
+  "tool": {
+   "type": "pickaxe",
+   "tier": 1,
+   "speed": 2.0,
+   "damage": 2.0,
+   "durability": 59
+  },
+  "food": null,
+  "fuel_ticks": 200,
+  "value": 4
+ },
+ {
+  "name": "cobblestone",
+  "id": 5,
+  "stack": 64,
+  "kind": "block",
+  "places_block": "cobblestone",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "stone_pickaxe",
+  "id": 6,
+  "stack": 1,
+  "kind": "tool",
+  "places_block": null,
+  "tool": {
+   "type": "pickaxe",
+   "tier": 2,
+   "speed": 4.0,
+   "damage": 3.0,
+   "durability": 131
+  },
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 4
+ },
+ {
+  "name": "furnace",
+  "id": 7,
+  "stack": 64,
+  "kind": "block",
+  "places_block": "furnace",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 2
+ },
+ {
+  "name": "coal",
+  "id": 8,
+  "stack": 64,
+  "kind": "material",
+  "places_block": null,
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 1600,
+  "value": 1
+ },
+ {
+  "name": "raw_iron",
+  "id": 9,
+  "stack": 64,
+  "kind": "material",
+  "places_block": null,
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "iron_ingot",
+  "id": 10,
+  "stack": 64,
+  "kind": "material",
+  "places_block": null,
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 2
+ },
+ {
+  "name": "iron_pickaxe",
+  "id": 11,
+  "stack": 1,
+  "kind": "tool",
+  "places_block": null,
+  "tool": {
+   "type": "pickaxe",
+   "tier": 3,
+   "speed": 6.0,
+   "damage": 4.0,
+   "durability": 250
+  },
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 8
+ },
+ {
+  "name": "diamond",
+  "id": 12,
+  "stack": 64,
+  "kind": "material",
+  "places_block": null,
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 16
+ },
+ {
+  "name": "dirt",
+  "id": 13,
+  "stack": 64,
+  "kind": "block",
+  "places_block": "dirt",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "chest",
+  "id": 14,
+  "stack": 64,
+  "kind": "block",
+  "places_block": "chest",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 300,
+  "value": 2
+ },
+ {
+  "name": "stone",
+  "id": 15,
+  "stack": 64,
+  "kind": "block",
+  "places_block": "stone",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "sand",
+  "id": 16,
+  "stack": 64,
+  "kind": "block",
+  "places_block": "sand",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "gravel",
+  "id": 17,
+  "stack": 64,
+  "kind": "block",
+  "places_block": "gravel",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "flint",
+  "id": 18,
+  "stack": 64,
+  "kind": "material",
+  "places_block": null,
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "glass",
+  "id": 19,
+  "stack": 64,
+  "kind": "block",
+  "places_block": "glass",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "obsidian",
+  "id": 20,
+  "stack": 64,
+  "kind": "block",
+  "places_block": "obsidian",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "netherrack",
+  "id": 21,
+  "stack": 64,
+  "kind": "block",
+  "places_block": "netherrack",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "soul_sand",
+  "id": 22,
+  "stack": 64,
+  "kind": "block",
+  "places_block": "soul_sand",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "glowstone",
+  "id": 23,
+  "stack": 64,
+  "kind": "block",
+  "places_block": "glowstone",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "glowstone_dust",
+  "id": 24,
+  "stack": 64,
+  "kind": "material",
+  "places_block": null,
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "cobbled_deepslate",
+  "id": 25,
+  "stack": 64,
+  "kind": "block",
+  "places_block": "cobbled_deepslate",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "granite",
+  "id": 26,
+  "stack": 64,
+  "kind": "block",
+  "places_block": "granite",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "diorite",
+  "id": 27,
+  "stack": 64,
+  "kind": "block",
+  "places_block": "diorite",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "andesite",
+  "id": 28,
+  "stack": 64,
+  "kind": "block",
+  "places_block": "andesite",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "stone_bricks",
+  "id": 29,
+  "stack": 64,
+  "kind": "block",
+  "places_block": "stone_bricks",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 2
+ },
+ {
+  "name": "magma_block",
+  "id": 30,
+  "stack": 64,
+  "kind": "block",
+  "places_block": "magma_block",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "raw_gold",
+  "id": 31,
+  "stack": 64,
+  "kind": "material",
+  "places_block": null,
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "gold_ingot",
+  "id": 32,
+  "stack": 64,
+  "kind": "material",
+  "places_block": null,
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 2
+ },
+ {
+  "name": "quartz",
+  "id": 33,
+  "stack": 64,
+  "kind": "material",
+  "places_block": null,
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "cobblestone_stairs",
+  "id": 34,
+  "stack": 64,
+  "kind": "block",
+  "places_block": "cobblestone_stairs",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 2
+ },
+ {
+  "name": "cobblestone_slab",
+  "id": 35,
+  "stack": 64,
+  "kind": "block",
+  "places_block": "cobblestone_slab",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 2
+ },
+ {
+  "name": "oak_stairs",
+  "id": 36,
+  "stack": 64,
+  "kind": "block",
+  "places_block": "oak_stairs",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 300,
+  "value": 2
+ },
+ {
+  "name": "oak_slab",
+  "id": 37,
+  "stack": 64,
+  "kind": "block",
+  "places_block": "oak_slab",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 150,
+  "value": 2
+ },
+ {
+  "name": "oak_fence",
+  "id": 38,
+  "stack": 64,
+  "kind": "block",
+  "places_block": "oak_fence",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 300,
+  "value": 2
+ },
+ {
+  "name": "oak_door",
+  "id": 39,
+  "stack": 64,
+  "kind": "block",
+  "places_block": "oak_door",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 200,
+  "value": 2
+ },
+ {
+  "name": "oak_trapdoor",
+  "id": 40,
+  "stack": 64,
+  "kind": "block",
+  "places_block": "oak_trapdoor",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 300,
+  "value": 2
+ },
+ {
+  "name": "ladder",
+  "id": 41,
+  "stack": 64,
+  "kind": "block",
+  "places_block": "ladder",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 300,
+  "value": 2
+ },
+ {
+  "name": "torch",
+  "id": 42,
+  "stack": 64,
+  "kind": "block",
+  "places_block": "torch",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 200,
+  "value": 2
+ },
+ {
+  "name": "white_wool",
+  "id": 43,
+  "stack": 64,
+  "kind": "block",
+  "places_block": "white_wool",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 100,
+  "value": 1
+ },
+ {
+  "name": "white_bed",
+  "id": 44,
+  "stack": 64,
+  "kind": "block",
+  "places_block": "white_bed",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 300,
+  "value": 2
+ },
+ {
+  "name": "wheat",
+  "id": 45,
+  "stack": 64,
+  "kind": "material",
+  "places_block": null,
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "string",
+  "id": 46,
+  "stack": 64,
+  "kind": "material",
+  "places_block": null,
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "bone",
+  "id": 47,
+  "stack": 64,
+  "kind": "material",
+  "places_block": null,
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "arrow",
+  "id": 48,
+  "stack": 64,
+  "kind": "material",
+  "places_block": null,
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "leather",
+  "id": 49,
+  "stack": 64,
+  "kind": "material",
+  "places_block": null,
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "feather",
+  "id": 50,
+  "stack": 64,
+  "kind": "material",
+  "places_block": null,
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "gunpowder",
+  "id": 51,
+  "stack": 64,
+  "kind": "material",
+  "places_block": null,
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "ender_pearl",
+  "id": 52,
+  "stack": 16,
+  "kind": "misc",
+  "places_block": null,
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "bucket",
+  "id": 53,
+  "stack": 16,
+  "kind": "misc",
+  "places_block": null,
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "water_bucket",
+  "id": 54,
+  "stack": 1,
+  "kind": "misc",
+  "places_block": "water",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "lava_bucket",
+  "id": 55,
+  "stack": 1,
+  "kind": "misc",
+  "places_block": "lava",
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "flint_and_steel",
+  "id": 56,
+  "stack": 64,
+  "kind": "misc",
+  "places_block": null,
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 2
+ },
+ {
+  "name": "wooden_axe",
+  "id": 57,
+  "stack": 1,
+  "kind": "tool",
+  "places_block": null,
+  "tool": {
+   "type": "axe",
+   "tier": 1,
+   "speed": 2.0,
+   "damage": 7.0,
+   "durability": 59
+  },
+  "food": null,
+  "fuel_ticks": 200,
+  "value": 4
+ },
+ {
+  "name": "wooden_shovel",
+  "id": 58,
+  "stack": 1,
+  "kind": "tool",
+  "places_block": null,
+  "tool": {
+   "type": "shovel",
+   "tier": 1,
+   "speed": 2.0,
+   "damage": 2.5,
+   "durability": 59
+  },
+  "food": null,
+  "fuel_ticks": 200,
+  "value": 4
+ },
+ {
+  "name": "wooden_sword",
+  "id": 59,
+  "stack": 1,
+  "kind": "weapon",
+  "places_block": null,
+  "tool": {
+   "type": "sword",
+   "tier": 1,
+   "speed": 2.0,
+   "damage": 4.0,
+   "durability": 59
+  },
+  "food": null,
+  "fuel_ticks": 200,
+  "value": 4
+ },
+ {
+  "name": "wooden_hoe",
+  "id": 60,
+  "stack": 1,
+  "kind": "tool",
+  "places_block": null,
+  "tool": {
+   "type": "hoe",
+   "tier": 1,
+   "speed": 2.0,
+   "damage": 1.0,
+   "durability": 59
+  },
+  "food": null,
+  "fuel_ticks": 200,
+  "value": 4
+ },
+ {
+  "name": "stone_axe",
+  "id": 61,
+  "stack": 1,
+  "kind": "tool",
+  "places_block": null,
+  "tool": {
+   "type": "axe",
+   "tier": 2,
+   "speed": 4.0,
+   "damage": 9.0,
+   "durability": 131
+  },
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 4
+ },
+ {
+  "name": "stone_shovel",
+  "id": 62,
+  "stack": 1,
+  "kind": "tool",
+  "places_block": null,
+  "tool": {
+   "type": "shovel",
+   "tier": 2,
+   "speed": 4.0,
+   "damage": 3.5,
+   "durability": 131
+  },
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 4
+ },
+ {
+  "name": "stone_sword",
+  "id": 63,
+  "stack": 1,
+  "kind": "weapon",
+  "places_block": null,
+  "tool": {
+   "type": "sword",
+   "tier": 2,
+   "speed": 4.0,
+   "damage": 5.0,
+   "durability": 131
+  },
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 4
+ },
+ {
+  "name": "stone_hoe",
+  "id": 64,
+  "stack": 1,
+  "kind": "tool",
+  "places_block": null,
+  "tool": {
+   "type": "hoe",
+   "tier": 2,
+   "speed": 4.0,
+   "damage": 1.0,
+   "durability": 131
+  },
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 4
+ },
+ {
+  "name": "iron_axe",
+  "id": 65,
+  "stack": 1,
+  "kind": "tool",
+  "places_block": null,
+  "tool": {
+   "type": "axe",
+   "tier": 3,
+   "speed": 6.0,
+   "damage": 9.0,
+   "durability": 250
+  },
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 8
+ },
+ {
+  "name": "iron_shovel",
+  "id": 66,
+  "stack": 1,
+  "kind": "tool",
+  "places_block": null,
+  "tool": {
+   "type": "shovel",
+   "tier": 3,
+   "speed": 6.0,
+   "damage": 4.5,
+   "durability": 250
+  },
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 8
+ },
+ {
+  "name": "iron_sword",
+  "id": 67,
+  "stack": 1,
+  "kind": "weapon",
+  "places_block": null,
+  "tool": {
+   "type": "sword",
+   "tier": 3,
+   "speed": 6.0,
+   "damage": 6.0,
+   "durability": 250
+  },
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 8
+ },
+ {
+  "name": "iron_hoe",
+  "id": 68,
+  "stack": 1,
+  "kind": "tool",
+  "places_block": null,
+  "tool": {
+   "type": "hoe",
+   "tier": 3,
+   "speed": 6.0,
+   "damage": 1.0,
+   "durability": 250
+  },
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 8
+ },
+ {
+  "name": "diamond_pickaxe",
+  "id": 69,
+  "stack": 1,
+  "kind": "tool",
+  "places_block": null,
+  "tool": {
+   "type": "pickaxe",
+   "tier": 4,
+   "speed": 8.0,
+   "damage": 5.0,
+   "durability": 1561
+  },
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 16
+ },
+ {
+  "name": "diamond_axe",
+  "id": 70,
+  "stack": 1,
+  "kind": "tool",
+  "places_block": null,
+  "tool": {
+   "type": "axe",
+   "tier": 4,
+   "speed": 8.0,
+   "damage": 9.0,
+   "durability": 1561
+  },
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 16
+ },
+ {
+  "name": "diamond_shovel",
+  "id": 71,
+  "stack": 1,
+  "kind": "tool",
+  "places_block": null,
+  "tool": {
+   "type": "shovel",
+   "tier": 4,
+   "speed": 8.0,
+   "damage": 5.5,
+   "durability": 1561
+  },
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 16
+ },
+ {
+  "name": "diamond_sword",
+  "id": 72,
+  "stack": 1,
+  "kind": "weapon",
+  "places_block": null,
+  "tool": {
+   "type": "sword",
+   "tier": 4,
+   "speed": 8.0,
+   "damage": 7.0,
+   "durability": 1561
+  },
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 16
+ },
+ {
+  "name": "diamond_hoe",
+  "id": 73,
+  "stack": 1,
+  "kind": "tool",
+  "places_block": null,
+  "tool": {
+   "type": "hoe",
+   "tier": 4,
+   "speed": 8.0,
+   "damage": 1.0,
+   "durability": 1561
+  },
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 16
+ },
+ {
+  "name": "iron_helmet",
+  "id": 74,
+  "stack": 1,
+  "kind": "armor",
+  "places_block": null,
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 4,
+  "armor": {
+   "slot": "helmet",
+   "defense": 2,
+   "durability": 165
+  }
+ },
+ {
+  "name": "iron_chestplate",
+  "id": 75,
+  "stack": 1,
+  "kind": "armor",
+  "places_block": null,
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 4,
+  "armor": {
+   "slot": "chestplate",
+   "defense": 6,
+   "durability": 240
+  }
+ },
+ {
+  "name": "iron_leggings",
+  "id": 76,
+  "stack": 1,
+  "kind": "armor",
+  "places_block": null,
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 4,
+  "armor": {
+   "slot": "leggings",
+   "defense": 5,
+   "durability": 225
+  }
+ },
+ {
+  "name": "iron_boots",
+  "id": 77,
+  "stack": 1,
+  "kind": "armor",
+  "places_block": null,
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 4,
+  "armor": {
+   "slot": "boots",
+   "defense": 2,
+   "durability": 195
+  }
+ },
+ {
+  "name": "diamond_helmet",
+  "id": 78,
+  "stack": 1,
+  "kind": "armor",
+  "places_block": null,
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 16,
+  "armor": {
+   "slot": "helmet",
+   "defense": 3,
+   "durability": 363
+  }
+ },
+ {
+  "name": "diamond_chestplate",
+  "id": 79,
+  "stack": 1,
+  "kind": "armor",
+  "places_block": null,
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 16,
+  "armor": {
+   "slot": "chestplate",
+   "defense": 8,
+   "durability": 528
+  }
+ },
+ {
+  "name": "diamond_leggings",
+  "id": 80,
+  "stack": 1,
+  "kind": "armor",
+  "places_block": null,
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 16,
+  "armor": {
+   "slot": "leggings",
+   "defense": 6,
+   "durability": 495
+  }
+ },
+ {
+  "name": "diamond_boots",
+  "id": 81,
+  "stack": 1,
+  "kind": "armor",
+  "places_block": null,
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 16,
+  "armor": {
+   "slot": "boots",
+   "defense": 3,
+   "durability": 429
+  }
+ },
+ {
+  "name": "leather_helmet",
+  "id": 82,
+  "stack": 1,
+  "kind": "armor",
+  "places_block": null,
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 4,
+  "armor": {
+   "slot": "helmet",
+   "defense": 1,
+   "durability": 55
+  }
+ },
+ {
+  "name": "leather_chestplate",
+  "id": 83,
+  "stack": 1,
+  "kind": "armor",
+  "places_block": null,
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 4,
+  "armor": {
+   "slot": "chestplate",
+   "defense": 3,
+   "durability": 80
+  }
+ },
+ {
+  "name": "leather_leggings",
+  "id": 84,
+  "stack": 1,
+  "kind": "armor",
+  "places_block": null,
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 4,
+  "armor": {
+   "slot": "leggings",
+   "defense": 2,
+   "durability": 75
+  }
+ },
+ {
+  "name": "leather_boots",
+  "id": 85,
+  "stack": 1,
+  "kind": "armor",
+  "places_block": null,
+  "tool": null,
+  "food": null,
+  "fuel_ticks": 0,
+  "value": 4,
+  "armor": {
+   "slot": "boots",
+   "defense": 1,
+   "durability": 65
+  }
+ },
+ {
+  "name": "apple",
+  "id": 86,
+  "stack": 64,
+  "kind": "food",
+  "places_block": null,
+  "tool": null,
+  "food": {
+   "nutrition": 4,
+   "saturation": 2.4
+  },
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "bread",
+  "id": 87,
+  "stack": 64,
+  "kind": "food",
+  "places_block": null,
+  "tool": null,
+  "food": {
+   "nutrition": 5,
+   "saturation": 6.0
+  },
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "beef",
+  "id": 88,
+  "stack": 64,
+  "kind": "food",
+  "places_block": null,
+  "tool": null,
+  "food": {
+   "nutrition": 3,
+   "saturation": 1.8
+  },
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "cooked_beef",
+  "id": 89,
+  "stack": 64,
+  "kind": "food",
+  "places_block": null,
+  "tool": null,
+  "food": {
+   "nutrition": 8,
+   "saturation": 12.8
+  },
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "porkchop",
+  "id": 90,
+  "stack": 64,
+  "kind": "food",
+  "places_block": null,
+  "tool": null,
+  "food": {
+   "nutrition": 3,
+   "saturation": 1.8
+  },
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "cooked_porkchop",
+  "id": 91,
+  "stack": 64,
+  "kind": "food",
+  "places_block": null,
+  "tool": null,
+  "food": {
+   "nutrition": 8,
+   "saturation": 12.8
+  },
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "mutton",
+  "id": 92,
+  "stack": 64,
+  "kind": "food",
+  "places_block": null,
+  "tool": null,
+  "food": {
+   "nutrition": 2,
+   "saturation": 1.2
+  },
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "cooked_mutton",
+  "id": 93,
+  "stack": 64,
+  "kind": "food",
+  "places_block": null,
+  "tool": null,
+  "food": {
+   "nutrition": 6,
+   "saturation": 9.6
+  },
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "chicken",
+  "id": 94,
+  "stack": 64,
+  "kind": "food",
+  "places_block": null,
+  "tool": null,
+  "food": {
+   "nutrition": 2,
+   "saturation": 1.2
+  },
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "cooked_chicken",
+  "id": 95,
+  "stack": 64,
+  "kind": "food",
+  "places_block": null,
+  "tool": null,
+  "food": {
+   "nutrition": 6,
+   "saturation": 7.2
+  },
+  "fuel_ticks": 0,
+  "value": 1
+ },
+ {
+  "name": "rotten_flesh",
+  "id": 96,
+  "stack": 64,
+  "kind": "food",
+  "places_block": null,
+  "tool": null,
+  "food": {
+   "nutrition": 4,
+   "saturation": 0.8
+  },
+  "fuel_ticks": 0,
+  "value": 1
+ }
+]

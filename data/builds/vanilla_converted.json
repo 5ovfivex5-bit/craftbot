@@ -1,0 +1,1751 @@
+[
+ {
+  "source": "data/minecraft/structure/village/plains/houses/plains_small_house_5.nbt",
+  "source_name": "plains_small_house_5",
+  "size": [
+   9,
+   11,
+   9
+  ],
+  "palette": {
+   "A": "dirt",
+   "B": "oak_log",
+   "C": "cobblestone",
+   "D": "oak_planks",
+   "E": "glass"
+  },
+  "layers": [
+   [
+    ".........",
+    "...AAAAA.",
+    "..AAAAAA.",
+    ".AAAAAAA.",
+    "AAAAAAAA.",
+    ".AAAAAAA.",
+    "..AAAAAA.",
+    "...AAAAA.",
+    "........."
+   ],
+   [
+    ".........",
+    "...BCCCB.",
+    "..C.DDDC.",
+    ".CDDDDDC.",
+    ".CDDDDDC.",
+    ".CD.DDDC.",
+    "..CDDDDC.",
+    "...BCCCB.",
+    "........."
+   ],
+   [
+    ".........",
+    "...BDDDB.",
+    "..C....D.",
+    ".C.....D.",
+    ".D.....D.",
+    ".C....DD.",
+    "..C..DDD.",
+    "...BDDDB.",
+    "........."
+   ],
+   [
+    ".........",
+    "...BDEDB.",
+    "..C....D.",
+    ".C.....B.",
+    ".D.....E.",
+    ".C.....B.",
+    "..C..D.D.",
+    "...BDEDB.",
+    "........."
+   ],
+   [
+    ".........",
+    "...BDDDB.",
+    "..CD...D.",
+    ".CDDD..D.",
+    ".CDDD..D.",
+    ".CDDD..D.",
+    "..CDD..D.",
+    "...BDDDB.",
+    "........."
+   ],
+   [
+    ".........",
+    "...BBBBB.",
+    "..DD...D.",
+    ".D.D...D.",
+    ".D.D...D.",
+    ".D.D...D.",
+    "..DD...D.",
+    "...BBBBB.",
+    "........."
+   ],
+   [
+    ".........",
+    "...BDDDB.",
+    "...D...D.",
+    "...D...B.",
+    "...D...E.",
+    "...D...B.",
+    "...D...D.",
+    "...BDDDB.",
+    "........."
+   ],
+   [
+    "..DDDDDDD",
+    "..DBDDDBD",
+    "...D...D.",
+    "...D...D.",
+    "...D...D.",
+    "...D...D.",
+    "...D...D.",
+    "..DBDDDBD",
+    "..DDDDDDD"
+   ],
+   [
+    ".........",
+    "..DDDDDDD",
+    "..DBDDDBD",
+    "...B...B.",
+    "...B...B.",
+    "...B...B.",
+    "..DBDDDBD",
+    "..DDDDDDD",
+    "........."
+   ],
+   [
+    ".........",
+    ".........",
+    "..DDDDDDD",
+    "..DDDDDDD",
+    "...D...D.",
+    "..DDDDDDD",
+    "..DDDDDDD",
+    ".........",
+    "........."
+   ],
+   [
+    ".........",
+    ".........",
+    ".........",
+    "..DDDDDDD",
+    "..DDDDDDD",
+    "..DDDDDDD",
+    ".........",
+    ".........",
+    "........."
+   ]
+  ],
+  "block_count": 329,
+  "tier": 3,
+  "mapping_losses": {
+   "unmapped_vanilla_blocks": [],
+   "dropped_non_structural": {
+    "wall_torch": 9,
+    "jigsaw": 6,
+    "ladder": 3,
+    "white_bed": 2,
+    "green_carpet": 2
+   }
+  },
+  "structure_original_size": [
+   9,
+   11,
+   9
+  ],
+  "structure_palette_size": 33
+ },
+ {
+  "source": "data/minecraft/structure/village/plains/houses/plains_accessory_1.nbt",
+  "source_name": "plains_accessory_1",
+  "size": [
+   3,
+   1,
+   5
+  ],
+  "palette": {
+   "A": "oak_planks",
+   "B": "dirt"
+  },
+  "layers": [
+   [
+    ".A.",
+    "ABA",
+    "ABA",
+    "ABA",
+    ".A."
+   ]
+  ],
+  "block_count": 11,
+  "tier": 1,
+  "mapping_losses": {
+   "unmapped_vanilla_blocks": [],
+   "dropped_non_structural": {
+    "jigsaw": 1,
+    "poppy": 1,
+    "oxeye_daisy": 1,
+    "dandelion": 1
+   }
+  },
+  "structure_original_size": [
+   3,
+   2,
+   5
+  ],
+  "structure_palette_size": 10
+ },
+ {
+  "source": "data/minecraft/structure/village/plains/houses/plains_animal_pen_1.nbt",
+  "source_name": "plains_animal_pen_1",
+  "size": [
+   5,
+   2,
+   6
+  ],
+  "palette": {
+   "A": "dirt",
+   "B": "oak_planks"
+  },
+  "layers": [
+   [
+    "AAAAA",
+    "AA.AA",
+    "AAAAA",
+    "AAAAA",
+    "AAA.A",
+    "AAAAA"
+   ],
+   [
+    "BBBBB",
+    "B...B",
+    "....B",
+    "B...B",
+    "B...B",
+    "BBBBB"
+   ]
+  ],
+  "block_count": 45,
+  "tier": 2,
+  "mapping_losses": {
+   "unmapped_vanilla_blocks": [],
+   "dropped_non_structural": {
+    "jigsaw": 3,
+    "short_grass": 2,
+    "poppy": 1
+   }
+  },
+  "structure_original_size": [
+   5,
+   8,
+   6
+  ],
+  "structure_palette_size": 14
+ },
+ {
+  "source": "data/minecraft/structure/village/plains/houses/plains_armorer_house_1.nbt",
+  "source_name": "plains_armorer_house_1",
+  "size": [
+   9,
+   8,
+   8
+  ],
+  "palette": {
+   "A": "oak_log",
+   "B": "cobblestone",
+   "C": "oak_planks",
+   "D": "furnace",
+   "E": "glass"
+  },
+  "layers": [
+   [
+    ".........",
+    ".ABBBBBA.",
+    ".BBBBBBB.",
+    "BBBBBBBB.",
+    ".BBBBBBB.",
+    ".BBBBBBB.",
+    ".ABBBBBA.",
+    "...BBB..."
+   ],
+   [
+    ".........",
+    ".ABBBBBA.",
+    ".BBBBBBB.",
+    ".C....BB.",
+    ".C....BB.",
+    ".B.B.BBB.",
+    ".ABBDBBA.",
+    "...BBB..."
+   ],
+   [
+    ".........",
+    ".AAEAEAA.",
+    ".B.....A.",
+    ".C.....E.",
+    ".C.....E.",
+    ".B.B.B.A.",
+    ".ABBBBBA.",
+    "...BBB..."
+   ],
+   [
+    "CCCCCCCCC",
+    "CABBBBBAC",
+    ".B.....B.",
+    ".B.....B.",
+    ".B.....B.",
+    ".B.BBB.B.",
+    "CABBBBBAC",
+    "CCCCCCCCC"
+   ],
+   [
+    ".........",
+    "CCCCCCCCC",
+    "CB.....BC",
+    ".B.....B.",
+    ".B.....B.",
+    "CB..B..BC",
+    "CCCCBCCCC",
+    "........."
+   ],
+   [
+    ".........",
+    ".........",
+    "CCCCCCCCC",
+    "CB.....BC",
+    "CB.....BC",
+    "CCCCCCCCC",
+    "....B....",
+    "........."
+   ],
+   [
+    ".........",
+    ".........",
+    ".........",
+    "CCCCCCCCC",
+    "CCCCCCCCC",
+    ".........",
+    "....B....",
+    "........."
+   ],
+   [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "....B....",
+    "........."
+   ]
+  ],
+  "block_count": 233,
+  "tier": 3,
+  "mapping_losses": {
+   "unmapped_vanilla_blocks": [],
+   "dropped_non_structural": {
+    "wall_torch": 5,
+    "jigsaw": 1
+   }
+  },
+  "structure_original_size": [
+   9,
+   8,
+   8
+  ],
+  "structure_palette_size": 32
+ },
+ {
+  "source": "data/minecraft/structure/village/plains/houses/plains_butcher_shop_1.nbt",
+  "source_name": "plains_butcher_shop_1",
+  "size": [
+   11,
+   8,
+   12
+  ],
+  "palette": {
+   "A": "oak_log",
+   "B": "cobblestone",
+   "C": "oak_planks",
+   "D": "dirt",
+   "E": "furnace",
+   "F": "glass"
+  },
+  "layers": [
+   [
+    "...........",
+    ".ABBBABBBA.",
+    ".BCCCCBBBB.",
+    ".BCCCCBBBB.",
+    "CBCCCCBBBB.",
+    ".BCCCCCCCB.",
+    ".ABBBBBBBA.",
+    "...ADDDBDA.",
+    "...ADDDDDA.",
+    "...ADD.DDA.",
+    "...ADDDDDA.",
+    "...AAAAAAA."
+   ],
+   [
+    "...........",
+    ".ABBBABBBA.",
+    ".BCCC..B.B.",
+    ".C.....B.B.",
+    ".C.......B.",
+    ".BC.....EB.",
+    ".ABBBBBCBA.",
+    "...C.....C.",
+    "...C.....C.",
+    "...C.....C.",
+    "...C.....C.",
+    "...CCCCCCC."
+   ],
+   [
+    "...........",
+    ".AAFAAAFAA.",
+    ".A.C.....A.",
+    ".C.......F.",
+    ".C.......F.",
+    ".A......BA.",
+    ".AAFFAACBA.",
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "..........."
+   ],
+   [
+    "CCCCCCCCCCC",
+    "CACCCCCCCAC",
+    ".B.......B.",
+    ".B.......B.",
+    ".B.......B.",
+    ".B......BB.",
+    "CACCCCCCCAC",
+    "CCCCCCCCCCC",
+    "...........",
+    "...........",
+    "...........",
+    "..........."
+   ],
+   [
+    "...........",
+    "CCCCCCCCCCC",
+    "CBCCCCCCCBC",
+    ".B.......B.",
+    ".B.......B.",
+    "CBCCCCCCBBC",
+    "CCCCCCCCCCC",
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "..........."
+   ],
+   [
+    "...........",
+    "...........",
+    "CCCCCCCCCCC",
+    "CBCCCCCCCBC",
+    "CBCCCCCCCBC",
+    "CCCCCCCCBCC",
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "..........."
+   ],
+   [
+    "...........",
+    "...........",
+    "...........",
+    "CCCCCCCCCCC",
+    "CCCCCCCCCCC",
+    "........B..",
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "..........."
+   ],
+   [
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "........B..",
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "..........."
+   ]
+  ],
+  "block_count": 334,
+  "tier": 3,
+  "mapping_losses": {
+   "unmapped_vanilla_blocks": [],
+   "dropped_non_structural": {
+    "wall_torch": 5,
+    "jigsaw": 2,
+    "hay_block": 2,
+    "torch": 2,
+    "potted_dandelion": 1
+   }
+  },
+  "structure_original_size": [
+   11,
+   8,
+   12
+  ],
+  "structure_palette_size": 40
+ },
+ {
+  "source": "data/minecraft/structure/village/plains/houses/plains_masons_house_1.nbt",
+  "source_name": "plains_masons_house_1",
+  "size": [
+   8,
+   7,
+   9
+  ],
+  "palette": {
+   "A": "oak_planks",
+   "B": "cobblestone",
+   "C": "dirt",
+   "D": "oak_log",
+   "E": "sand",
+   "F": "glass"
+  },
+  "layers": [
+   [
+    "........",
+    ".ABBBBB.",
+    "ACBBBBB.",
+    ".BBBABB.",
+    "BBBBABB.",
+    "BBBBABB.",
+    "BBBBBBB.",
+    "BBBBBBB.",
+    "........"
+   ],
+   [
+    "........",
+    "..DEEED.",
+    "..E.CCE.",
+    "..A..CE.",
+    "A.E..EE.",
+    "A.E...E.",
+    "A.E...E.",
+    "AADEEED.",
+    "........"
+   ],
+   [
+    "........",
+    "..DEFED.",
+    "..E..CE.",
+    "..A...F.",
+    "..E...E.",
+    "..F...F.",
+    "..E...E.",
+    "..DEFED.",
+    "........"
+   ],
+   [
+    ".AAAAAAA",
+    ".ADEEEDA",
+    "..E..EE.",
+    "..E...E.",
+    "..E...E.",
+    "..E...E.",
+    "..E...E.",
+    ".ADEEEDA",
+    ".AAAAAAA"
+   ],
+   [
+    "........",
+    ".AAAAAAA",
+    ".AD...DA",
+    "..D...D.",
+    "..D...D.",
+    "..D...D.",
+    ".AD...DA",
+    ".AAAAAAA",
+    "........"
+   ],
+   [
+    "........",
+    "........",
+    ".AAAAAAA",
+    ".AE...EA",
+    "..E...E.",
+    ".AE...EA",
+    ".AAAAAAA",
+    "........",
+    "........"
+   ],
+   [
+    "........",
+    "........",
+    "........",
+    ".AAAAAAA",
+    ".AAAAAAA",
+    ".AAAAAAA",
+    "........",
+    "........",
+    "........"
+   ]
+  ],
+  "block_count": 209,
+  "tier": 3,
+  "mapping_losses": {
+   "unmapped_vanilla_blocks": [],
+   "dropped_non_structural": {
+    "torch": 2,
+    "wall_torch": 2,
+    "jigsaw": 1,
+    "dandelion": 1,
+    "stonecutter": 1
+   }
+  },
+  "structure_original_size": [
+   8,
+   7,
+   9
+  ],
+  "structure_palette_size": 29
+ },
+ {
+  "source": "data/minecraft/structure/village/desert/houses/desert_small_house_5.nbt",
+  "source_name": "desert_small_house_5",
+  "size": [
+   5,
+   6,
+   6
+  ],
+  "palette": {
+   "A": "sand",
+   "B": "oak_planks",
+   "C": "crafting_table"
+  },
+  "layers": [
+   [
+    "AAAAA",
+    "AAAAA",
+    "AAAAA",
+    "AAA.A",
+    "AAAAA",
+    "AAAAA"
+   ],
+   [
+    ".....",
+    "AABAA",
+    "AC..A",
+    "A...A",
+    "A...A",
+    "AAAAA"
+   ],
+   [
+    ".....",
+    "AABAA",
+    "A...A",
+    "A...A",
+    "A...A",
+    "AAAAA"
+   ],
+   [
+    ".BBB.",
+    "AAAAA",
+    "A...A",
+    "A...A",
+    "A...A",
+    "A.A.A"
+   ],
+   [
+    ".....",
+    "AAAAA",
+    "AAAAA",
+    "AAAAA",
+    "AAAAA",
+    "AAAAA"
+   ],
+   [
+    ".....",
+    "A.A.A",
+    ".....",
+    "A...A",
+    ".....",
+    "A.A.A"
+   ]
+  ],
+  "block_count": 112,
+  "tier": 2,
+  "mapping_losses": {
+   "unmapped_vanilla_blocks": [],
+   "dropped_non_structural": {
+    "jigsaw": 2,
+    "lime_bed": 2,
+    "potted_cactus": 1,
+    "wall_torch": 1
+   }
+  },
+  "structure_original_size": [
+   5,
+   6,
+   6
+  ],
+  "structure_palette_size": 15
+ },
+ {
+  "source": "data/minecraft/structure/village/desert/houses/desert_fletcher_house_1.nbt",
+  "source_name": "desert_fletcher_house_1",
+  "size": [
+   6,
+   11,
+   12
+  ],
+  "palette": {
+   "A": "sand",
+   "B": "oak_planks",
+   "C": "cobblestone"
+  },
+  "layers": [
+   [
+    ".AAAAA",
+    ".AAAAA",
+    ".AAAAA",
+    "AAAAAA",
+    ".AAAAA",
+    ".AAAAA",
+    ".AAAAA",
+    ".AAAAA",
+    ".AAAAA",
+    "..AAA.",
+    "..AAA.",
+    "..AAA."
+   ],
+   [
+    ".AAAAA",
+    ".AA.AA",
+    ".A...A",
+    ".B...A",
+    ".A...A",
+    ".A...A",
+    ".A...A",
+    ".A...A",
+    ".AC.CA",
+    "..ABA.",
+    "..A.A.",
+    "..AAA."
+   ],
+   [
+    ".AA.AA",
+    ".A...A",
+    ".A...A",
+    ".B...A",
+    ".A....",
+    ".A...A",
+    ".....A",
+    ".A...A",
+    ".A...A",
+    "..ABA.",
+    "..A.A.",
+    "..AAA."
+   ],
+   [
+    ".AACAA",
+    ".ACCCA",
+    ".ACCCA",
+    ".ACCCA",
+    ".ACCCC",
+    ".ACCCA",
+    ".CCCCA",
+    ".ACCCA",
+    ".ACCCA",
+    "..AAA.",
+    "..A.A.",
+    "..AAA."
+   ],
+   [
+    ".A.C.A",
+    "......",
+    ".C...C",
+    "......",
+    ".C...C",
+    "......",
+    ".C...C",
+    "......",
+    ".A...A",
+    "..AAA.",
+    "..A.A.",
+    "..AAA."
+   ],
+   [
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "..AAA.",
+    "..A.A.",
+    "..AAA."
+   ],
+   [
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "..AAA.",
+    "..A.A.",
+    "..AAA."
+   ],
+   [
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "..AAA.",
+    "..A.A.",
+    "..AAA."
+   ],
+   [
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "..AAA.",
+    "..A.A.",
+    "..AAA."
+   ],
+   [
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "..ACA.",
+    "..CCC.",
+    "..ACA."
+   ],
+   [
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "...A..",
+    "......"
+   ]
+  ],
+  "block_count": 228,
+  "tier": 3,
+  "mapping_losses": {
+   "unmapped_vanilla_blocks": [],
+   "dropped_non_structural": {
+    "ladder": 5,
+    "wall_torch": 4,
+    "potted_cactus": 3,
+    "fletching_table": 1,
+    "jigsaw": 1,
+    "torch": 1
+   }
+  },
+  "structure_original_size": [
+   6,
+   12,
+   12
+  ],
+  "structure_palette_size": 20
+ },
+ {
+  "source": "data/minecraft/structure/village/savanna/houses/savanna_small_house_5.nbt",
+  "source_name": "savanna_small_house_5",
+  "size": [
+   7,
+   10,
+   7
+  ],
+  "palette": {
+   "A": "dirt",
+   "B": "oak_planks",
+   "C": "oak_log",
+   "D": "glass",
+   "E": "sand"
+  },
+  "layers": [
+   [
+    "AAAAAAA",
+    "AAAAAAA",
+    "AABBBAA",
+    "AABB.BA",
+    "AABBBAA",
+    "AAAAAAA",
+    "AAAAAAA"
+   ],
+   [
+    ".B...B.",
+    "B.CCC.B",
+    ".CB..C.",
+    ".C...B.",
+    ".C...C.",
+    "B.CCC.B",
+    ".B...B."
+   ],
+   [
+    ".B...B.",
+    "B.CDC.B",
+    ".CB..C.",
+    ".D...B.",
+    ".C...C.",
+    "B.CDC.B",
+    ".B...B."
+   ],
+   [
+    ".B...B.",
+    "B.CCC.B",
+    ".C...C.",
+    ".C...C.",
+    ".C...C.",
+    "B.CCC.B",
+    ".B...B."
+   ],
+   [
+    ".B...B.",
+    "B.EEE.B",
+    ".E...E.",
+    ".E...E.",
+    ".E...E.",
+    "B.EEE.B",
+    ".B...B."
+   ],
+   [
+    ".BBBBB.",
+    "BBBBBBB",
+    "BBEEEBB",
+    "BBE.EBB",
+    "BBEEEBB",
+    "BBBBBBB",
+    ".BBBBB."
+   ],
+   [
+    ".......",
+    ".......",
+    "..EBE..",
+    "..B.B..",
+    "..EBE..",
+    ".......",
+    "......."
+   ],
+   [
+    ".......",
+    ".......",
+    "..EEE..",
+    "..E.E..",
+    "..EEE..",
+    ".......",
+    "......."
+   ],
+   [
+    ".......",
+    ".BBBBB.",
+    ".BBBBB.",
+    ".BBBBB.",
+    ".BBBBB.",
+    ".BBBBB.",
+    "......."
+   ],
+   [
+    ".......",
+    ".......",
+    "..BBB..",
+    "..BBB..",
+    "..BBB..",
+    ".......",
+    "......."
+   ]
+  ],
+  "block_count": 224,
+  "tier": 3,
+  "mapping_losses": {
+   "unmapped_vanilla_blocks": [],
+   "dropped_non_structural": {
+    "short_grass": 9,
+    "wall_torch": 3,
+    "jigsaw": 2,
+    "orange_bed": 2
+   }
+  },
+  "structure_original_size": [
+   7,
+   10,
+   7
+  ],
+  "structure_palette_size": 37
+ },
+ {
+  "source": "data/minecraft/structure/village/savanna/houses/savanna_medium_house_1.nbt",
+  "source_name": "savanna_medium_house_1",
+  "size": [
+   8,
+   7,
+   15
+  ],
+  "palette": {
+   "A": "dirt",
+   "B": "oak_planks",
+   "C": "oak_log",
+   "D": "chest",
+   "E": "crafting_table",
+   "F": "glass"
+  },
+  "layers": [
+   [
+    "........",
+    "..AAA...",
+    ".ABBBA..",
+    "ABB.BA..",
+    "AABBBAAA",
+    "AAABAAAA",
+    "AAAAAAAA",
+    "AAAAAA.A",
+    ".AAAAAAA",
+    "..ABAAAA",
+    ".ABBBAAA",
+    "ABB.BA..",
+    ".ABBBA..",
+    "..AAA...",
+    "........"
+   ],
+   [
+    "........",
+    "..CCC...",
+    ".CD..C..",
+    ".B...C..",
+    ".C..ECBB",
+    "..CBC..B",
+    "..B....B",
+    "..B....B",
+    "..B....B",
+    "..CBC..B",
+    ".C..CCBB",
+    ".B...C..",
+    ".C...C..",
+    "..CCC...",
+    "........"
+   ],
+   [
+    "........",
+    "..CFC...",
+    ".C...C..",
+    ".B...F..",
+    ".C...C..",
+    "..CBC...",
+    "........",
+    "........",
+    "........",
+    "..CBC...",
+    ".C...C..",
+    ".B...F..",
+    ".C...C..",
+    "..CFC...",
+    "........"
+   ],
+   [
+    "........",
+    "..CCC...",
+    ".C...C..",
+    ".C...C..",
+    ".C...C..",
+    "..CCC...",
+    "........",
+    "........",
+    "........",
+    "..CCC...",
+    ".C...C..",
+    ".C...C..",
+    ".C...C..",
+    "..CCC...",
+    "........"
+   ],
+   [
+    ".BBBBB..",
+    "BBBBBBB.",
+    "BB...BB.",
+    "BB...BB.",
+    "BB...BB.",
+    "BBBBBBB.",
+    ".BBBBB..",
+    "........",
+    ".BBBBB..",
+    "BBBBBBB.",
+    "BB...BB.",
+    "BB...BB.",
+    "BB...BB.",
+    "BBBBBBB.",
+    ".BBBBB.."
+   ],
+   [
+    "........",
+    ".BBBBB..",
+    ".BBBBB..",
+    ".BBBBB..",
+    ".BBBBB..",
+    ".BBBBB..",
+    "........",
+    "........",
+    "........",
+    ".BBBBB..",
+    ".BBBBB..",
+    ".BBBBB..",
+    ".BBBBB..",
+    ".BBBBB..",
+    "........"
+   ],
+   [
+    "........",
+    "........",
+    "..BBB...",
+    "..BBB...",
+    "..BBB...",
+    "........",
+    "........",
+    "........",
+    "........",
+    "........",
+    "..BBB...",
+    "..BBB...",
+    "..BBB...",
+    "........",
+    "........"
+   ]
+  ],
+  "block_count": 304,
+  "tier": 3,
+  "mapping_losses": {
+   "unmapped_vanilla_blocks": [],
+   "dropped_non_structural": {
+    "wheat": 9,
+    "wall_torch": 5,
+    "jigsaw": 4,
+    "orange_bed": 4,
+    "torch": 3,
+    "water": 1,
+    "short_grass": 1
+   }
+  },
+  "structure_original_size": [
+   8,
+   7,
+   15
+  ],
+  "structure_palette_size": 46
+ },
+ {
+  "source": "data/minecraft/structure/village/taiga/houses/taiga_small_house_5.nbt",
+  "source_name": "taiga_small_house_5",
+  "size": [
+   9,
+   7,
+   7
+  ],
+  "palette": {
+   "A": "oak_log",
+   "B": "cobblestone",
+   "C": "oak_planks",
+   "D": "chest",
+   "E": "glass"
+  },
+  "layers": [
+   [
+    ".........",
+    ".ABBBBBA.",
+    "..BCCCB..",
+    "..BC.CB..",
+    "..BCCCB..",
+    ".ABBBBBA.",
+    "........."
+   ],
+   [
+    ".........",
+    ".ABBBBBA.",
+    "..BD..B..",
+    "..C...B..",
+    "..B..BB..",
+    ".ABBBBBA.",
+    "........."
+   ],
+   [
+    "...C.C...",
+    ".ABBEBBA.",
+    "..B...BC.",
+    "..C...E..",
+    "..B...BC.",
+    ".ABBEBBA.",
+    "...C.C..."
+   ],
+   [
+    "AAAAAAAAA",
+    ".ABBBBBA.",
+    "..B...B..",
+    "..B...B..",
+    "..B...B..",
+    ".ABBBBBA.",
+    "AAAAAAAAA"
+   ],
+   [
+    ".........",
+    "AAAAAAAAA",
+    "..B...B..",
+    "..B...B..",
+    "..B...B..",
+    "AAAAAAAAA",
+    "........."
+   ],
+   [
+    ".........",
+    ".........",
+    "AAAAAAAAA",
+    "..B...B..",
+    "AAAAAAAAA",
+    ".........",
+    "........."
+   ],
+   [
+    ".........",
+    ".........",
+    ".........",
+    "AAAAAAAAA",
+    ".........",
+    ".........",
+    "........."
+   ]
+  ],
+  "block_count": 167,
+  "tier": 3,
+  "mapping_losses": {
+   "unmapped_vanilla_blocks": [],
+   "dropped_non_structural": {
+    "large_fern": 4,
+    "wall_torch": 3,
+    "jigsaw": 2,
+    "purple_bed": 2
+   }
+  },
+  "structure_original_size": [
+   9,
+   7,
+   7
+  ],
+  "structure_palette_size": 22
+ },
+ {
+  "source": "data/minecraft/structure/village/taiga/houses/taiga_small_house_4.nbt",
+  "source_name": "taiga_small_house_4",
+  "size": [
+   7,
+   6,
+   8
+  ],
+  "palette": {
+   "A": "dirt",
+   "B": "cobblestone",
+   "C": "oak_planks",
+   "D": "crafting_table",
+   "E": "glass",
+   "F": "oak_log"
+  },
+  "layers": [
+   [
+    ".......",
+    ".AAAAA.",
+    ".ABBBA.",
+    ".A.BBA.",
+    ".AABAA.",
+    "..ACA..",
+    "..ACA..",
+    "...A..."
+   ],
+   [
+    ".......",
+    ".BBBBB.",
+    ".BD..B.",
+    ".B...B.",
+    ".BBCBB.",
+    "..C.C..",
+    "..CCC..",
+    "......."
+   ],
+   [
+    ".C.C.C.",
+    ".BEBEB.",
+    ".B...B.",
+    ".B...B.",
+    ".BBCBB.",
+    "..C.C..",
+    "..CCC..",
+    "......."
+   ],
+   [
+    "FFFFFFF",
+    ".BBBBB.",
+    ".B...B.",
+    ".B...B.",
+    ".BBBBB.",
+    "FFCCCFF",
+    ".FCCCF.",
+    ".F...F."
+   ],
+   [
+    ".......",
+    "FFFFFFF",
+    ".B...B.",
+    ".B...B.",
+    "FFFFFFF",
+    "..FCF..",
+    "..FCF..",
+    "..F.F.."
+   ],
+   [
+    ".......",
+    ".......",
+    "FFFFFFF",
+    "FFFFFFF",
+    "...F...",
+    "...F...",
+    "...F...",
+    "...F..."
+   ]
+  ],
+  "block_count": 147,
+  "tier": 3,
+  "mapping_losses": {
+   "unmapped_vanilla_blocks": [],
+   "dropped_non_structural": {
+    "jigsaw": 3,
+    "wall_torch": 3,
+    "blue_bed": 2
+   }
+  },
+  "structure_original_size": [
+   7,
+   6,
+   8
+  ],
+  "structure_palette_size": 18
+ },
+ {
+  "source": "data/minecraft/structure/village/desert/houses/desert_farm_1.nbt",
+  "source_name": "desert_farm_1",
+  "size": [
+   5,
+   1,
+   7
+  ],
+  "palette": {
+   "A": "cobblestone",
+   "B": "sand",
+   "C": "dirt"
+  },
+  "layers": [
+   [
+    "AABAA",
+    "ACCCA",
+    "B...B",
+    ".CCCB",
+    "B...B",
+    "ACCCA",
+    "AABAA"
+   ]
+  ],
+  "block_count": 28,
+  "tier": 1,
+  "mapping_losses": {
+   "unmapped_vanilla_blocks": [],
+   "dropped_non_structural": {
+    "wheat": 8,
+    "water": 6,
+    "jigsaw": 1,
+    "composter": 1
+   }
+  },
+  "structure_original_size": [
+   5,
+   6,
+   7
+  ],
+  "structure_palette_size": 17
+ },
+ {
+  "source": "data/minecraft/structure/village/taiga/houses/taiga_medium_house_1.nbt",
+  "source_name": "taiga_medium_house_1",
+  "size": [
+   8,
+   11,
+   7
+  ],
+  "palette": {
+   "A": "dirt",
+   "B": "oak_planks",
+   "C": "chest",
+   "D": "cobblestone",
+   "E": "oak_log",
+   "F": "glass"
+  },
+  "layers": [
+   [
+    "AAB..AAA",
+    "AAB..AAA",
+    "AAC..AAA",
+    "AADDDAAA",
+    "AAADAAAA",
+    "AAAAAAAA",
+    "AAAAAAAA"
+   ],
+   [
+    "AA...AAA",
+    "AA...AAA",
+    "AA...AAA",
+    "AAD.DAAA",
+    "AADBDAAA",
+    "AA...AAA",
+    "AA..DAAA"
+   ],
+   [
+    "..AAAAAA",
+    "..AAA..A",
+    "..A.A.AA",
+    "..D.D.AA",
+    ".ADBDAA.",
+    ".A...AAA",
+    ".....DA."
+   ],
+   [
+    "...B.BB.",
+    "........",
+    "..DDD...",
+    "..D.D...",
+    "..DDD...",
+    "........",
+    "........"
+   ],
+   [
+    "...BBB..",
+    "........",
+    "..DDD...",
+    "..D.D...",
+    "..DDD...",
+    "........",
+    "........"
+   ],
+   [
+    "...BB...",
+    ".BBBBB..",
+    ".B.BBB..",
+    ".BB.BB..",
+    ".BBBBB..",
+    ".BBBBB..",
+    "........"
+   ],
+   [
+    "........",
+    ".EBBBE..",
+    ".B..BB..",
+    ".B..BB..",
+    ".B..BB..",
+    ".EBBBE..",
+    "........"
+   ],
+   [
+    "E.....E.",
+    "EEBBBEE.",
+    "EB...BE.",
+    "EB..BBE.",
+    "EB...BE.",
+    "EEBFBEE.",
+    "E.B.B.E."
+   ],
+   [
+    ".E...E..",
+    ".EBBBE..",
+    ".E...E..",
+    ".E...E..",
+    ".E...E..",
+    ".EBBBE..",
+    ".E...E.."
+   ],
+   [
+    "..E.E...",
+    "..EBE...",
+    "..E.E...",
+    "..E.E...",
+    "..E.E...",
+    "..EBE...",
+    "..E.E..."
+   ],
+   [
+    "...E....",
+    "...E....",
+    "...E....",
+    "...E....",
+    "...E....",
+    "...E....",
+    "...E...."
+   ]
+  ],
+  "block_count": 263,
+  "tier": 3,
+  "mapping_losses": {
+   "unmapped_vanilla_blocks": [],
+   "dropped_non_structural": {
+    "wall_torch": 7,
+    "large_fern": 6,
+    "jigsaw": 3,
+    "purple_bed": 2,
+    "fern": 2,
+    "blue_bed": 2
+   }
+  },
+  "structure_original_size": [
+   8,
+   11,
+   7
+  ],
+  "structure_palette_size": 45
+ },
+ {
+  "source": "data/minecraft/structure/village/snowy/houses/snowy_small_house_7.nbt",
+  "source_name": "snowy_small_house_7",
+  "size": [
+   6,
+   7,
+   7
+  ],
+  "palette": {
+   "A": "oak_planks",
+   "B": "oak_log",
+   "C": "glass"
+  },
+  "layers": [
+   [
+    "......",
+    "ABBBB.",
+    "ABBBB.",
+    ".B.BB.",
+    "ABBBB.",
+    "ABBBB.",
+    "......"
+   ],
+   [
+    "A.AA.A",
+    ".BBBB.",
+    ".B..B.",
+    ".A..B.",
+    ".BAAB.",
+    ".BBBB.",
+    "A.AA.A"
+   ],
+   [
+    "AAAAAA",
+    ".BBBB.",
+    ".B..B.",
+    ".A..C.",
+    ".B..B.",
+    ".BBBB.",
+    "AAAAAA"
+   ],
+   [
+    "A.AA.A",
+    "AAAAAA",
+    ".B..B.",
+    ".B..B.",
+    ".B..B.",
+    "AAAAAA",
+    "A.AA.A"
+   ],
+   [
+    "......",
+    "A.AA.A",
+    "AAAAAA",
+    ".B..B.",
+    "AAAAAA",
+    "A.AA.A",
+    "......"
+   ],
+   [
+    "......",
+    "......",
+    "A.AA.A",
+    "AAAAAA",
+    "A.AA.A",
+    "......",
+    "......"
+   ],
+   [
+    "......",
+    "......",
+    "......",
+    "A.AA.A",
+    "......",
+    "......",
+    "......"
+   ]
+  ],
+  "block_count": 139,
+  "tier": 3,
+  "mapping_losses": {
+   "unmapped_vanilla_blocks": [],
+   "dropped_non_structural": {
+    "snow": 13,
+    "lantern": 3,
+    "jigsaw": 2,
+    "white_bed": 2
+   }
+  },
+  "structure_original_size": [
+   6,
+   7,
+   7
+  ],
+  "structure_palette_size": 20
+ },
+ {
+  "source": "data/minecraft/structure/village/snowy/houses/snowy_armorer_house_1.nbt",
+  "source_name": "snowy_armorer_house_1",
+  "size": [
+   8,
+   8,
+   7
+  ],
+  "palette": {
+   "A": "oak_log",
+   "B": "cobblestone",
+   "C": "oak_planks",
+   "D": "furnace",
+   "E": "chest"
+  },
+  "layers": [
+   [
+    "........",
+    ".AAAAAA.",
+    ".AAABBA.",
+    ".AAABBA.",
+    ".AAABBA.",
+    ".AAAAAA.",
+    "........"
+   ],
+   [
+    "CCCCCCCC",
+    ".A....A.",
+    ".A...BA.",
+    ".C...DA.",
+    ".A...BA.",
+    ".AE...A.",
+    "CCCCCCCC"
+   ],
+   [
+    "CCCCCCCC",
+    ".A....A.",
+    ".A...BA.",
+    ".C...BA.",
+    ".A...BA.",
+    ".A....A.",
+    "CCCCCCCC"
+   ],
+   [
+    "........",
+    "CCCCCCCC",
+    ".A....A.",
+    ".A...BA.",
+    ".A....A.",
+    "CCCCCCCC",
+    "........"
+   ],
+   [
+    "........",
+    "CCCCCCCC",
+    ".A....A.",
+    "CA...BA.",
+    ".A....A.",
+    "CCCCCCCC",
+    "........"
+   ],
+   [
+    "........",
+    "........",
+    "CCCCCCCC",
+    "CA...BA.",
+    "CCCCCCCC",
+    "........",
+    "........"
+   ],
+   [
+    "........",
+    "........",
+    "....CCC.",
+    "CCCCCBCC",
+    "....CCC.",
+    "........",
+    "........"
+   ],
+   [
+    "........",
+    "........",
+    "........",
+    ".....B..",
+    "........",
+    "........",
+    "........"
+   ]
+  ],
+  "block_count": 171,
+  "tier": 3,
+  "mapping_losses": {
+   "unmapped_vanilla_blocks": [],
+   "dropped_non_structural": {
+    "snow": 22,
+    "torch": 2,
+    "jigsaw": 1,
+    "short_grass": 1,
+    "lantern": 1,
+    "wall_torch": 1
+   }
+  },
+  "structure_original_size": [
+   8,
+   8,
+   7
+  ],
+  "structure_palette_size": 26
+ }
+]

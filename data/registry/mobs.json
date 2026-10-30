@@ -1,0 +1,317 @@
+[
+ {
+  "name": "zombie",
+  "pseudo_block": "zombie",
+  "pseudo_block_id": 20,
+  "hostile": true,
+  "health": 20.0,
+  "damage": 3.0,
+  "speed": 0.23,
+  "spawn": {
+   "light_max": 7,
+   "dimension": "overworld",
+   "biomes": null,
+   "day": "night",
+   "group_min": 1,
+   "group_max": 4
+  },
+  "drops": [
+   {
+    "item": "rotten_flesh",
+    "count_min": 0,
+    "count_max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "iron_ingot",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 0.025
+   }
+  ],
+  "burns_in_sun": true,
+  "attack": "melee",
+  "size": [
+   0.6,
+   1.95
+  ]
+ },
+ {
+  "name": "skeleton",
+  "pseudo_block": "skeleton",
+  "pseudo_block_id": 21,
+  "hostile": true,
+  "health": 20.0,
+  "damage": 2.0,
+  "speed": 0.25,
+  "spawn": {
+   "light_max": 7,
+   "dimension": "overworld",
+   "biomes": null,
+   "day": "night",
+   "group_min": 1,
+   "group_max": 3
+  },
+  "drops": [
+   {
+    "item": "arrow",
+    "count_min": 0,
+    "count_max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "bone",
+    "count_min": 0,
+    "count_max": 2,
+    "chance": 1.0
+   }
+  ],
+  "burns_in_sun": true,
+  "attack": "ranged",
+  "size": [
+   0.6,
+   1.99
+  ]
+ },
+ {
+  "name": "spider",
+  "pseudo_block": "spider",
+  "pseudo_block_id": 22,
+  "hostile": true,
+  "health": 16.0,
+  "damage": 2.0,
+  "speed": 0.3,
+  "spawn": {
+   "light_max": 7,
+   "dimension": "overworld",
+   "biomes": null,
+   "day": "night",
+   "group_min": 1,
+   "group_max": 1
+  },
+  "drops": [
+   {
+    "item": "string",
+    "count_min": 0,
+    "count_max": 2,
+    "chance": 1.0
+   }
+  ],
+  "burns_in_sun": false,
+  "attack": "melee",
+  "size": [
+   1.4,
+   0.9
+  ]
+ },
+ {
+  "name": "creeper",
+  "pseudo_block": "creeper",
+  "pseudo_block_id": 23,
+  "hostile": true,
+  "health": 20.0,
+  "damage": 0.0,
+  "speed": 0.25,
+  "spawn": {
+   "light_max": 7,
+   "dimension": "overworld",
+   "biomes": null,
+   "day": "night",
+   "group_min": 1,
+   "group_max": 1
+  },
+  "drops": [
+   {
+    "item": "gunpowder",
+    "count_min": 0,
+    "count_max": 2,
+    "chance": 1.0
+   }
+  ],
+  "burns_in_sun": false,
+  "attack": "explode",
+  "size": [
+   0.6,
+   1.7
+  ]
+ },
+ {
+  "name": "cow",
+  "pseudo_block": "cow",
+  "pseudo_block_id": 24,
+  "hostile": false,
+  "health": 10.0,
+  "damage": 0.0,
+  "speed": 0.2,
+  "spawn": {
+   "light_max": 15,
+   "dimension": "overworld",
+   "biomes": null,
+   "day": "day",
+   "group_min": 2,
+   "group_max": 4
+  },
+  "drops": [
+   {
+    "item": "leather",
+    "count_min": 0,
+    "count_max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "beef",
+    "count_min": 1,
+    "count_max": 3,
+    "chance": 1.0
+   }
+  ],
+  "burns_in_sun": false,
+  "attack": "none",
+  "size": [
+   0.9,
+   1.4
+  ]
+ },
+ {
+  "name": "pig",
+  "pseudo_block": "pig",
+  "pseudo_block_id": 25,
+  "hostile": false,
+  "health": 10.0,
+  "damage": 0.0,
+  "speed": 0.25,
+  "spawn": {
+   "light_max": 15,
+   "dimension": "overworld",
+   "biomes": null,
+   "day": "day",
+   "group_min": 2,
+   "group_max": 4
+  },
+  "drops": [
+   {
+    "item": "porkchop",
+    "count_min": 1,
+    "count_max": 3,
+    "chance": 1.0
+   }
+  ],
+  "burns_in_sun": false,
+  "attack": "none",
+  "size": [
+   0.9,
+   0.9
+  ]
+ },
+ {
+  "name": "sheep",
+  "pseudo_block": "sheep",
+  "pseudo_block_id": 26,
+  "hostile": false,
+  "health": 8.0,
+  "damage": 0.0,
+  "speed": 0.23,
+  "spawn": {
+   "light_max": 15,
+   "dimension": "overworld",
+   "biomes": null,
+   "day": "day",
+   "group_min": 2,
+   "group_max": 4
+  },
+  "drops": [
+   {
+    "item": "mutton",
+    "count_min": 1,
+    "count_max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "white_wool",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0
+   }
+  ],
+  "burns_in_sun": false,
+  "attack": "none",
+  "size": [
+   0.9,
+   1.3
+  ]
+ },
+ {
+  "name": "chicken",
+  "pseudo_block": "chicken",
+  "pseudo_block_id": 27,
+  "hostile": false,
+  "health": 4.0,
+  "damage": 0.0,
+  "speed": 0.25,
+  "spawn": {
+   "light_max": 15,
+   "dimension": "overworld",
+   "biomes": null,
+   "day": "day",
+   "group_min": 2,
+   "group_max": 4
+  },
+  "drops": [
+   {
+    "item": "feather",
+    "count_min": 0,
+    "count_max": 2,
+    "chance": 1.0
+   },
+   {
+    "item": "chicken",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 1.0
+   }
+  ],
+  "burns_in_sun": false,
+  "attack": "none",
+  "size": [
+   0.4,
+   0.7
+  ]
+ },
+ {
+  "name": "zombified_piglin",
+  "pseudo_block": "zombified_piglin",
+  "pseudo_block_id": 28,
+  "hostile": true,
+  "health": 20.0,
+  "damage": 5.0,
+  "speed": 0.23,
+  "spawn": {
+   "light_max": 7,
+   "dimension": "nether",
+   "biomes": null,
+   "day": "any",
+   "group_min": 1,
+   "group_max": 3
+  },
+  "drops": [
+   {
+    "item": "rotten_flesh",
+    "count_min": 0,
+    "count_max": 1,
+    "chance": 1.0
+   },
+   {
+    "item": "gold_ingot",
+    "count_min": 1,
+    "count_max": 1,
+    "chance": 0.025
+   }
+  ],
+  "burns_in_sun": false,
+  "attack": "melee",
+  "size": [
+   0.6,
+   1.95
+  ]
+ }
+]

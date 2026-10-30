@@ -1,0 +1,747 @@
+{
+ "tasks": {
+  "build_bridge": {
+   "items": [],
+   "target_items": [
+    "oak_planks"
+   ],
+   "values": {}
+  },
+  "build_cobble_house": {
+   "items": [
+    "crafting_table",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "target_items": [
+    "cobblestone"
+   ],
+   "values": {
+    "crafting_table": 2,
+    "iron_ingot": 2,
+    "iron_pickaxe": 8,
+    "stick": 2
+   }
+  },
+  "build_dirt_hut": {
+   "items": [],
+   "target_items": [
+    "dirt"
+   ],
+   "values": {}
+  },
+  "build_farm_plot": {
+   "items": [],
+   "target_items": [
+    "dirt"
+   ],
+   "values": {}
+  },
+  "build_storage_chest": {
+   "items": [],
+   "target_items": [
+    "chest"
+   ],
+   "values": {}
+  },
+  "build_wall_segment": {
+   "items": [
+    "crafting_table",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "target_items": [
+    "cobblestone"
+   ],
+   "values": {
+    "crafting_table": 2,
+    "iron_ingot": 2,
+    "iron_pickaxe": 8,
+    "stick": 2
+   }
+  },
+  "build_watchtower": {
+   "items": [
+    "crafting_table",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "target_items": [
+    "cobblestone"
+   ],
+   "values": {
+    "crafting_table": 2,
+    "iron_ingot": 2,
+    "iron_pickaxe": 8,
+    "stick": 2
+   }
+  },
+  "build_wooden_house": {
+   "items": [],
+   "target_items": [
+    "oak_planks"
+   ],
+   "values": {}
+  },
+  "combat_iron_chestplate": {
+   "items": [
+    "crafting_table"
+   ],
+   "target_items": [
+    "iron_chestplate",
+    "iron_ingot"
+   ],
+   "values": {
+    "crafting_table": 2
+   }
+  },
+  "combat_iron_sword": {
+   "items": [
+    "crafting_table"
+   ],
+   "target_items": [
+    "iron_ingot",
+    "iron_sword",
+    "stick"
+   ],
+   "values": {
+    "crafting_table": 2
+   }
+  },
+  "combat_kill_creeper": {
+   "items": [],
+   "target_items": [
+    "gunpowder"
+   ],
+   "values": {}
+  },
+  "combat_kill_skeleton": {
+   "items": [],
+   "target_items": [
+    "arrow",
+    "bone",
+    "iron_ingot",
+    "rotten_flesh"
+   ],
+   "values": {}
+  },
+  "combat_kill_spider": {
+   "items": [],
+   "target_items": [
+    "string"
+   ],
+   "values": {}
+  },
+  "combat_kill_zombie": {
+   "items": [],
+   "target_items": [
+    "iron_ingot",
+    "rotten_flesh"
+   ],
+   "values": {}
+  },
+  "combat_zombie_horde": {
+   "items": [],
+   "target_items": [
+    "iron_ingot",
+    "rotten_flesh"
+   ],
+   "values": {}
+  },
+  "explore_deep_mine": {
+   "items": [
+    "crafting_table",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "target_items": [
+    "cobblestone",
+    "raw_iron"
+   ],
+   "values": {
+    "crafting_table": 2,
+    "iron_ingot": 2,
+    "iron_pickaxe": 8,
+    "stick": 2
+   }
+  },
+  "explore_nether_walk": {
+   "items": [],
+   "target_items": [],
+   "values": {}
+  },
+  "explore_walk_100": {
+   "items": [],
+   "target_items": [],
+   "values": {}
+  },
+  "explore_walk_500": {
+   "items": [],
+   "target_items": [],
+   "values": {}
+  },
+  "food_cook_beef": {
+   "items": [
+    "crafting_table",
+    "furnace",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "target_items": [
+    "beef",
+    "cooked_beef"
+   ],
+   "values": {
+    "crafting_table": 2,
+    "furnace": 2,
+    "iron_ingot": 2,
+    "iron_pickaxe": 8,
+    "stick": 2
+   }
+  },
+  "food_cook_porkchop": {
+   "items": [
+    "crafting_table",
+    "furnace",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "target_items": [
+    "cooked_porkchop",
+    "porkchop"
+   ],
+   "values": {
+    "crafting_table": 2,
+    "furnace": 2,
+    "iron_ingot": 2,
+    "iron_pickaxe": 8,
+    "stick": 2
+   }
+  },
+  "food_eat_cooked_beef": {
+   "items": [
+    "beef",
+    "crafting_table",
+    "furnace",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "target_items": [
+    "cooked_beef"
+   ],
+   "values": {
+    "beef": 1,
+    "crafting_table": 2,
+    "furnace": 2,
+    "iron_ingot": 2,
+    "iron_pickaxe": 8,
+    "stick": 2
+   }
+  },
+  "food_hunt_chicken": {
+   "items": [],
+   "target_items": [
+    "chicken",
+    "feather"
+   ],
+   "values": {}
+  },
+  "food_hunt_cow": {
+   "items": [],
+   "target_items": [
+    "beef",
+    "leather"
+   ],
+   "values": {}
+  },
+  "food_hunt_pig": {
+   "items": [],
+   "target_items": [
+    "porkchop"
+   ],
+   "values": {}
+  },
+  "food_hunt_sheep": {
+   "items": [],
+   "target_items": [
+    "mutton"
+   ],
+   "values": {}
+  },
+  "gather_coal": {
+   "items": [
+    "crafting_table",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "target_items": [
+    "coal"
+   ],
+   "values": {
+    "crafting_table": 2,
+    "iron_ingot": 2,
+    "iron_pickaxe": 8,
+    "stick": 2
+   }
+  },
+  "gather_diamond": {
+   "items": [
+    "crafting_table",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "target_items": [
+    "diamond",
+    "raw_iron"
+   ],
+   "values": {
+    "crafting_table": 2,
+    "iron_ingot": 2,
+    "iron_pickaxe": 8,
+    "stick": 2
+   }
+  },
+  "gather_gravel": {
+   "items": [],
+   "target_items": [
+    "flint",
+    "gravel"
+   ],
+   "values": {}
+  },
+  "gather_iron": {
+   "items": [
+    "crafting_table",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "target_items": [
+    "raw_iron"
+   ],
+   "values": {
+    "crafting_table": 2,
+    "iron_ingot": 2,
+    "iron_pickaxe": 8,
+    "stick": 2
+   }
+  },
+  "gather_obsidian": {
+   "items": [
+    "crafting_table",
+    "diamond",
+    "diamond_pickaxe",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "target_items": [
+    "obsidian"
+   ],
+   "values": {
+    "crafting_table": 2,
+    "diamond": 16,
+    "diamond_pickaxe": 16,
+    "iron_ingot": 2,
+    "iron_pickaxe": 8,
+    "stick": 2
+   }
+  },
+  "gather_sand": {
+   "items": [],
+   "target_items": [
+    "sand"
+   ],
+   "values": {}
+  },
+  "gather_stone": {
+   "items": [
+    "crafting_table",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "target_items": [
+    "cobblestone"
+   ],
+   "values": {
+    "crafting_table": 2,
+    "iron_ingot": 2,
+    "iron_pickaxe": 8,
+    "stick": 2
+   }
+  },
+  "gather_wood": {
+   "items": [],
+   "target_items": [
+    "oak_log"
+   ],
+   "values": {}
+  },
+  "nether_build_portal": {
+   "items": [
+    "crafting_table",
+    "diamond",
+    "diamond_pickaxe",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "target_items": [
+    "obsidian"
+   ],
+   "values": {
+    "crafting_table": 2,
+    "diamond": 16,
+    "diamond_pickaxe": 16,
+    "iron_ingot": 2,
+    "iron_pickaxe": 8,
+    "stick": 2
+   }
+  },
+  "nether_enter": {
+   "items": [
+    "crafting_table",
+    "diamond",
+    "diamond_pickaxe",
+    "flint",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "target_items": [
+    "flint_and_steel",
+    "obsidian"
+   ],
+   "values": {
+    "crafting_table": 2,
+    "diamond": 16,
+    "diamond_pickaxe": 16,
+    "flint": 1,
+    "iron_ingot": 2,
+    "iron_pickaxe": 8,
+    "stick": 2
+   }
+  },
+  "nether_flint_and_steel": {
+   "items": [],
+   "target_items": [
+    "flint",
+    "flint_and_steel",
+    "iron_ingot"
+   ],
+   "values": {}
+  },
+  "nether_gather_netherrack": {
+   "items": [
+    "crafting_table",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "target_items": [
+    "netherrack"
+   ],
+   "values": {
+    "crafting_table": 2,
+    "iron_ingot": 2,
+    "iron_pickaxe": 8,
+    "stick": 2
+   }
+  },
+  "nether_gather_quartz": {
+   "items": [
+    "crafting_table",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "target_items": [
+    "quartz"
+   ],
+   "values": {
+    "crafting_table": 2,
+    "iron_ingot": 2,
+    "iron_pickaxe": 8,
+    "stick": 2
+   }
+  },
+  "nether_glowstone": {
+   "items": [],
+   "target_items": [
+    "glowstone_dust"
+   ],
+   "values": {}
+  },
+  "nether_kill_piglin": {
+   "items": [
+    "crafting_table",
+    "iron_ingot",
+    "stick"
+   ],
+   "target_items": [
+    "gold_ingot",
+    "iron_sword",
+    "rotten_flesh"
+   ],
+   "values": {
+    "crafting_table": 2,
+    "iron_ingot": 2,
+    "stick": 2
+   }
+  },
+  "nether_light_portal": {
+   "items": [
+    "flint",
+    "iron_ingot"
+   ],
+   "target_items": [
+    "flint_and_steel"
+   ],
+   "values": {
+    "flint": 1,
+    "iron_ingot": 2
+   }
+  },
+  "nether_resources": {
+   "items": [
+    "crafting_table",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "target_items": [
+    "glowstone_dust",
+    "netherrack",
+    "quartz"
+   ],
+   "values": {
+    "crafting_table": 2,
+    "iron_ingot": 2,
+    "iron_pickaxe": 8,
+    "stick": 2
+   }
+  },
+  "nether_soul_sand": {
+   "items": [],
+   "target_items": [
+    "soul_sand"
+   ],
+   "values": {}
+  },
+  "social_chat_nearby": {
+   "items": [],
+   "target_items": [],
+   "values": {}
+  },
+  "social_crouch_greet": {
+   "items": [],
+   "target_items": [],
+   "values": {}
+  },
+  "social_follow_teammate": {
+   "items": [],
+   "target_items": [],
+   "values": {}
+  },
+  "social_look_at_teammate": {
+   "items": [],
+   "target_items": [],
+   "values": {}
+  },
+  "social_share_chest": {
+   "items": [],
+   "target_items": [],
+   "values": {}
+  },
+  "social_stay_together": {
+   "items": [],
+   "target_items": [],
+   "values": {}
+  },
+  "survival_eat_any": {
+   "items": [],
+   "target_items": [
+    "beef",
+    "leather"
+   ],
+   "values": {}
+  },
+  "survival_recover_health": {
+   "items": [],
+   "target_items": [],
+   "values": {}
+  },
+  "survival_sleep_in_bed": {
+   "items": [],
+   "target_items": [
+    "mutton",
+    "white_bed"
+   ],
+   "values": {}
+  },
+  "survival_survive_night_bed": {
+   "items": [],
+   "target_items": [
+    "iron_ingot",
+    "rotten_flesh"
+   ],
+   "values": {}
+  },
+  "survival_survive_night_hut": {
+   "items": [],
+   "target_items": [
+    "dirt",
+    "iron_ingot",
+    "rotten_flesh"
+   ],
+   "values": {}
+  },
+  "tools_crafting_table": {
+   "items": [],
+   "target_items": [
+    "crafting_table",
+    "oak_planks"
+   ],
+   "values": {}
+  },
+  "tools_diamond_pickaxe": {
+   "items": [
+    "crafting_table",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "target_items": [
+    "diamond",
+    "diamond_pickaxe"
+   ],
+   "values": {
+    "crafting_table": 2,
+    "iron_ingot": 2,
+    "iron_pickaxe": 8,
+    "stick": 2
+   }
+  },
+  "tools_furnace": {
+   "items": [
+    "crafting_table",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "target_items": [
+    "cobblestone",
+    "furnace"
+   ],
+   "values": {
+    "crafting_table": 2,
+    "iron_ingot": 2,
+    "iron_pickaxe": 8,
+    "stick": 2
+   }
+  },
+  "tools_iron_axe": {
+   "items": [
+    "crafting_table",
+    "stick"
+   ],
+   "target_items": [
+    "iron_axe",
+    "iron_ingot"
+   ],
+   "values": {
+    "crafting_table": 2,
+    "stick": 2
+   }
+  },
+  "tools_iron_pickaxe": {
+   "items": [
+    "crafting_table",
+    "stick"
+   ],
+   "target_items": [
+    "iron_ingot",
+    "iron_pickaxe"
+   ],
+   "values": {
+    "crafting_table": 2,
+    "stick": 2
+   }
+  },
+  "tools_stone_axe": {
+   "items": [
+    "crafting_table",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "target_items": [
+    "cobblestone",
+    "stone_axe"
+   ],
+   "values": {
+    "crafting_table": 2,
+    "iron_ingot": 2,
+    "iron_pickaxe": 8,
+    "stick": 2
+   }
+  },
+  "tools_stone_pickaxe": {
+   "items": [
+    "crafting_table",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "target_items": [
+    "cobblestone",
+    "stone_pickaxe"
+   ],
+   "values": {
+    "crafting_table": 2,
+    "iron_ingot": 2,
+    "iron_pickaxe": 8,
+    "stick": 2
+   }
+  },
+  "tools_wooden_axe": {
+   "items": [
+    "crafting_table",
+    "oak_planks"
+   ],
+   "target_items": [
+    "stick",
+    "wooden_axe"
+   ],
+   "values": {
+    "crafting_table": 2,
+    "oak_planks": 2
+   }
+  },
+  "tools_wooden_pickaxe": {
+   "items": [
+    "crafting_table",
+    "oak_planks"
+   ],
+   "target_items": [
+    "stick",
+    "wooden_pickaxe"
+   ],
+   "values": {
+    "crafting_table": 2,
+    "oak_planks": 2
+   }
+  }
+ },
+ "version": 1
+}

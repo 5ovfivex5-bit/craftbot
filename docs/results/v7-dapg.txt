@@ -1,0 +1,26 @@
+NEW=runs/v7-dapg/checkpoints/ckpt_000009789440_u001195.pt
+gather_wood OLD 81.2%
+gather_wood NEW 62.5%
+gather_sand OLD 6.2%
+gather_sand NEW 56.2%
+tools_crafting_table OLD 93.8%
+tools_crafting_table NEW 81.2%
+tools_wooden_pickaxe OLD 0.0%
+tools_wooden_pickaxe NEW 12.5%
+tools_stone_pickaxe OLD 0.0%
+tools_stone_pickaxe NEW 0.0%
+food_hunt_pig OLD 0.0%
+food_hunt_pig NEW 0.0%
+food_hunt_sheep OLD 0.0%
+food_hunt_sheep NEW 0.0%
+survival_eat_any OLD 0.0%
+survival_eat_any NEW 0.0%
+combat_kill_zombie OLD 0.0%
+combat_kill_zombie NEW 0.0%
+build_dirt_hut OLD 0.0%
+build_dirt_hut NEW 0.0%
+social_crouch_greet OLD 6.2%
+social_crouch_greet NEW 25.0%
+social_follow_teammate OLD 0.0%
+social_follow_teammate NEW 0.0%
+ALLDONE

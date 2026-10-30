@@ -1,0 +1,2623 @@
+{
+ "counts": {
+  "by_via": {
+   "craft": 36,
+   "kill": 13,
+   "loot": 0,
+   "mine": 39,
+   "smelt": 6
+  },
+  "items": 97,
+  "max_depth": 4,
+  "obtainable": 94
+ },
+ "items": {
+  "andesite": {
+   "alternatives": [
+    {
+     "depth": 3,
+     "from": "inventory",
+     "via": "craft"
+    }
+   ],
+   "count": [
+    1,
+    1
+   ],
+   "depth": 2,
+   "dimension": "overworld",
+   "from": "andesite",
+   "prereqs": [
+    "iron_pickaxe"
+   ],
+   "recipe_id": null,
+   "requirements": [
+    "crafting_table",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "tool_tier": 1,
+   "tool_type": "pickaxe",
+   "value": 1,
+   "via": "mine"
+  },
+  "apple": {
+   "alternatives": [],
+   "count": [
+    1,
+    1
+   ],
+   "depth": 0,
+   "dimension": "overworld",
+   "from": "oak_leaves",
+   "prereqs": [],
+   "recipe_id": null,
+   "requirements": [],
+   "tool_tier": 0,
+   "tool_type": null,
+   "value": 1,
+   "via": "mine"
+  },
+  "arrow": {
+   "alternatives": [
+    {
+     "depth": 1,
+     "from": "crafting_table",
+     "via": "craft"
+    }
+   ],
+   "count": [
+    0,
+    2
+   ],
+   "depth": 0,
+   "dimension": "overworld",
+   "from": "skeleton",
+   "prereqs": [],
+   "recipe_id": null,
+   "requirements": [],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 1,
+   "via": "kill"
+  },
+  "beef": {
+   "alternatives": [],
+   "count": [
+    1,
+    3
+   ],
+   "depth": 0,
+   "dimension": "overworld",
+   "from": "cow",
+   "prereqs": [],
+   "recipe_id": null,
+   "requirements": [],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 1,
+   "via": "kill"
+  },
+  "bone": {
+   "alternatives": [],
+   "count": [
+    0,
+    2
+   ],
+   "depth": 0,
+   "dimension": "overworld",
+   "from": "skeleton",
+   "prereqs": [],
+   "recipe_id": null,
+   "requirements": [],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 1,
+   "via": "kill"
+  },
+  "bread": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 1,
+   "dimension": "overworld",
+   "from": "crafting_table",
+   "prereqs": [
+    "crafting_table",
+    "wheat"
+   ],
+   "recipe": {
+    "cook_ticks": 0,
+    "count": 1,
+    "id": 2,
+    "ingredients": {
+     "wheat": 3
+    },
+    "needs": "crafting_table",
+    "result": "bread"
+   },
+   "recipe_id": 2,
+   "requirements": [
+    "crafting_table",
+    "wheat"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 1,
+   "via": "craft"
+  },
+  "bucket": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 1,
+   "dimension": "overworld",
+   "from": "crafting_table",
+   "prereqs": [
+    "crafting_table",
+    "iron_ingot"
+   ],
+   "recipe": {
+    "cook_ticks": 0,
+    "count": 1,
+    "id": 3,
+    "ingredients": {
+     "iron_ingot": 3
+    },
+    "needs": "crafting_table",
+    "result": "bucket"
+   },
+   "recipe_id": 3,
+   "requirements": [
+    "crafting_table",
+    "iron_ingot"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 1,
+   "via": "craft"
+  },
+  "chest": {
+   "alternatives": [
+    {
+     "depth": 1,
+     "from": "crafting_table",
+     "via": "craft"
+    }
+   ],
+   "count": [
+    1,
+    1
+   ],
+   "depth": 0,
+   "dimension": "both",
+   "from": "chest",
+   "prereqs": [],
+   "recipe_id": null,
+   "requirements": [],
+   "tool_tier": 0,
+   "tool_type": null,
+   "value": 2,
+   "via": "mine"
+  },
+  "chicken": {
+   "alternatives": [],
+   "count": [
+    1,
+    1
+   ],
+   "depth": 0,
+   "dimension": "overworld",
+   "from": "chicken",
+   "prereqs": [],
+   "recipe_id": null,
+   "requirements": [],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 1,
+   "via": "kill"
+  },
+  "coal": {
+   "alternatives": [
+    {
+     "depth": 2,
+     "from": "deepslate_coal_ore",
+     "via": "mine"
+    }
+   ],
+   "count": [
+    1,
+    1
+   ],
+   "depth": 2,
+   "dimension": "overworld",
+   "from": "coal_ore",
+   "prereqs": [
+    "iron_pickaxe"
+   ],
+   "recipe_id": null,
+   "requirements": [
+    "crafting_table",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "tool_tier": 1,
+   "tool_type": "pickaxe",
+   "value": 1,
+   "via": "mine"
+  },
+  "cobbled_deepslate": {
+   "alternatives": [
+    {
+     "depth": 2,
+     "from": "deepslate",
+     "via": "mine"
+    }
+   ],
+   "count": [
+    1,
+    1
+   ],
+   "depth": 2,
+   "dimension": "overworld",
+   "from": "cobbled_deepslate",
+   "prereqs": [
+    "iron_pickaxe"
+   ],
+   "recipe_id": null,
+   "requirements": [
+    "crafting_table",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "tool_tier": 1,
+   "tool_type": "pickaxe",
+   "value": 1,
+   "via": "mine"
+  },
+  "cobblestone": {
+   "alternatives": [
+    {
+     "depth": 2,
+     "from": "stone",
+     "via": "mine"
+    }
+   ],
+   "count": [
+    1,
+    1
+   ],
+   "depth": 2,
+   "dimension": "both",
+   "from": "cobblestone",
+   "prereqs": [
+    "iron_pickaxe"
+   ],
+   "recipe_id": null,
+   "requirements": [
+    "crafting_table",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "tool_tier": 1,
+   "tool_type": "pickaxe",
+   "value": 1,
+   "via": "mine"
+  },
+  "cobblestone_slab": {
+   "alternatives": [
+    {
+     "depth": 3,
+     "from": "crafting_table",
+     "via": "craft"
+    }
+   ],
+   "count": [
+    2,
+    2
+   ],
+   "depth": 2,
+   "dimension": "both",
+   "from": "cobblestone_slab",
+   "prereqs": [
+    "iron_pickaxe"
+   ],
+   "recipe_id": null,
+   "requirements": [
+    "crafting_table",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "tool_tier": 1,
+   "tool_type": "pickaxe",
+   "value": 2,
+   "via": "mine"
+  },
+  "cobblestone_stairs": {
+   "alternatives": [
+    {
+     "depth": 3,
+     "from": "crafting_table",
+     "via": "craft"
+    }
+   ],
+   "count": [
+    1,
+    1
+   ],
+   "depth": 0,
+   "dimension": "both",
+   "from": "cobblestone_stairs",
+   "prereqs": [],
+   "recipe_id": null,
+   "requirements": [],
+   "tool_tier": 0,
+   "tool_type": null,
+   "value": 2,
+   "via": "mine"
+  },
+  "cooked_beef": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 3,
+   "dimension": "overworld",
+   "from": "beef",
+   "prereqs": [
+    "beef",
+    "furnace"
+   ],
+   "recipe": {
+    "cook_ticks": 200,
+    "count": 1,
+    "id": 57,
+    "ingredients": {
+     "beef": 1
+    },
+    "needs": "furnace",
+    "result": "cooked_beef"
+   },
+   "recipe_id": 57,
+   "requirements": [
+    "beef",
+    "crafting_table",
+    "furnace",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 1,
+   "via": "smelt"
+  },
+  "cooked_chicken": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 3,
+   "dimension": "overworld",
+   "from": "chicken",
+   "prereqs": [
+    "chicken",
+    "furnace"
+   ],
+   "recipe": {
+    "cook_ticks": 200,
+    "count": 1,
+    "id": 58,
+    "ingredients": {
+     "chicken": 1
+    },
+    "needs": "furnace",
+    "result": "cooked_chicken"
+   },
+   "recipe_id": 58,
+   "requirements": [
+    "chicken",
+    "crafting_table",
+    "furnace",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 1,
+   "via": "smelt"
+  },
+  "cooked_mutton": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 3,
+   "dimension": "overworld",
+   "from": "mutton",
+   "prereqs": [
+    "furnace",
+    "mutton"
+   ],
+   "recipe": {
+    "cook_ticks": 200,
+    "count": 1,
+    "id": 59,
+    "ingredients": {
+     "mutton": 1
+    },
+    "needs": "furnace",
+    "result": "cooked_mutton"
+   },
+   "recipe_id": 59,
+   "requirements": [
+    "crafting_table",
+    "furnace",
+    "iron_ingot",
+    "iron_pickaxe",
+    "mutton",
+    "stick"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 1,
+   "via": "smelt"
+  },
+  "cooked_porkchop": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 3,
+   "dimension": "overworld",
+   "from": "porkchop",
+   "prereqs": [
+    "furnace",
+    "porkchop"
+   ],
+   "recipe": {
+    "cook_ticks": 200,
+    "count": 1,
+    "id": 60,
+    "ingredients": {
+     "porkchop": 1
+    },
+    "needs": "furnace",
+    "result": "cooked_porkchop"
+   },
+   "recipe_id": 60,
+   "requirements": [
+    "crafting_table",
+    "furnace",
+    "iron_ingot",
+    "iron_pickaxe",
+    "porkchop",
+    "stick"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 1,
+   "via": "smelt"
+  },
+  "crafting_table": {
+   "alternatives": [
+    {
+     "depth": 1,
+     "from": "inventory",
+     "via": "craft"
+    }
+   ],
+   "count": [
+    1,
+    1
+   ],
+   "depth": 0,
+   "dimension": "both",
+   "from": "crafting_table",
+   "prereqs": [],
+   "recipe_id": null,
+   "requirements": [],
+   "tool_tier": 0,
+   "tool_type": null,
+   "value": 2,
+   "via": "mine"
+  },
+  "diamond": {
+   "alternatives": [
+    {
+     "depth": 2,
+     "from": "diamond_ore",
+     "via": "mine"
+    }
+   ],
+   "count": [
+    1,
+    1
+   ],
+   "depth": 2,
+   "dimension": "overworld",
+   "from": "deepslate_diamond_ore",
+   "prereqs": [
+    "iron_pickaxe"
+   ],
+   "recipe_id": null,
+   "requirements": [
+    "crafting_table",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "tool_tier": 3,
+   "tool_type": "pickaxe",
+   "value": 16,
+   "via": "mine"
+  },
+  "diamond_axe": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 3,
+   "dimension": "overworld",
+   "from": "crafting_table",
+   "prereqs": [
+    "crafting_table",
+    "diamond",
+    "stick"
+   ],
+   "recipe": {
+    "cook_ticks": 0,
+    "count": 1,
+    "id": 8,
+    "ingredients": {
+     "diamond": 3,
+     "stick": 2
+    },
+    "needs": "crafting_table",
+    "result": "diamond_axe"
+   },
+   "recipe_id": 8,
+   "requirements": [
+    "crafting_table",
+    "diamond",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 16,
+   "via": "craft"
+  },
+  "diamond_boots": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 3,
+   "dimension": "overworld",
+   "from": "crafting_table",
+   "prereqs": [
+    "crafting_table",
+    "diamond"
+   ],
+   "recipe": {
+    "cook_ticks": 0,
+    "count": 1,
+    "id": 9,
+    "ingredients": {
+     "diamond": 4
+    },
+    "needs": "crafting_table",
+    "result": "diamond_boots"
+   },
+   "recipe_id": 9,
+   "requirements": [
+    "crafting_table",
+    "diamond",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 16,
+   "via": "craft"
+  },
+  "diamond_chestplate": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 3,
+   "dimension": "overworld",
+   "from": "crafting_table",
+   "prereqs": [
+    "crafting_table",
+    "diamond"
+   ],
+   "recipe": {
+    "cook_ticks": 0,
+    "count": 1,
+    "id": 10,
+    "ingredients": {
+     "diamond": 8
+    },
+    "needs": "crafting_table",
+    "result": "diamond_chestplate"
+   },
+   "recipe_id": 10,
+   "requirements": [
+    "crafting_table",
+    "diamond",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 16,
+   "via": "craft"
+  },
+  "diamond_helmet": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 3,
+   "dimension": "overworld",
+   "from": "crafting_table",
+   "prereqs": [
+    "crafting_table",
+    "diamond"
+   ],
+   "recipe": {
+    "cook_ticks": 0,
+    "count": 1,
+    "id": 11,
+    "ingredients": {
+     "diamond": 5
+    },
+    "needs": "crafting_table",
+    "result": "diamond_helmet"
+   },
+   "recipe_id": 11,
+   "requirements": [
+    "crafting_table",
+    "diamond",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 16,
+   "via": "craft"
+  },
+  "diamond_hoe": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 3,
+   "dimension": "overworld",
+   "from": "crafting_table",
+   "prereqs": [
+    "crafting_table",
+    "diamond",
+    "stick"
+   ],
+   "recipe": {
+    "cook_ticks": 0,
+    "count": 1,
+    "id": 12,
+    "ingredients": {
+     "diamond": 2,
+     "stick": 2
+    },
+    "needs": "crafting_table",
+    "result": "diamond_hoe"
+   },
+   "recipe_id": 12,
+   "requirements": [
+    "crafting_table",
+    "diamond",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 16,
+   "via": "craft"
+  },
+  "diamond_leggings": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 3,
+   "dimension": "overworld",
+   "from": "crafting_table",
+   "prereqs": [
+    "crafting_table",
+    "diamond"
+   ],
+   "recipe": {
+    "cook_ticks": 0,
+    "count": 1,
+    "id": 13,
+    "ingredients": {
+     "diamond": 7
+    },
+    "needs": "crafting_table",
+    "result": "diamond_leggings"
+   },
+   "recipe_id": 13,
+   "requirements": [
+    "crafting_table",
+    "diamond",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 16,
+   "via": "craft"
+  },
+  "diamond_pickaxe": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 3,
+   "dimension": "overworld",
+   "from": "crafting_table",
+   "prereqs": [
+    "crafting_table",
+    "diamond",
+    "stick"
+   ],
+   "recipe": {
+    "cook_ticks": 0,
+    "count": 1,
+    "id": 14,
+    "ingredients": {
+     "diamond": 3,
+     "stick": 2
+    },
+    "needs": "crafting_table",
+    "result": "diamond_pickaxe"
+   },
+   "recipe_id": 14,
+   "requirements": [
+    "crafting_table",
+    "diamond",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 16,
+   "via": "craft"
+  },
+  "diamond_shovel": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 3,
+   "dimension": "overworld",
+   "from": "crafting_table",
+   "prereqs": [
+    "crafting_table",
+    "diamond",
+    "stick"
+   ],
+   "recipe": {
+    "cook_ticks": 0,
+    "count": 1,
+    "id": 15,
+    "ingredients": {
+     "diamond": 1,
+     "stick": 2
+    },
+    "needs": "crafting_table",
+    "result": "diamond_shovel"
+   },
+   "recipe_id": 15,
+   "requirements": [
+    "crafting_table",
+    "diamond",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 16,
+   "via": "craft"
+  },
+  "diamond_sword": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 3,
+   "dimension": "overworld",
+   "from": "crafting_table",
+   "prereqs": [
+    "crafting_table",
+    "diamond",
+    "stick"
+   ],
+   "recipe": {
+    "cook_ticks": 0,
+    "count": 1,
+    "id": 16,
+    "ingredients": {
+     "diamond": 2,
+     "stick": 1
+    },
+    "needs": "crafting_table",
+    "result": "diamond_sword"
+   },
+   "recipe_id": 16,
+   "requirements": [
+    "crafting_table",
+    "diamond",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 16,
+   "via": "craft"
+  },
+  "diorite": {
+   "alternatives": [
+    {
+     "depth": 3,
+     "from": "inventory",
+     "via": "craft"
+    }
+   ],
+   "count": [
+    1,
+    1
+   ],
+   "depth": 2,
+   "dimension": "overworld",
+   "from": "diorite",
+   "prereqs": [
+    "iron_pickaxe"
+   ],
+   "recipe_id": null,
+   "requirements": [
+    "crafting_table",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "tool_tier": 1,
+   "tool_type": "pickaxe",
+   "value": 1,
+   "via": "mine"
+  },
+  "dirt": {
+   "alternatives": [
+    {
+     "depth": 0,
+     "from": "grass",
+     "via": "mine"
+    }
+   ],
+   "count": [
+    1,
+    1
+   ],
+   "depth": 0,
+   "dimension": "overworld",
+   "from": "dirt",
+   "prereqs": [],
+   "recipe_id": null,
+   "requirements": [],
+   "tool_tier": 0,
+   "tool_type": null,
+   "value": 1,
+   "via": "mine"
+  },
+  "ender_pearl": {
+   "alternatives": [],
+   "count": null,
+   "depth": null,
+   "dimension": null,
+   "from": null,
+   "prereqs": [],
+   "recipe_id": null,
+   "requirements": [],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 1,
+   "via": null
+  },
+  "feather": {
+   "alternatives": [],
+   "count": [
+    0,
+    2
+   ],
+   "depth": 0,
+   "dimension": "overworld",
+   "from": "chicken",
+   "prereqs": [],
+   "recipe_id": null,
+   "requirements": [],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 1,
+   "via": "kill"
+  },
+  "flint": {
+   "alternatives": [],
+   "count": [
+    1,
+    1
+   ],
+   "depth": 0,
+   "dimension": "overworld",
+   "from": "gravel",
+   "prereqs": [],
+   "recipe_id": null,
+   "requirements": [],
+   "tool_tier": 0,
+   "tool_type": null,
+   "value": 1,
+   "via": "mine"
+  },
+  "flint_and_steel": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 1,
+   "dimension": "overworld",
+   "from": "inventory",
+   "prereqs": [
+    "flint",
+    "iron_ingot"
+   ],
+   "recipe": {
+    "cook_ticks": 0,
+    "count": 1,
+    "id": 18,
+    "ingredients": {
+     "flint": 1,
+     "iron_ingot": 1
+    },
+    "needs": "inventory",
+    "result": "flint_and_steel"
+   },
+   "recipe_id": 18,
+   "requirements": [
+    "flint",
+    "iron_ingot"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 2,
+   "via": "craft"
+  },
+  "furnace": {
+   "alternatives": [
+    {
+     "depth": 3,
+     "from": "crafting_table",
+     "via": "craft"
+    }
+   ],
+   "count": [
+    1,
+    1
+   ],
+   "depth": 2,
+   "dimension": "both",
+   "from": "furnace",
+   "prereqs": [
+    "iron_pickaxe"
+   ],
+   "recipe_id": null,
+   "requirements": [
+    "crafting_table",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "tool_tier": 1,
+   "tool_type": "pickaxe",
+   "value": 2,
+   "via": "mine"
+  },
+  "glass": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 3,
+   "dimension": "overworld",
+   "from": "sand",
+   "prereqs": [
+    "furnace",
+    "sand"
+   ],
+   "recipe": {
+    "cook_ticks": 200,
+    "count": 1,
+    "id": 61,
+    "ingredients": {
+     "sand": 1
+    },
+    "needs": "furnace",
+    "result": "glass"
+   },
+   "recipe_id": 61,
+   "requirements": [
+    "crafting_table",
+    "furnace",
+    "iron_ingot",
+    "iron_pickaxe",
+    "sand",
+    "stick"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 1,
+   "via": "smelt"
+  },
+  "glowstone": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 1,
+   "dimension": "overworld",
+   "from": "inventory",
+   "prereqs": [
+    "glowstone_dust"
+   ],
+   "recipe": {
+    "cook_ticks": 0,
+    "count": 1,
+    "id": 20,
+    "ingredients": {
+     "glowstone_dust": 4
+    },
+    "needs": "inventory",
+    "result": "glowstone"
+   },
+   "recipe_id": 20,
+   "requirements": [
+    "glowstone_dust"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 1,
+   "via": "craft"
+  },
+  "glowstone_dust": {
+   "alternatives": [],
+   "count": [
+    2,
+    4
+   ],
+   "depth": 0,
+   "dimension": "nether",
+   "from": "glowstone",
+   "prereqs": [],
+   "recipe_id": null,
+   "requirements": [],
+   "tool_tier": 0,
+   "tool_type": null,
+   "value": 1,
+   "via": "mine"
+  },
+  "gold_ingot": {
+   "alternatives": [
+    {
+     "depth": 3,
+     "from": "raw_gold",
+     "via": "smelt"
+    }
+   ],
+   "count": [
+    1,
+    1
+   ],
+   "depth": 0,
+   "dimension": "nether",
+   "from": "zombified_piglin",
+   "prereqs": [],
+   "recipe_id": null,
+   "requirements": [],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 2,
+   "via": "kill"
+  },
+  "granite": {
+   "alternatives": [
+    {
+     "depth": 3,
+     "from": "inventory",
+     "via": "craft"
+    }
+   ],
+   "count": [
+    1,
+    1
+   ],
+   "depth": 2,
+   "dimension": "overworld",
+   "from": "granite",
+   "prereqs": [
+    "iron_pickaxe"
+   ],
+   "recipe_id": null,
+   "requirements": [
+    "crafting_table",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "tool_tier": 1,
+   "tool_type": "pickaxe",
+   "value": 1,
+   "via": "mine"
+  },
+  "gravel": {
+   "alternatives": [],
+   "count": [
+    1,
+    1
+   ],
+   "depth": 0,
+   "dimension": "overworld",
+   "from": "gravel",
+   "prereqs": [],
+   "recipe_id": null,
+   "requirements": [],
+   "tool_tier": 0,
+   "tool_type": null,
+   "value": 1,
+   "via": "mine"
+  },
+  "gunpowder": {
+   "alternatives": [],
+   "count": [
+    0,
+    2
+   ],
+   "depth": 0,
+   "dimension": "overworld",
+   "from": "creeper",
+   "prereqs": [],
+   "recipe_id": null,
+   "requirements": [],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 1,
+   "via": "kill"
+  },
+  "iron_axe": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 1,
+   "dimension": "overworld",
+   "from": "crafting_table",
+   "prereqs": [
+    "crafting_table",
+    "iron_ingot",
+    "stick"
+   ],
+   "recipe": {
+    "cook_ticks": 0,
+    "count": 1,
+    "id": 22,
+    "ingredients": {
+     "iron_ingot": 3,
+     "stick": 2
+    },
+    "needs": "crafting_table",
+    "result": "iron_axe"
+   },
+   "recipe_id": 22,
+   "requirements": [
+    "crafting_table",
+    "iron_ingot",
+    "stick"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 8,
+   "via": "craft"
+  },
+  "iron_boots": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 1,
+   "dimension": "overworld",
+   "from": "crafting_table",
+   "prereqs": [
+    "crafting_table",
+    "iron_ingot"
+   ],
+   "recipe": {
+    "cook_ticks": 0,
+    "count": 1,
+    "id": 23,
+    "ingredients": {
+     "iron_ingot": 4
+    },
+    "needs": "crafting_table",
+    "result": "iron_boots"
+   },
+   "recipe_id": 23,
+   "requirements": [
+    "crafting_table",
+    "iron_ingot"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 4,
+   "via": "craft"
+  },
+  "iron_chestplate": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 1,
+   "dimension": "overworld",
+   "from": "crafting_table",
+   "prereqs": [
+    "crafting_table",
+    "iron_ingot"
+   ],
+   "recipe": {
+    "cook_ticks": 0,
+    "count": 1,
+    "id": 24,
+    "ingredients": {
+     "iron_ingot": 8
+    },
+    "needs": "crafting_table",
+    "result": "iron_chestplate"
+   },
+   "recipe_id": 24,
+   "requirements": [
+    "crafting_table",
+    "iron_ingot"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 4,
+   "via": "craft"
+  },
+  "iron_helmet": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 1,
+   "dimension": "overworld",
+   "from": "crafting_table",
+   "prereqs": [
+    "crafting_table",
+    "iron_ingot"
+   ],
+   "recipe": {
+    "cook_ticks": 0,
+    "count": 1,
+    "id": 25,
+    "ingredients": {
+     "iron_ingot": 5
+    },
+    "needs": "crafting_table",
+    "result": "iron_helmet"
+   },
+   "recipe_id": 25,
+   "requirements": [
+    "crafting_table",
+    "iron_ingot"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 4,
+   "via": "craft"
+  },
+  "iron_hoe": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 1,
+   "dimension": "overworld",
+   "from": "crafting_table",
+   "prereqs": [
+    "crafting_table",
+    "iron_ingot",
+    "stick"
+   ],
+   "recipe": {
+    "cook_ticks": 0,
+    "count": 1,
+    "id": 26,
+    "ingredients": {
+     "iron_ingot": 2,
+     "stick": 2
+    },
+    "needs": "crafting_table",
+    "result": "iron_hoe"
+   },
+   "recipe_id": 26,
+   "requirements": [
+    "crafting_table",
+    "iron_ingot",
+    "stick"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 8,
+   "via": "craft"
+  },
+  "iron_ingot": {
+   "alternatives": [
+    {
+     "depth": 3,
+     "from": "raw_iron",
+     "via": "smelt"
+    }
+   ],
+   "count": [
+    1,
+    1
+   ],
+   "depth": 0,
+   "dimension": "overworld",
+   "from": "zombie",
+   "prereqs": [],
+   "recipe_id": null,
+   "requirements": [],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 2,
+   "via": "kill"
+  },
+  "iron_leggings": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 1,
+   "dimension": "overworld",
+   "from": "crafting_table",
+   "prereqs": [
+    "crafting_table",
+    "iron_ingot"
+   ],
+   "recipe": {
+    "cook_ticks": 0,
+    "count": 1,
+    "id": 27,
+    "ingredients": {
+     "iron_ingot": 7
+    },
+    "needs": "crafting_table",
+    "result": "iron_leggings"
+   },
+   "recipe_id": 27,
+   "requirements": [
+    "crafting_table",
+    "iron_ingot"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 4,
+   "via": "craft"
+  },
+  "iron_pickaxe": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 1,
+   "dimension": "overworld",
+   "from": "crafting_table",
+   "prereqs": [
+    "crafting_table",
+    "iron_ingot",
+    "stick"
+   ],
+   "recipe": {
+    "cook_ticks": 0,
+    "count": 1,
+    "id": 28,
+    "ingredients": {
+     "iron_ingot": 3,
+     "stick": 2
+    },
+    "needs": "crafting_table",
+    "result": "iron_pickaxe"
+   },
+   "recipe_id": 28,
+   "requirements": [
+    "crafting_table",
+    "iron_ingot",
+    "stick"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 8,
+   "via": "craft"
+  },
+  "iron_shovel": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 1,
+   "dimension": "overworld",
+   "from": "crafting_table",
+   "prereqs": [
+    "crafting_table",
+    "iron_ingot",
+    "stick"
+   ],
+   "recipe": {
+    "cook_ticks": 0,
+    "count": 1,
+    "id": 29,
+    "ingredients": {
+     "iron_ingot": 1,
+     "stick": 2
+    },
+    "needs": "crafting_table",
+    "result": "iron_shovel"
+   },
+   "recipe_id": 29,
+   "requirements": [
+    "crafting_table",
+    "iron_ingot",
+    "stick"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 8,
+   "via": "craft"
+  },
+  "iron_sword": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 1,
+   "dimension": "overworld",
+   "from": "crafting_table",
+   "prereqs": [
+    "crafting_table",
+    "iron_ingot",
+    "stick"
+   ],
+   "recipe": {
+    "cook_ticks": 0,
+    "count": 1,
+    "id": 30,
+    "ingredients": {
+     "iron_ingot": 2,
+     "stick": 1
+    },
+    "needs": "crafting_table",
+    "result": "iron_sword"
+   },
+   "recipe_id": 30,
+   "requirements": [
+    "crafting_table",
+    "iron_ingot",
+    "stick"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 8,
+   "via": "craft"
+  },
+  "ladder": {
+   "alternatives": [
+    {
+     "depth": 1,
+     "from": "crafting_table",
+     "via": "craft"
+    }
+   ],
+   "count": [
+    1,
+    1
+   ],
+   "depth": 0,
+   "dimension": "both",
+   "from": "ladder",
+   "prereqs": [],
+   "recipe_id": null,
+   "requirements": [],
+   "tool_tier": 0,
+   "tool_type": null,
+   "value": 2,
+   "via": "mine"
+  },
+  "lava_bucket": {
+   "alternatives": [],
+   "count": null,
+   "depth": null,
+   "dimension": null,
+   "from": null,
+   "prereqs": [],
+   "recipe_id": null,
+   "requirements": [],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 1,
+   "via": null
+  },
+  "leather": {
+   "alternatives": [],
+   "count": [
+    0,
+    2
+   ],
+   "depth": 0,
+   "dimension": "overworld",
+   "from": "cow",
+   "prereqs": [],
+   "recipe_id": null,
+   "requirements": [],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 1,
+   "via": "kill"
+  },
+  "leather_boots": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 1,
+   "dimension": "overworld",
+   "from": "crafting_table",
+   "prereqs": [
+    "crafting_table",
+    "leather"
+   ],
+   "recipe": {
+    "cook_ticks": 0,
+    "count": 1,
+    "id": 32,
+    "ingredients": {
+     "leather": 4
+    },
+    "needs": "crafting_table",
+    "result": "leather_boots"
+   },
+   "recipe_id": 32,
+   "requirements": [
+    "crafting_table",
+    "leather"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 4,
+   "via": "craft"
+  },
+  "leather_chestplate": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 1,
+   "dimension": "overworld",
+   "from": "crafting_table",
+   "prereqs": [
+    "crafting_table",
+    "leather"
+   ],
+   "recipe": {
+    "cook_ticks": 0,
+    "count": 1,
+    "id": 33,
+    "ingredients": {
+     "leather": 8
+    },
+    "needs": "crafting_table",
+    "result": "leather_chestplate"
+   },
+   "recipe_id": 33,
+   "requirements": [
+    "crafting_table",
+    "leather"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 4,
+   "via": "craft"
+  },
+  "leather_helmet": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 1,
+   "dimension": "overworld",
+   "from": "crafting_table",
+   "prereqs": [
+    "crafting_table",
+    "leather"
+   ],
+   "recipe": {
+    "cook_ticks": 0,
+    "count": 1,
+    "id": 34,
+    "ingredients": {
+     "leather": 5
+    },
+    "needs": "crafting_table",
+    "result": "leather_helmet"
+   },
+   "recipe_id": 34,
+   "requirements": [
+    "crafting_table",
+    "leather"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 4,
+   "via": "craft"
+  },
+  "leather_leggings": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 1,
+   "dimension": "overworld",
+   "from": "crafting_table",
+   "prereqs": [
+    "crafting_table",
+    "leather"
+   ],
+   "recipe": {
+    "cook_ticks": 0,
+    "count": 1,
+    "id": 35,
+    "ingredients": {
+     "leather": 7
+    },
+    "needs": "crafting_table",
+    "result": "leather_leggings"
+   },
+   "recipe_id": 35,
+   "requirements": [
+    "crafting_table",
+    "leather"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 4,
+   "via": "craft"
+  },
+  "magma_block": {
+   "alternatives": [],
+   "count": [
+    1,
+    1
+   ],
+   "depth": 2,
+   "dimension": "nether",
+   "from": "magma_block",
+   "prereqs": [
+    "iron_pickaxe"
+   ],
+   "recipe_id": null,
+   "requirements": [
+    "crafting_table",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "tool_tier": 1,
+   "tool_type": "pickaxe",
+   "value": 1,
+   "via": "mine"
+  },
+  "mutton": {
+   "alternatives": [],
+   "count": [
+    1,
+    2
+   ],
+   "depth": 0,
+   "dimension": "overworld",
+   "from": "sheep",
+   "prereqs": [],
+   "recipe_id": null,
+   "requirements": [],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 1,
+   "via": "kill"
+  },
+  "netherrack": {
+   "alternatives": [],
+   "count": [
+    1,
+    1
+   ],
+   "depth": 2,
+   "dimension": "nether",
+   "from": "netherrack",
+   "prereqs": [
+    "iron_pickaxe"
+   ],
+   "recipe_id": null,
+   "requirements": [
+    "crafting_table",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "tool_tier": 1,
+   "tool_type": "pickaxe",
+   "value": 1,
+   "via": "mine"
+  },
+  "oak_door": {
+   "alternatives": [
+    {
+     "depth": 1,
+     "from": "crafting_table",
+     "via": "craft"
+    }
+   ],
+   "count": [
+    1,
+    1
+   ],
+   "depth": 0,
+   "dimension": "both",
+   "from": "oak_door",
+   "prereqs": [],
+   "recipe_id": null,
+   "requirements": [],
+   "tool_tier": 0,
+   "tool_type": null,
+   "value": 2,
+   "via": "mine"
+  },
+  "oak_fence": {
+   "alternatives": [
+    {
+     "depth": 1,
+     "from": "crafting_table",
+     "via": "craft"
+    }
+   ],
+   "count": [
+    1,
+    1
+   ],
+   "depth": 0,
+   "dimension": "both",
+   "from": "oak_fence",
+   "prereqs": [],
+   "recipe_id": null,
+   "requirements": [],
+   "tool_tier": 0,
+   "tool_type": null,
+   "value": 2,
+   "via": "mine"
+  },
+  "oak_log": {
+   "alternatives": [],
+   "count": [
+    1,
+    1
+   ],
+   "depth": 0,
+   "dimension": "both",
+   "from": "oak_log",
+   "prereqs": [],
+   "recipe_id": null,
+   "requirements": [],
+   "tool_tier": 0,
+   "tool_type": null,
+   "value": 1,
+   "via": "mine"
+  },
+  "oak_planks": {
+   "alternatives": [
+    {
+     "depth": 1,
+     "from": "inventory",
+     "via": "craft"
+    }
+   ],
+   "count": [
+    1,
+    1
+   ],
+   "depth": 0,
+   "dimension": "both",
+   "from": "oak_planks",
+   "prereqs": [],
+   "recipe_id": null,
+   "requirements": [],
+   "tool_tier": 0,
+   "tool_type": null,
+   "value": 2,
+   "via": "mine"
+  },
+  "oak_slab": {
+   "alternatives": [
+    {
+     "depth": 1,
+     "from": "crafting_table",
+     "via": "craft"
+    }
+   ],
+   "count": [
+    2,
+    2
+   ],
+   "depth": 0,
+   "dimension": "both",
+   "from": "oak_slab",
+   "prereqs": [],
+   "recipe_id": null,
+   "requirements": [],
+   "tool_tier": 0,
+   "tool_type": null,
+   "value": 2,
+   "via": "mine"
+  },
+  "oak_stairs": {
+   "alternatives": [
+    {
+     "depth": 1,
+     "from": "crafting_table",
+     "via": "craft"
+    }
+   ],
+   "count": [
+    1,
+    1
+   ],
+   "depth": 0,
+   "dimension": "both",
+   "from": "oak_stairs",
+   "prereqs": [],
+   "recipe_id": null,
+   "requirements": [],
+   "tool_tier": 0,
+   "tool_type": null,
+   "value": 2,
+   "via": "mine"
+  },
+  "oak_trapdoor": {
+   "alternatives": [
+    {
+     "depth": 1,
+     "from": "crafting_table",
+     "via": "craft"
+    }
+   ],
+   "count": [
+    1,
+    1
+   ],
+   "depth": 0,
+   "dimension": "both",
+   "from": "oak_trapdoor",
+   "prereqs": [],
+   "recipe_id": null,
+   "requirements": [],
+   "tool_tier": 0,
+   "tool_type": null,
+   "value": 2,
+   "via": "mine"
+  },
+  "obsidian": {
+   "alternatives": [],
+   "count": [
+    1,
+    1
+   ],
+   "depth": 4,
+   "dimension": "both",
+   "from": "obsidian",
+   "prereqs": [
+    "diamond_pickaxe"
+   ],
+   "recipe_id": null,
+   "requirements": [
+    "crafting_table",
+    "diamond",
+    "diamond_pickaxe",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "tool_tier": 4,
+   "tool_type": "pickaxe",
+   "value": 1,
+   "via": "mine"
+  },
+  "porkchop": {
+   "alternatives": [],
+   "count": [
+    1,
+    3
+   ],
+   "depth": 0,
+   "dimension": "overworld",
+   "from": "pig",
+   "prereqs": [],
+   "recipe_id": null,
+   "requirements": [],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 1,
+   "via": "kill"
+  },
+  "quartz": {
+   "alternatives": [],
+   "count": [
+    1,
+    1
+   ],
+   "depth": 2,
+   "dimension": "nether",
+   "from": "nether_quartz_ore",
+   "prereqs": [
+    "iron_pickaxe"
+   ],
+   "recipe_id": null,
+   "requirements": [
+    "crafting_table",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "tool_tier": 1,
+   "tool_type": "pickaxe",
+   "value": 1,
+   "via": "mine"
+  },
+  "raw_gold": {
+   "alternatives": [
+    {
+     "depth": 2,
+     "from": "gold_ore",
+     "via": "mine"
+    }
+   ],
+   "count": [
+    1,
+    1
+   ],
+   "depth": 2,
+   "dimension": "overworld",
+   "from": "deepslate_gold_ore",
+   "prereqs": [
+    "iron_pickaxe"
+   ],
+   "recipe_id": null,
+   "requirements": [
+    "crafting_table",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "tool_tier": 3,
+   "tool_type": "pickaxe",
+   "value": 1,
+   "via": "mine"
+  },
+  "raw_iron": {
+   "alternatives": [
+    {
+     "depth": 2,
+     "from": "iron_ore",
+     "via": "mine"
+    }
+   ],
+   "count": [
+    1,
+    1
+   ],
+   "depth": 2,
+   "dimension": "overworld",
+   "from": "deepslate_iron_ore",
+   "prereqs": [
+    "iron_pickaxe"
+   ],
+   "recipe_id": null,
+   "requirements": [
+    "crafting_table",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "tool_tier": 2,
+   "tool_type": "pickaxe",
+   "value": 1,
+   "via": "mine"
+  },
+  "rotten_flesh": {
+   "alternatives": [
+    {
+     "depth": 0,
+     "from": "zombified_piglin",
+     "via": "kill"
+    }
+   ],
+   "count": [
+    0,
+    2
+   ],
+   "depth": 0,
+   "dimension": "overworld",
+   "from": "zombie",
+   "prereqs": [],
+   "recipe_id": null,
+   "requirements": [],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 1,
+   "via": "kill"
+  },
+  "sand": {
+   "alternatives": [],
+   "count": [
+    1,
+    1
+   ],
+   "depth": 0,
+   "dimension": "overworld",
+   "from": "sand",
+   "prereqs": [],
+   "recipe_id": null,
+   "requirements": [],
+   "tool_tier": 0,
+   "tool_type": null,
+   "value": 1,
+   "via": "mine"
+  },
+  "soul_sand": {
+   "alternatives": [],
+   "count": [
+    1,
+    1
+   ],
+   "depth": 0,
+   "dimension": "nether",
+   "from": "soul_sand",
+   "prereqs": [],
+   "recipe_id": null,
+   "requirements": [],
+   "tool_tier": 0,
+   "tool_type": null,
+   "value": 1,
+   "via": "mine"
+  },
+  "stick": {
+   "alternatives": [
+    {
+     "depth": 1,
+     "from": "inventory",
+     "via": "craft"
+    }
+   ],
+   "count": [
+    1,
+    2
+   ],
+   "depth": 0,
+   "dimension": "overworld",
+   "from": "oak_leaves",
+   "prereqs": [],
+   "recipe_id": null,
+   "requirements": [],
+   "tool_tier": 0,
+   "tool_type": null,
+   "value": 2,
+   "via": "mine"
+  },
+  "stone": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 3,
+   "dimension": "overworld",
+   "from": "cobblestone",
+   "prereqs": [
+    "cobblestone",
+    "furnace"
+   ],
+   "recipe": {
+    "cook_ticks": 200,
+    "count": 1,
+    "id": 64,
+    "ingredients": {
+     "cobblestone": 1
+    },
+    "needs": "furnace",
+    "result": "stone"
+   },
+   "recipe_id": 64,
+   "requirements": [
+    "cobblestone",
+    "crafting_table",
+    "furnace",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 1,
+   "via": "smelt"
+  },
+  "stone_axe": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 3,
+   "dimension": "overworld",
+   "from": "crafting_table",
+   "prereqs": [
+    "cobblestone",
+    "crafting_table",
+    "stick"
+   ],
+   "recipe": {
+    "cook_ticks": 0,
+    "count": 1,
+    "id": 43,
+    "ingredients": {
+     "cobblestone": 3,
+     "stick": 2
+    },
+    "needs": "crafting_table",
+    "result": "stone_axe"
+   },
+   "recipe_id": 43,
+   "requirements": [
+    "cobblestone",
+    "crafting_table",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 4,
+   "via": "craft"
+  },
+  "stone_bricks": {
+   "alternatives": [
+    {
+     "depth": 4,
+     "from": "inventory",
+     "via": "craft"
+    }
+   ],
+   "count": [
+    1,
+    1
+   ],
+   "depth": 2,
+   "dimension": "both",
+   "from": "stone_bricks",
+   "prereqs": [
+    "iron_pickaxe"
+   ],
+   "recipe_id": null,
+   "requirements": [
+    "crafting_table",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "tool_tier": 1,
+   "tool_type": "pickaxe",
+   "value": 2,
+   "via": "mine"
+  },
+  "stone_hoe": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 3,
+   "dimension": "overworld",
+   "from": "crafting_table",
+   "prereqs": [
+    "cobblestone",
+    "crafting_table",
+    "stick"
+   ],
+   "recipe": {
+    "cook_ticks": 0,
+    "count": 1,
+    "id": 45,
+    "ingredients": {
+     "cobblestone": 2,
+     "stick": 2
+    },
+    "needs": "crafting_table",
+    "result": "stone_hoe"
+   },
+   "recipe_id": 45,
+   "requirements": [
+    "cobblestone",
+    "crafting_table",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 4,
+   "via": "craft"
+  },
+  "stone_pickaxe": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 3,
+   "dimension": "overworld",
+   "from": "crafting_table",
+   "prereqs": [
+    "cobblestone",
+    "crafting_table",
+    "stick"
+   ],
+   "recipe": {
+    "cook_ticks": 0,
+    "count": 1,
+    "id": 46,
+    "ingredients": {
+     "cobblestone": 3,
+     "stick": 2
+    },
+    "needs": "crafting_table",
+    "result": "stone_pickaxe"
+   },
+   "recipe_id": 46,
+   "requirements": [
+    "cobblestone",
+    "crafting_table",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 4,
+   "via": "craft"
+  },
+  "stone_shovel": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 3,
+   "dimension": "overworld",
+   "from": "crafting_table",
+   "prereqs": [
+    "cobblestone",
+    "crafting_table",
+    "stick"
+   ],
+   "recipe": {
+    "cook_ticks": 0,
+    "count": 1,
+    "id": 47,
+    "ingredients": {
+     "cobblestone": 1,
+     "stick": 2
+    },
+    "needs": "crafting_table",
+    "result": "stone_shovel"
+   },
+   "recipe_id": 47,
+   "requirements": [
+    "cobblestone",
+    "crafting_table",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 4,
+   "via": "craft"
+  },
+  "stone_sword": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 3,
+   "dimension": "overworld",
+   "from": "crafting_table",
+   "prereqs": [
+    "cobblestone",
+    "crafting_table",
+    "stick"
+   ],
+   "recipe": {
+    "cook_ticks": 0,
+    "count": 1,
+    "id": 48,
+    "ingredients": {
+     "cobblestone": 2,
+     "stick": 1
+    },
+    "needs": "crafting_table",
+    "result": "stone_sword"
+   },
+   "recipe_id": 48,
+   "requirements": [
+    "cobblestone",
+    "crafting_table",
+    "iron_ingot",
+    "iron_pickaxe",
+    "stick"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 4,
+   "via": "craft"
+  },
+  "string": {
+   "alternatives": [],
+   "count": [
+    0,
+    2
+   ],
+   "depth": 0,
+   "dimension": "overworld",
+   "from": "spider",
+   "prereqs": [],
+   "recipe_id": null,
+   "requirements": [],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 1,
+   "via": "kill"
+  },
+  "torch": {
+   "alternatives": [
+    {
+     "depth": 3,
+     "from": "inventory",
+     "via": "craft"
+    }
+   ],
+   "count": [
+    1,
+    1
+   ],
+   "depth": 0,
+   "dimension": "both",
+   "from": "torch",
+   "prereqs": [],
+   "recipe_id": null,
+   "requirements": [],
+   "tool_tier": 0,
+   "tool_type": null,
+   "value": 2,
+   "via": "mine"
+  },
+  "water_bucket": {
+   "alternatives": [],
+   "count": null,
+   "depth": null,
+   "dimension": null,
+   "from": null,
+   "prereqs": [],
+   "recipe_id": null,
+   "requirements": [],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 1,
+   "via": null
+  },
+  "wheat": {
+   "alternatives": [],
+   "count": [
+    1,
+    1
+   ],
+   "depth": 0,
+   "dimension": "overworld",
+   "from": "wheat",
+   "prereqs": [],
+   "recipe_id": null,
+   "requirements": [],
+   "tool_tier": 0,
+   "tool_type": null,
+   "value": 1,
+   "via": "mine"
+  },
+  "white_bed": {
+   "alternatives": [
+    {
+     "depth": 1,
+     "from": "crafting_table",
+     "via": "craft"
+    }
+   ],
+   "count": [
+    1,
+    1
+   ],
+   "depth": 0,
+   "dimension": "both",
+   "from": "white_bed",
+   "prereqs": [],
+   "recipe_id": null,
+   "requirements": [],
+   "tool_tier": 0,
+   "tool_type": null,
+   "value": 2,
+   "via": "mine"
+  },
+  "white_wool": {
+   "alternatives": [
+    {
+     "depth": 1,
+     "from": "inventory",
+     "via": "craft"
+    }
+   ],
+   "count": [
+    1,
+    1
+   ],
+   "depth": 0,
+   "dimension": "both",
+   "from": "white_wool",
+   "prereqs": [],
+   "recipe_id": null,
+   "requirements": [],
+   "tool_tier": 0,
+   "tool_type": null,
+   "value": 1,
+   "via": "mine"
+  },
+  "wooden_axe": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 1,
+   "dimension": "overworld",
+   "from": "crafting_table",
+   "prereqs": [
+    "crafting_table",
+    "oak_planks",
+    "stick"
+   ],
+   "recipe": {
+    "cook_ticks": 0,
+    "count": 1,
+    "id": 52,
+    "ingredients": {
+     "oak_planks": 3,
+     "stick": 2
+    },
+    "needs": "crafting_table",
+    "result": "wooden_axe"
+   },
+   "recipe_id": 52,
+   "requirements": [
+    "crafting_table",
+    "oak_planks",
+    "stick"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 4,
+   "via": "craft"
+  },
+  "wooden_hoe": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 1,
+   "dimension": "overworld",
+   "from": "crafting_table",
+   "prereqs": [
+    "crafting_table",
+    "oak_planks",
+    "stick"
+   ],
+   "recipe": {
+    "cook_ticks": 0,
+    "count": 1,
+    "id": 53,
+    "ingredients": {
+     "oak_planks": 2,
+     "stick": 2
+    },
+    "needs": "crafting_table",
+    "result": "wooden_hoe"
+   },
+   "recipe_id": 53,
+   "requirements": [
+    "crafting_table",
+    "oak_planks",
+    "stick"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 4,
+   "via": "craft"
+  },
+  "wooden_pickaxe": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 1,
+   "dimension": "overworld",
+   "from": "crafting_table",
+   "prereqs": [
+    "crafting_table",
+    "oak_planks",
+    "stick"
+   ],
+   "recipe": {
+    "cook_ticks": 0,
+    "count": 1,
+    "id": 54,
+    "ingredients": {
+     "oak_planks": 3,
+     "stick": 2
+    },
+    "needs": "crafting_table",
+    "result": "wooden_pickaxe"
+   },
+   "recipe_id": 54,
+   "requirements": [
+    "crafting_table",
+    "oak_planks",
+    "stick"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 4,
+   "via": "craft"
+  },
+  "wooden_shovel": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 1,
+   "dimension": "overworld",
+   "from": "crafting_table",
+   "prereqs": [
+    "crafting_table",
+    "oak_planks",
+    "stick"
+   ],
+   "recipe": {
+    "cook_ticks": 0,
+    "count": 1,
+    "id": 55,
+    "ingredients": {
+     "oak_planks": 1,
+     "stick": 2
+    },
+    "needs": "crafting_table",
+    "result": "wooden_shovel"
+   },
+   "recipe_id": 55,
+   "requirements": [
+    "crafting_table",
+    "oak_planks",
+    "stick"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 4,
+   "via": "craft"
+  },
+  "wooden_sword": {
+   "alternatives": [],
+   "count": 1,
+   "depth": 1,
+   "dimension": "overworld",
+   "from": "crafting_table",
+   "prereqs": [
+    "crafting_table",
+    "oak_planks",
+    "stick"
+   ],
+   "recipe": {
+    "cook_ticks": 0,
+    "count": 1,
+    "id": 56,
+    "ingredients": {
+     "oak_planks": 2,
+     "stick": 1
+    },
+    "needs": "crafting_table",
+    "result": "wooden_sword"
+   },
+   "recipe_id": 56,
+   "requirements": [
+    "crafting_table",
+    "oak_planks",
+    "stick"
+   ],
+   "tool_tier": null,
+   "tool_type": null,
+   "value": 4,
+   "via": "craft"
+  }
+ },
+ "unobtainable": [
+  "ender_pearl",
+  "lava_bucket",
+  "water_bucket"
+ ],
+ "version": 1
+}
